@@ -1,0 +1,621 @@
+\documentclass[11pt,letterpaper]{article}
+
+%%% LANGUAGE: Spanish
+% \usepackage[spanish,es-tabla]{babel}
+% \addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+% %% LANGUAGE: English
+% \usepackage[english]{babel}
+
+%%% PACKAGES
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\setlength{\parindent}{0cm}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage[table]{xcolor}
+\usepackage[T1]{fontenc} 
+\usepackage{graphicx} 
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{times}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{wasysym}
+\usepackage{wrapfig}
+\usepackage{amsbsy}
+\usepackage{flushend}
+\usepackage{url}
+\usepackage{booktabs} 
+\usepackage[percent]{overpic}
+\usepackage{caption} 
+\usepackage{pgfplots}
+\usepackage{sectsty}
+\usepackage[all]{nowidow}
+\usepackage{tikz}
+\usetikzlibrary{er,positioning,bayesnet}
+\usepackage{multicol}
+\usepackage{algpseudocode,algorithm,algorithmicx}
+% \usepackage{minted}
+\usepackage[inline]{enumitem}
+\DeclareUnicodeCharacter{00B0}{\degree} 
+\usepackage{booktabs} 	% for much better looking tables
+\usepackage{array} 		% for better arrays (eg matrices) in maths
+\usepackage{paralist} 	% very flexible & customizable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} 	% adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfigure} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{graphicx,array}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\usepackage{lipsum}
+\usepackage[section]{placeins}
+
+
+%%% BIBLIOGRAPHY
+\usepackage[hidelinks]{hyperref}
+\usepackage[backend=biber,date=short, style=apa]{biblatex}
+\addbibresource{Bibliografia.bib}
+
+%%% PAGE DIMENSIONS
+\geometry{top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+
+
+%%% DATE
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+\monthname[\THEMONTH], \THEYEAR}
+
+%%% LINE SPACING
+\renewcommand{\baselinestretch}{1}
+
+%------------------------------------------------------------------------------
+\begin{document}
+% \selectlanguage{spanish}
+\hypersetup{
+     colorlinks,
+     citecolor=black,
+     linkcolor=black,
+     urlcolor=black}
+
+%%%% TITLE PAGE
+\begin{titlepage}
+\begin{figure}[H]
+\centering
+\vspace{-1.2cm}
+\includegraphics[scale=0.55]{Imagenes/logo_universidad.png}
+\end{figure}
+\vspace{1cm}
+
+\begin{center}
+Departamento de Obras Civiles\\
+\vspace{4cm}
+
+{\Large \textbf{WIND-EFFECTS ON BAR-BUILT ESTUARY HYDRODYNAMICS }}\\
+\vspace{2cm}
+{Memoria de Título presentada por}
+\vspace{0.5cm}
+
+{\Large{\textbf{Dhannai Tamara Sepúlveda González}}} \\
+\vspace{1.5cm}
+
+{como requisito parcial para optar al título de la carrera de}\\
+\vspace{0.5cm}
+
+\textbf{Ingeniería Civil}\\
+\vspace{1.5cm}
+
+{y el grado de}\\
+\vspace{0.5cm}
+
+\textbf{Magíster en Ciencias de la Ingeniería Civil}
+
+\vfill
+{Profesor Guía}\\
+{Megan Elizabeth Williams}\\
+\vspace{0.5cm}
+\textsc{\monthyeardate\today}\\
+\end{center}
+
+\clearpage
+\parindent=0mm
+\end{titlepage}
+
+%%HOJA DE FIRMAS%%
+\begin{titlepage}
+\begin{figure}[H]
+\vspace{-1cm}
+\includegraphics[scale=0.45]{Imagenes/logo_universidad_letras_lateral.png}
+\end{figure}
+
+\vspace{2.5cm}
+
+\noindent{\Large \sc{TÍTULO DE LA TESIS:}}\\
+\vspace{0.3cm}
+
+\noindent{\Large \textbf{WIND-EFFECTS ON A BAR-BUILT ESTUARY HYDRODYNAMICS }}\\
+\vspace{1.5cm}
+
+\noindent{\Large \sc{AUTOR:}}\\
+\vspace{0.3cm}
+
+\noindent{\Large \textbf{DHANNAI TAMARA SEPÚLVEDA GONZÁLEZ}}\\
+\vspace{2cm}
+
+\noindent{TRABAJO DE MEMORIA, presentado como requisito parcial para optar al grado de MAGÍSTER EN CIENCIAS DE LA INGENIERIA CIVIL de la Universidad Técnica Federico Santa María.}\\
+\vspace{1.5cm}
+
+\noindent{\Large{Nombre Profesor Guía:\hspace{3.5cm}  Megan Williams}}
+\vspace{1.5cm}
+
+\noindent{\Large{Nombre Miembro 1 Comisión:\hspace{2cm}  .............................................................}}
+\vspace{1.5cm}
+
+\noindent{\Large{Nombre Miembro 2 Comisión:\hspace{2cm}  .............................................................}}
+\vspace{1.5cm}
+
+\vfill
+\begin{flushright}
+    {Valparaíso, Chile, September, 2022}\\
+\end{flushright}
+\end{titlepage}
+
+\clearpage
+
+
+%%% DOCUMENT
+\newpage
+\begin{center}
+    \textsc{\textbf{\Large Wind-effects on bar-built estuary hydrodynamics}}
+\end{center}
+Dhannai Sepúlveda$^1$, Megan Williams$^1$\\
+
+1 Universidad Técnica Federico Santa María\\
+
+\textbf{Abstract}\\
+Although bar-built estuaries are widespread on Mediterranean coasts all around the world, including central Chile, little research has been undertaken for its closed state, when its system is transformed into a salty lagoon. Understanding the dependence of hydrodynamic response and thermohaline-stratification on strong wind events and its associated transport and mixing is of prime importance on the impact in water quality and eutrophication on ecosystems in coastal lagoons. In this study, we analyze the role of external factors such as wind velocities, freshwater flow, and wave overtopping in the hydrodynamics of a shallow, highly salt-stratified bar-built estuary. Vertical mixing and forcing currents, governed by wind surface stress, were quantified for diurnal and hourly time scales.
+%The study site, Pescadero Estuary, is located in San Mateo County, California and has experienced some strong wind events during its closed state.
+
+Data collected in early 2012 at Pescadero Estuary, California shows that in close state there is a strong stratification and strong wind events during its closed state and due to its morphology wind is channelized into the along-estuary direction, causing the lagoon to receive mainly local forcing. Frequency spectral analysis is used to identify seiches on the surface due to upwelling caused by the wind. Wavelet analysis was also used to identify wave overtopping on the sand bar and observe the real effect of saline water entering the estuary. 
+
+During strong wind events, buoyancy frequency was reduced to almost 0 from the 0.1 $s^{-2}$ that the estuary usually had, and in some cases not returning to its original value, showing upwelling and mixing of the water column. However, these effects varied over time depending on water level due to constant inflow from Pescadero and Butano creek. Some indicators like potential anomaly showed a good correlation with wind stress at the studied period. These preliminary findings show that wind effects are dominant at forcing vertical exchange of layers and generating currents at Pescadero.\\
+
+
+
+\textit{Key words: bar-built estuaries, wind stress, stratification, upwelling, mixing}
+
+\newpage
+\section*{ACKNOWLEDGEMENTS}
+
+klsdklsdklsd
+\newpage
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\newpage
+
+\section{Introduction}
+
+% \textit{Breve, 1 o 2 páginas, para dar una idea general del contexto del trabajo, y por qué es importante de ser analizado. Es muy importante que la primera frase apunte a una idea global de por qué el problema es relevante, para en los párrafos siguientes ir acercándose cada vez mas a lo específico.}\\
+
+
+By the definition of \citeauthor{mcsweeney2017intermittently} (\cite*{mcsweeney2017intermittently}) estuaries are 'geomorphic systems which represent the transition between fluvial and marine environments'. These coastal waterbodies such as fjords, bar-built estuaries and coastal lagoons are constantly exposed to antropogenic or natural disturbances due to its productive importance (\cite{schernewski2002baltic, martinez2007coasts}) and global changes (\cite{grez2020evidence}). This ecosystems are exposed to sea-level rise, changing precipitation and temperature patterns, in addition to a growing human population that is largely concentrated near the coast (\cite{neumann2015future}). This type of habitat is highly variable and dynamic, and is where complex physical and biochemical processes take place.\\
+
+Bar-Built estuaries are systems characterised by periodic/intermittently inlet closure through a sand bar (\cite{whitfield2007review}). These are mainly found in Mediterranean climates such as Chile, California, South Africa and Australia (\cite{mcsweeney2017intermittently}). Closure occurs when a sand berm forms in the entrance channel and it can occur both seasonally or irregularly throughout the year (\cite{Behrens2013}). However, it is common that annual variability dominates closure events due to the marked seasonal cycles for rain and river flow observed in this type of climates (\cite{Ranasinghe2003}). Despite the variable nature of these systems, they are vital for many species that have adapted to take advantage of the closed-mouth condition (\cite{viaroli2008community}).\\
+
+When the estuary inlet closes, external factors like wind, river flow and wave overtopping can impact in it structure. This could be causing changes at the density due to fresh and salt water input or surface stress by wind effects, causing upwelling, mixing or circulation changing the estuarine ecosystem (\cite{Ranasinghe1999}).  The wind is the main external factor present, but the stratification makes it difficult to energize the denser layer, leading in some cases to a suppression of the turbulence under the pycnocline (\cite{Cousins2010}). The foregoing makes these systems highly dynamic due to their variability in temperature and salinity, where complex physical and biogeochemical processes of oceanic and freshwater environments interact. Species that inhabit these types of environments are vulnerable to conditions such as hypoxia or anoxia in the lower layers (\cite{Kelly2018}) or the retention of nutrients in the bottom (\cite{Cousins2010}) and when there is upwelling or mixing it could happen abrupt changes for marine life and generate them problems or even death (\cite{marti2008relating}).\\
+
+Previous research shows the response of the shear stress produced by the wind in large thermal-stratified lakes (\cite{Coman2012, Laval2008, avalos2019natural}), where it was observed how the wind stress affects these waterbodies when they have frequencies close to their natural oscillations and how the upwelling events caused by it cause variability in temperature. Even so, there is limited information on the hydrodynamic effects of the wind in small and saline-stratified lagoons, which would be interesting to study to learn how the wind affects their behavior and structure.\\
+
+Currently, this type of estuaries are widely spread in Chile, because their seasonal conditions are similar to those of other places, already mentioned, where they are found, and despite this, there are few studies carried out in the country on the subject. In \citeauthor{dussaillant2009} (2009) an investigation was carried out on the Yali reserve, one of the most important wetlands in the central zone of Chile, whose knowledge must be complemented in order to fully understand the small and highly stratified coastal systems.\\
+
+% There is a considerable amount of research concerning the processes that maintain an open inlet for larger, more tidally dominated systems (\cite{Behrens2013}). In the literature there are several studies that have modeled the processes of rise and overflow of the waves, but there is a lack of studies related to the breaking of the barrier. These models could be modified to predict a break, but may only work for beaches with similar morphology (\cite{Orescanin2018}). Relatively little work has investigated the controls on estuary breaching and closing, especially of smaller, bar-built estuarine systems. For this reason, it is important to study the opening of the sand barrier, under what conditions of flow, stratification and wind occurs, and the effects in these types of estuaries, since they present a drastic change in the shape of the beach.
+
+% En su estado de desconexión al océano el estuario puede tomar forma de laguna estratificada, la cual tiene como principal fuente de variabilidad a corto plazo la surgencia y/o los seiches formados por el esfuerzo superficial del viento. 
+
+
+% Previous studies have designed models of processes that describe the closure of the sand barrier (\cite{Bertin2019}; \cite{McSweeney2018}; \cite{Safak2016}). Besides, there is literature on the rise and overflow of the waves on the sand barrier (\cite{Behrens2013}), which would be closer to, but not exactly the opening of the inlet. There are also more recent works (\cite{Orescanin2018}) that have modeled, through momentum balance, the discharge at the breach, but without considering external factors.
+
+\subsection{The Pescadero estuary}
+
+Pescadero Estuary is a small and highly stratified bar-built estuary located at the confluence of Pescadero Creek and Butano Creek on the California coast. It is located 60 [km] south of San Francisco Bay and 40 [km] north of Monterrey Bay (Fig. \ref{fig:locPDO}). The Mediterranean hydroclimate of Pescadero is characterized by an average annual rainfall of 750 [mm] with a cooler and more pronounced wet season that extends from November to April and a warmer dry season from May to October  (\cite{climatedata2021}).\\
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.6]{Imagenes/mapa1.png}
+    \caption{Location of Pescadero Estuary on California’s Coastline. Images reprocessed from Google Earth.}
+    \label{fig:locPDO}
+\end{figure}
+
+The sand barrier placed at the inlet of Pescadero closes the estuary from the sea, changing its behavior to a stratified lagoon which usually happens during the dry season (\cite{Williams2014}). Inlet rupture usually occurs during the wet season when precipitation increases flow and the lagoon fills to overflowing, leading to the scour of a new channel between the lagoon and the return of tidal action and seawater intrusions to the estuary (\cite{largier2015}). During periods when the mouth of the estuary is closed, the water level of the lagoon rises and could flood the surrounding marshy land. \\
+
+The significance of this site lies in the detection of fish kills after the breaching of the lagoon mouth after an extended closure (\cite{largier2015}). Also, there are agricultural lands on the surroundings that have a productive importance for the local community in addition to other concerns as winter flooding of low-lying lands, in which exists some roads and parts of the town, or the presence of a wide diversity of habitats and microhabitats in the estuary.\\
+
+Pescadero has two main water inputs: freshwater inflow and saline water, which sometimes get mixed and other times form a two-layer structure. The behavior of the estuary depends on the mouth state, where we can observe an 'open' and 'closed' state. Pescadero receives freshwater inflow from two relatively small watersheds, which have a highly variable discharge, following precipitation that varies from day to day through the wet season, as well as seasonally and between years (\cite{largier2015}). The Pescadero watershed is about twice the size of the Butano watershed, and produces 57\% of the streamflow (\cite{Williams2014}). On the other hand the Northern Californian coast experiences a semidiurnal tide with a neap tide range of under 1 m and a spring tide range up to almost 3 m (\cite{Williams2014}). Saltwater get into the estuary easily during open state, but when the inlet is closed seawater has to overtop the sandbar to get into the estuary, which happens occasionally during high tide and strong waves.\\
+
+When the mouth is closed the estuary takes a stratified structure fed by the freshwater input and the sporadic wave overtopping saline water. In this form is more difficult to energize the water column, but it can happen with external factors as wind stress in the surface or from the discharge and the wave overtopping. However, vertical transport in Pescadero couldn't be from density-driven exchange, because the estuary would be always saltier than the creeks input water, so it always will stay on the top of the water column making the estuary stratified. Even that, in Pescadero there is a light density/salinity gradient due to the freshwater input upstream and the saltwater overtopping the bar at the other end.\\
+
+\subsection{Motivation}
+
+In its state of disconnection from the ocean (i.e., closed state), the estuary can take the form of a shallow stratified lagoon, due to the presence of saltwater and freshwater from fluvial inputs (\cite{Behrens2016}). This estuary state could lead to eutrophication if there are no energy inputs to the system (\cite{nunes2014responses}), and usually, the wind is the main source, driving to mixing and destratification in small bar-built estuaries (\cite{Gale2006}) triggering processes that impact mixing and circulation, which could affect the marine life of the estuary (\cite{marti2008relating}). \\
+
+As said before, the wind is the principal driver of mixing present, but sometimes stratification makes difficult to energize the denser layer, leading in some cases to suppression of turbulence below the pycnocline (\cite{Cousins2010}). This could cause hypoxia or anoxia in the lower layers (\cite{Kelly2018}) or retention of nutrients in the bottom (\cite{Cousins2010}) and when there is upwelling or mixing, abrupt changes could occur for marine life and generate problems or even death (\cite{marti2008relating}).\\  
+
+Due to the latter, these waterbodies are highly dynamic, and this makes them sites of great importance for research. On the other hand, estuaries are the connection between the earth and the ocean, receiving waters coming from rivers and creeks that are exposed to anthropogenic effects, causing changes in freshwater flow or temperature, in addition, to being subjected to sea level rise and wave climate variations (\cite{grez2020evidence, holt2010potential, thorne2021wetlands}). Besides, in the estuaries, of their contact with the coast and rivers, activities such as fish farming or agriculture are developed, so they have economic and social importance to communities. \\
+
+The response to strong and sustained wind stress in a closed state bar-built estuary starts with a setup of the surface and a change in the pressure gradient. This will cause the pycnocline to tilt upwards at the upwind end of the estuary leading sometimes the bottom layers to rise to the surface. The reduction or end of this wind forcing releases the pycnocline from its tilted position and return to horizontal. The upwelling effect caused by wind forcing has potential relevance in nutrient and oxygen exchange between layers (\cite{Kelly2018}) and has been studied widely in lakes using temperature measurements (\cite{Coman2012, delafuente2010strong, roberts2021setup}), however, there are fewer studies that observe this kind of behavior at bar-built estuaries or in smaller coastal lagoons. \\
+
+% \subsubsection{Investigation opportunity}
+
+% In this context, based on the previous studies, it is identified as an opportunity for improvement in the field, to analyse the previous physical processes that cause the opening of estuaries inlet. In order to achieve this we can verify the effect of the winds on the sandbar eroding, also we can study the upwelling caused by this wind stress and its dynamics effects using depth, salinity and temperature data. Besides, we can built a mathematical model to simulate what happens before and during the opening of the mouth, to be tested with data from different estuaries with similar dynamics and observe under what characteristics the opening of the mouth occurs due to the wind.
+
+% In addition, we can analyse the effects of resuspension and transport of sediments after inlet breach in these environments with high stratification, analyzing the biogeochemical processes and the sedimentation of polluting particles that may affect the environmental health, the marine life of the place and the well-being of the people.
+
+% \subsubsection{Hypothesis}
+% In Mediterranean climates, where seasonal changes are present, during the rainy months there is a flow increase in rivers, which reach the sea through coastal water bodies like estuaries, fjords or coastal lagoons. Small tidal inlets in bar-built estuaries, are exposed to flow changes, which make these systems particularly dynamic due to the sandbank morphology that they have. In dry months, the closure of intermittent inlets is observed in these regions, and during rainy seasons the mouth opens.
+
+% Inlet opening can be driven by many factors that remain partly understood, one of them is wind stress. When there is a certain wind speed the surface tilts (Fig. \ref{fig: wind}), accumulating potential energy where the water level rises $\delta$ (\cite{Shintani2010}; \cite{Behrens2016}; \cite{Imberger1982}). Once the wind stops the system tries to reach equilibrium, meaning that if the sandbar is on the opposite side, the accumulated energy can erode the bar and open the inlet. 
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.6]{Imagenes/wind_stress.png}
+%     \caption{Wind stress effects in the estuary}
+%     \label{fig: wind}
+% \end{figure}
+
+% On the other hand, stratification present in bar-built estuaries can also be affected by wind. Surface stress moves the upper layer (Fig. \ref{fig: wind}) displacing the lower layer. This can increase the pressure on the sandbar and could influence the inlet opening.
+
+% The present study aims at verifying these hypothesis, based on a field data set collected on Pescadero Estuary presented at \cite{Williams2014}.
+
+\section{Objectives}
+
+% \textit{Un objetivo general, y tres o cuatro objetivos específicos. Deben ser declaraciones simples, que puedan ser verificadas al final del trabajo. La idea es que el análisis del estado del arte permita justificar los objetivos.}
+
+\subsection{General objective}
+
+% The mean goal of the present work is to identify and understand the physical factors leading to opening in a small tidal inlet, focusing on wind-effects at different levels of stratification, in order to verify wind stress role at this process. Our case study is the Pescadero Estuary, a bar-built estuary in California that represents many other small inlet systems elsewhere in the word. Two data sets of wind and pressure at this site containing several mouth openings and closures are going to be used.
+
+The mean goal of the present work is to study velocity and density variability in the water column of a small and highly stratified estuary during its closed state and relate them to wind stress, to use the collected information to delve into the study of water bodies of this type. In addition, this research seeks to gain a better understanding of the relationship between wind stress and the behavior of layers of different densities within the closed state estuary.  Our case study is the Pescadero Estuary, a bar-built estuary in California that represents many other small inlet systems elsewhere in the word. Data sets of wind and pressure at this site containing several mouth openings and closures are going to be used.\\
+
+\subsection{Specific objectives}
+
+The specific objectives of this study are:
+\begin{enumerate}
+    \item [(1)] To make a time-series analysis of data collected from Pescadero estuary using depth, temperature, salinity and velocities collected from the estuary and the wind velocities obtained at 3 meters height.
+    \item [(2)] To determine the effect of wind stress on the hydrodynamic characteristics of the estuary while the inlet is closed focusing on stratification.
+    \item [(3)] To study the wind-estuary interaction and the effects of other external factors as water inflow and wave overtopping in this interaction.
+\end{enumerate}
+
+\section{Literature review}
+
+% \textit{Un análisis más detallado de lo que se conoce respecto del tema, mas o menos en este orden: Por qué es importante, como se ha atacado o enfocado su análisis en otras partes del mundo y también en Chile. Formas de medir, evaluar, cuantificar, etc, si es que aplica. Es importante en esta sección identificar claramente lo que falta por hacer, y declarar cómo este trabajo aporta a resolver alguno de los aspectos deficitarios. También, si aplica, se explica que evidencia hay de que lo que se está analizando sea importante en algún lugar en específico, y por que es interesante de ser estudiado y analizado. En esta sección se citan papers y todo el conocimiento previo que sea relevante. Al final del capítulo, debe quedar claro la justificación de la pertinencia de tu trabajo, lo que da una base clara para poder declarar tus objetivos.}
+
+% \subsection{Arguments that expose the importance of bar-built estuaries in ecosystem and economics }
+\subsection{Bar-built estuaries in the ecosystem and in the community}
+
+Climate change is affecting multiple marine ecosystems globally (\cite{hewitt2016multiple}). Its been detected that the global oceanic oxygen content has decreased during the last five decades \cite{schmidtko2017decline} and that air temperature is increasing in oceans (\cite{omstedt2004baltic, jones1999surface}) which according to models can affect stratification in northwest European continental shelf and in Baltic Sea due to a decrease of salinity at the surface (\cite{hordoir2012effect, holt2010potential}) changing the number of days that stratification is present causing impact in nutrient flux. Also, some studies expect that the absolute mean sea level in Chilean coasts rises between 0.35 to 0.74 m in the next 80 years (\cite{winckler2020evidence}). The effects of climate change can put at risk the coastal zones, including estuaries and coastal lagoons which are specially abundant ecosystems in flora and fauna.\\
+
+In addition, there is evidence that there is a decrease in surface wind speeds in Northern Europe (\cite{woolway2017atmospheric}) and an increase of along-shore winds in Chilean coastal zone (\cite{winckler2020evidence}). It is known that changes in surface wind speed affect the number of days that a lake is stratified, which affect the nutrients availability and quality on a waterbody, changing the amount of oxygen present in deep waters (\cite{woolway2017atmospheric}). It is important to study wind effects in estuaries in order to being able to quantify how wind-speed changes will affect these environments.\\
+
+In central Chile there is a decrease in river discharges affecting buoyancy and stratification (\cite{winckler2020evidence}), which can be causing a wide range of changes in estuarine and marine ecosystems, including changes in oxygen availability. This changes can impact in fish populations and other autotrophic organisms.\\
+
+The importance on intermittently closed estuaries go beyond local impacts. This estuaries can accumulate sediment and minerals while the inlet is closed (\cite{thorne2021wetlands}), and in rainy seasons they open the mouth naturally because of the increase of freshwater inflow (\cite{hoeksema2018factors}). This process settles sediments to the near marshes helping to maintain its elevation according to the sea level, mitigating the consequences of sea level rise (\cite{thorne2021wetlands}). On the other hand it is very common the opening of the mouth artificially to avoid flooding the near lands (\cite{Behrens2013}) which doesn't allow the sediments to set correctly in the marsh platform  (\cite{thorne2021wetlands}). ENSO (El Niño Southern Oscilation) is the principal cause in the opening and closure of the mouth (\cite{mcsweeney2017intermittently}), but this phenomena can change its occurrence in the next years, affecting estuaries' dynamics and water quality all around the world (\cite{thorne2021wetlands}).\\
+
+Climate change are affecting bar-built estuaries dynamics and water quality. Increasing of river discharge due to more precipitation could lead to increase erosion and the amount of suspended particles of sediment in the water. Enhanced sediments concentration could lead to accumulation in the estuary making the inlet to close, changing the equilibrium of opened and closed state of the sand bar, which along with the increase of freshwater input could flood the surrounding land (\cite{peeters2009currents}). Consequently, depending on the vegetation present and its oxygen demand, deep-water oxygen may be reduced or suppressed (\cite{Kelly2018}, \cite{Largier2021}). Also, the density of the surface waters will be reduced and thus could change the estuary behaviour to external factors as wind stress. \\
+
+On the other hand, bar-built estuaries are under continuous antropogenic stress due to their closeness with human settlements (\cite{clark2019systematic}) and its productive importance. Dams constructed upstream for water storage reduce the freshwater that goes to the ocean, causing the retain of suspended sediments. This results in a change in the morphology of the estuary due to not receiving the sediments that used to accumulates in the inlet, leading to premature scour of the sand bar (\cite{peeters2009currents}). Also, to prevent flood of roads or agricultural lands that settle nearby, the community plan the opening of the inlet artificially, which could result on abrupt changes in the estuary ecosystem (\cite{Behrens2013}). \\
+
+% \subsection{Arguments of how bar-built estuaries are studied around the world and in chile}
+\subsection{How bar-built estuaries are studied in Chile and around the world}
+
+There are plenty of methods and instrumental techniques to measure the behavior of estuaries and lakes at a small scale (\cite{Wuest2003}), methods that can be used with new data and get improved for future works and be more specific for the different types of waterbodies. \citeauthor{mcsweeney2017intermittently} (\cite*{mcsweeney2017intermittently}) studied the bar-built estuaries all around the world and its climatic, marine and fluvial conditions in order to classify them and quantify the drivers of its distribution in each continent. That can "allow predictions of estuary response to climate change and human impacts to be made and to ultimately assist with integrated coastal management into the future".\\
+
+\citeauthor{dussaillant2009} (\cite*{dussaillant2009}) studied a Chilean coastal lagoon in its open and close state and observed that in its closed state the rainfall influence was not important except for the storms that open the inlet to the sea. He also observed that wind is very important in water level fluctuations in the disconnected phase. He studied the connected phase using a general pattern, spectral and Fourier analysis.\\
+
+\citeauthor{Kelly2018} (\cite*{Kelly2018}) observed that in stratified waterbodies, when the vertical exchange is limited, it can be an oxygen depletion present, causing hipoxia and anoxia, factor that is related to fish kills in Pescadero (\cite{largier2015}). \citeauthor{Kelly2018} proposed that tidal influence oxygenated the deeper layers in a saline lagoon in some specific events and observed that the same conditions were present when there was wind-driven upwelling, showing a relation between tidal influence and wind stress in vertical mixing.\\
+
+\citeauthor{Behrens2016} (\cite*{Behrens2016}) observed the salt intrusion in a bar-built estuary and its differences between closed and open state conditions. The study found the presence of alternating shallow sills and deep pools, which act to trap the salt after intrusion and suggested that internal seiche motions in the outer estuary initiate the intrusion by lifting saline water in the pycnocline high enough to crest the sills. This salinity intrusion extends to distances of several kilometers from the beach.\\
+
+Studies carried out in Rodeo Lagoon (\cite{Cousins2010}), a shallow strongly-stratified lagoon, found that stratification by brackish water leads to a pronounced suppression of turbulence below the pycnocline and confines nutrients released from the sediment into the lower layer. Those can be confined for up to several months, compared to the rapidly flushed overlying fresh layer. They observed that in the lagoon wind is the dominant source of mixing because of a lack of other energy inputs and destratification by wind mixing allows for the redistribution of nutrients from the bottom brackish layer.\\
+
+% \subsection{Que falta por hacer y que aporta este trabajo}
+\subsection{Pescadero estuary studies}
+
+Pescadero estuary has literature related to management plans focusing on productivity (\cite{curry1985pescadero}) or in preserve the hydrology of the estuary (\cite{williams1990pescadero}. But recent studies have been motivated on the fish kills that have been observed in the last years, signaling that when the sandbar closes stratification leads to the creation of an anaerobic environment in bottom waters (\cite{sloan2006ecological}). Also, geochemical analysis to sediments showed that the transition from closed to open state leads to poor water conditions within the Pescadero Estuary, with many indicators reaching values that are outside the range of optimal conditions for fish or aquatic life (\cite{richards2018}). \\
+
+In addition, it has been studied more physical phenomena like the effects of the constriction that generates the mouth in its open state, showing a discontinuous tidal forcing in the estuary (\cite{williams2016}). \citeauthor{williams2016} observed that wave setup and tides set the estuarine water level, while the mouth sandbar limits ocean gravity waves to enter the estuary but permits infragravity motions to pass through the inlet, which induced energetically important high velocities, highlighting the strong dependence of hydrodynamics of small bar-built estuaries on nearshore processes. Also, hydrodynamic processes in Pescadero are comparable to similar estuaries along the western coast of the Americas as well as in Australia, South Africa, and in estuaries in Mediterranean climates on the Atlantic west coast of Europe, as well as in shallow sandy inlets elsewhere.\\
+
+
+% wind:
+% Studies of wind effects have often focused on big lakes with thermal stratification (\cite{roberts2021setup}), big estuaries (\cite{janzen2002wind}) or in the case of bar built estuaries in its open state \cite{payandeh2019subtidal},
+
+% it was observed that the results of the influence of wind depend in the geomorphology of estuaries \cite{payandeh2019subtidal}.
+
+% Some studies suggest that local wind-effects are more important for shallow estuaries that the deeper ones \cite{huang2011hydrodynamic}
+
+% \cite{janzen2002wind} suggest that local forcing winds are more important for estuary-shelf exchange in big estuaries studies and shows that orientation of main directions of wind have an important role on estuarine currents
+
+\section{Methods}
+
+% \textit{Aquí se describe el trabajo que se hará, con especial énfasis en identificar los pasos y métodos que te ayudarán a cumplir tus objetivos. Idealmente, se debe relacionar la metodología con algo que ya describiste en el estado del arte, como para indicar que no estás inventando un método (de no ser que la memoria sea justamente la propuesta de un método). Acá se describen también las fuentes de datos, etc. así como los métodos de procesamiento de ellos, comparación de error, etc.}
+
+\subsection{Field observations}
+
+Four field campaigns were carried out between 2010 and 2012 described in the work of \citeauthor{Williams2014} (\cite*{Williams2014}) and \citeauthor{williams2016} (\cite*{williams2016}), but in this work, we will focus exclusively on the data between January and March 2012 to analyze the behavior of the estuary in a closed state. Measurements were made using instruments for speed and depth, as well as including a meteorological station to collect wind speed and direction data. Depth data were collected using moored pressure, conductivity, and temperature sensors (CTD) placed at different heights and distributed along the estuary at four points as shown in (Fig. \ref{fig:mapPDO}), called Near Mouth (NM), Mid-Lagoon (ML), Deep Channel (DC), and Pescadero Creek (PC). Density profiles were made on February 16th with a CTD logger around 5 p.m. when the wind was calm at the locations indicated in (Fig. \ref{fig:mapPDO}).
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.6]{Imagenes/mapa2.png}
+    \caption{Pescadero estuary map and location of the sensors (NM: Near Mouth, ML: Mid-Lagoon, DC: Deep Channel and, PC: Pescadero Creek), instant profiles, and meteorological station. }
+    \label{fig:mapPDO}
+\end{figure}
+
+Velocity measurements were made with an Acoustic Doppler Current Profiler (ADCP) anchored to the bottom of the estuary at location DC. This instrument is designed to be used in deeper water, so data collected from the surface could be affected by the interference caused by reflection. Due to the latter, the data were removed from the record. On the other hand, the ADCP has a blank space before measuring speed, so the first measured point was 71 cm above the ground, meaning there is only a window of velocity data in the water column. \\
+
+For wind speed data, an anemometer was installed 3 m above the water level in marshy land adjacent to the estuary (Fig. \ref{fig:mapPDO}). It was observed that due to the topography of the sector, the wind direction is channelized along the estuary, so the directions between 300 and 360 degrees come from the ocean and the wind that blows from 100 to 170 degrees comes from inland.\\
+
+To complete the information, the freshwater streamflow into the Pescadero estuary is estimated based on a United States Geological Survey (USGS) gauge located on Pescadero Creek 8.5 km upstream from the mouth of the estuary (USGS 11162500). The tide height data in San Francisco Bay and Monterrey Bay (stations 9414290 and 9413450 respectively) were obtained from the National Oceanographic and Atmospheric Administration (NOAA). Additionally, the bottom pressure measurements at each sensor were corrected for sea-level atmospheric pressure measured at the nearest weather station located at the Half Moon Bay airport. This work focuses exclusively on the two periods where the estuary is closed between February and March.\\
+
+\subsection{Data processing}
+
+\subsubsection{Salinity and temperature}
+
+The measurements made with CTDs were made with a frequency of 10 or 30 sec, and at each location, there were one (PC), two (ML), three (NM), or four (DC) instruments at different depths, hence, we don’t have a complete salinity or temperature profile in time and we don’t know where the interface between the saltiest and the sweetest layer of the estuary lies. We obtained the density using the salinity, temperature, and pressure data, by the GSW Python package which is an implementation of the Thermodynamic Equation of Seawater (TEOS-2010).\\
+
+Additionally, there were taken CTD profiles on February 16th, between 17:00 and 17:30 which were used to calculate the density also using TEOS-2010. When the profiles were taken the wind was very calm so we can say that the estuary was not having any significant external forcing. \\
+
+Temperature is an important parameter for density, notwithstanding salinity stills dominate density values, there are a few points we must aboard about temperature in Pescadero. First, horizontal temperature gradients are present in Pescadero, where upstream is warmer meaning the water coming from the creek is warmer. In addition, during the studied period water temperature in San Francisco buoy from the National Data Buoy Center was between $9^o$C and $11^o$C, so water coming from the sea will be colder. Second, the temperature in the estuary is colder in the surface and warmer in the bottom, probably due to the fact that is winter during the studied period and the temperature in air is lower than in the water coming from upstream. Coldest temperature can be on the surface without sinking for being more dense because salinity dominates density in this case. Third, Pescadero in its closed state take form of a shallow lagoon, meaning that is more prone to heat loss and to air temperature than other bigger lakes (\cite{peeters2009currents}).\\
+
+To represent stratification we used buoyancy frequency, defined as $N^2 = -(g/\rho)(\partial \rho/\partial z)$ (\cite{kundu2002fluid}) representing the water column stability, which increases or decreases as the fluid is more or less stratified. Potential energy anomaly was calculated to observe the behavior of density in the water column. It represents the work per volume required to completely mix the water column and is calculated using the equation shown by \citeauthor{simpson1990tidal}: 
+
+\begin{equation}
+    \phi=\frac{1}{h}\int^h_0(\bar{\rho}-\rho)gzdz
+    \label{eq: phi}
+\end{equation}
+
+which we discretized according to the number of sensors that each location had and considering each layer's limits as the corresponding upper and lower sensors and the density for the whole layer as the upper one. 
+
+\subsubsection{Estuary currents}
+
+Velocity data collected with the ADCP, and wind velocity data were axis-rotated to the principal coordinates (u-v), based on the direction of maximum variance of wind velocity. This was calculated for the studied period, obtaining an angle of 38.65° from the west axis in a clockwise direction and it was established that the velocity was positive in the direction of the flow (u), that is, towards the sea.  \\
+
+%% agregar imagen de la rotacion
+
+ADCP data were averaged every 5 minutes to take off high-frequency signals. However, CTD data at the same location (DC) was not measured at the same depth due to bathymetry, thus we estimated the difference between both and adjusted speed data, finally adjusted the first cell to 0.91 m above the bottom of the estuary. \\
+
+\subsubsection{Wind stress}
+
+We calculated the wind shear stress above the surface using the equation from \citeauthor{read2011derivation} (\cite*{read2011derivation}): 
+
+\begin{equation}
+    \tau=\rho_{air} C_D U_{10}^2
+    \label{eq: tau}
+\end{equation}
+
+Where $\rho_{air}$ is the specific weight of air ($1.2 kg/m^3$), $C_D$ is the drag coefficient and was defined by \citeauthor{large1981open} (\cite*{large1981open}) at 0.0012 for wind velocities between 4 and 11 m/s, and considering that the collected speeds are smaller than 11 m/s and the results are not sensitive to $C_D$ it was set as 0.0012. $U_{10}$ is the adjusted wind speed at 10 meters high, and it was obtained by: 
+
+\begin{equation}
+    U_{10}^2=U_z*(1-\frac{C_D}{\kappa}*\ln{\frac{10}{z}})^{-1}
+    \label{eq: adjvel}
+\end{equation}
+
+with $\kappa=0.4$ as the Von Karmann coefficient and z = 3 m.\\
+
+To study the response of the stratified layers to a wind impulse and identify the upwelling we used the Wedderburn number (\cite{Shintani2010}):
+
+\begin{equation}
+    W=\frac{g'*h_1^2}{L*u_*^2}
+    \label{eq: wed}
+\end{equation}
+
+where we estimated $h_1$ as the 30\% of the DC’s total depth, L as 392 m, and for $u_*$ and g' we used:
+
+\begin{equation}
+    g'=\frac{\rho_{bottom}-\rho{surface}}{\rho_{surface}}*g
+    \label{eq: redg}
+\end{equation}
+
+\begin{equation}
+    u_*^2=\frac{\tau_w}{\rho_{surface}}
+    \label{eq: ustar}
+\end{equation}
+
+
+To analyze the relationship between wind stress and density we standardized and normalized the signals and applied cross-correlation. Cross-correlation between wind stress and density signals is used to find the time lag (phasing) between both and their level of correlation along the locations (propagation) measured in the estuary. Also, we can compare the results to the response tilt time that can be considered as $1/4$ of the internal wave period $T_1$ (\cite{stevens1996initial}): 
+
+\begin{equation}
+    T_1=\frac{2L}{\sqrt{(\frac{\epsilon g h_1 h_2}{h_1 + h_2})}}
+    \label{eq: period}
+\end{equation}
+
+\subsubsection{Water level}
+
+To analyze what was happening on the surface, a frequency spectral analysis was carried out in order to identify the most important processes that affect the water level. First, \citeauthor{welch1967use}'s (\cite*{welch1967use}) method was applied to reduce the data noise and there was applied a detrend. Finally, the signal was multiplied by a quadratic window to obtain much clearer data and then apply the frequency spectral analysis. \\
+
+To complement this information, an analysis of the wavelet transform was carried out using the Python package PyWavelets (\cite{lee2019pywavelets}). The one-dimensional continuous wavelet transform was applied to the DC surface height data using the first-order Gaussian derivative family for a period range between 10 s and 2.8 min. This, in order to identify important events and other external phenomena, such as a wave overtopping the sandbar due to high tide. This analysis delivers coefficients that are a function of scale and position and that serve as a scalogram to visualize the wavelet.\\
+
+To carry out a more detailed visual analysis, the standardized heights were obtained at the NM and DC points, where the difference between their real value and their average was obtained, in order to compare the results of both on the same scale. In addition, the difference between the two was calculated and amplified by 10 to exaggerate its trend and observe it more clearly.\\
+
+All the mentioned data were plotted according to local time, to analyze visually considering the factors that affect day and night as temperature and wind. Abrupt decreases in water level that were proceeded by a slow increase in the estuarine water level without tidal influence were defined as mouth openings and when tidal energy is not visible at the water level there is a mouth closure. We observed that the inlet opened twice and each time there are abrupt density changes in the water column.  
+
+\section{Results}
+
+% \textit{Acá presentas claramente los resultados de la aplicación de la metodología, a través de texto y figuras. Un aspecto importante es que texto y figuras deben ir de la mano en todo el trabajo. Es decir, cada vez que se incluye una figura, es porque aporta a la comprensión de lo que se dice en el texto, y por lo tanto, se debe mencionar en éste ultimo. No coloquen figuras sueltas esperando que se autoexpliquen. Tampoco usen el texto de la figura para introducir ideas. Las figuras son fundamentales para la comprensión del texto, pero deben ir de la mano con él.}
+
+
+\subsection{Conditions observed during closed state}
+
+\subsubsection{Evolution of density structure}
+
+Pescadero estuary is characterized by having a strong thermohaline stratification in its closed state (Fig. \ref{fig:saltemp}). When the estuary inlet starts closing, temperature and salinity acquire different values on the top and bottom of the lagoon, increasing density change in the vertical (\cite{largier2015}). The sand bar that forms at the inlet of the estuary contains the freshwater inflow and does not allow the waves to enter, but during high tide the waves could be overtopping it (\cite{laudier2011measured}), contributing to the salinity in the system. This, depending on the magnitude of the intrusion, could affect the stratification of the entire estuary.\\
+%% change the image 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{Imagenes/saltemp.png}
+    \caption{Time-series windowing at both closure phases of wind speed, temperature and salinity in NM, where 1 is the deepest sensor and 4 the shallowest, colormap of density in NM in the water column, where the black line represents the water level, and the change of the water level in a 10-hour frame.}
+    \label{fig:saltemp}
+\end{figure}
+
+We defined closed state at the estuary when the depth’s change in time $\Delta h/\Delta t$, with $\Delta t=10$ hours, is positive and less than 0.01 m/h for more than a day (Fig. \ref{fig:saltemp}e), meaning that the lagoon is filling with freshwater, increasing its level, and with a low influence from the sea. In that context Pescadero is in closed state three times, in mid January, in mid February, and in late February/early March where the first is at the start of the time series, not including the initial closure, while the second and third are in gray shadow (Fig. \ref{fig:saltemp}). The differences between these three closures are that the first has the highest water level, and second and third closures never get to the same level. \\
+
+During closed state, we observed three layers in the density structure with the superior one getting thicker upstream. In Fig. \ref{fig:perfiles1} there is the longitudinal view of the estuary densities from the profiles and the moorings. After a few days in closed state, the estuary opened on February 21st and March 3rd observing a decrease in water level. \\
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.6]{Imagenes/vista_long2.png}
+    \caption{Along-estuary density colormap of Pescadero. Distance x is considered from the coast following the curvature of the estuary as the sensors are placed in Fig. \ref{fig:mapPDO}. }
+    \label{fig:perfiles1}
+\end{figure}
+
+\subsubsection{Tidal and waves conditions}
+
+We can observe, that when the mouth is open tidal influence is present in Pescadero, and when significant wave height increases the influence also is larger (Figure 2). When the bar blocks the inlet, this causes accumulation of the upstream freshwater in the lagoon which is represented by an increase in Pescadero water level, reducing the ocean influence to be negligible to plain sight, but still could be wave overtopping which we will analyze later.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.6]{Imagenes/wave1.png}
+    \caption{Time-series of wind stress ($\tau_w$), tidal height in San Francisco (blue) and Pescadero estuary water level (black) in MLLW datum, significant wave height ($H_{SW}$), dominant wave period ($T_{DW}$), average wave period ($T_{AW}$) and the direction from which the waves at the dominant period are coming ($dir_{DW}$).}
+    \label{fig:wave1}
+\end{figure}
+
+\subsubsection{Pescadero creek discharge}
+
+When the inlet is closed, the maximum flow recorded was 0.72 m3 /s, lower than the usual for winters in California, presenting two small increases in flow (Figure 2-C), but which, due to their low magnitude, would not be a determining factor in the rupture, considering that between July 2011 and July 2012 the maximum flow was 29.73 m3/s. Even so, there is a constant inflow of fresh water that increase the estuary water level progressively until the inlet breaks (Figure 2-A). It is known that the first breach of the bar was artificial (Williams, 2014), openings that according to Behrens et al. (2013) would be less effective in keeping the mouth open than those that developed naturally, as in this case where the estuary is in open state for just a couple days. The second barrier breach is believed to have occurred naturally.  
+
+\subsubsection{Currents speed and direction}
+
+During closed state, the wind direction is predominantly onshore and its magnitude in that direction is bigger than in the rest of the period (Figure 2-D). We can notice a wind event in the offshore direction just before there is an increase in the Pescadero creek discharge, and we can observe this situation before other increases in flow, meaning the change of direction of the wind could happen during a storm.  
+
+\subsubsection{Surface fluctuations}
+
+We can observe, that when the mouth is open tidal influence is present in Pescadero, and when significant wave height increases the influence also is larger (Figure 2). When the bar blocks the inlet, this causes accumulation of the upstream freshwater in the lagoon which is represented by an increase in Pescadero water level, reducing the ocean influence to be negligible to plain sight, but still could be wave overtopping which we will analyze later.
+
+Pescadero has its main directions very mrked, case that is very prticular in this jkind of estuaries, where along-estuary velocities always domain the currents (local forcing)
+
+\subsection{Stratification controllers}
+
+\subsubsection{Wind stress}
+
+\subsubsection{Wave overtopping}
+
+\subsubsection{Freshwater inflow}
+
+\subsection{Wind-driven effects}
+
+\subsubsection{Upwelling and circulation}
+
+\subsubsection{Dynamic response}
+
+
+
+\section{Discussion}
+
+\textit{Para mí el capitulo fundamental. Los resultados son analizados en detalle, pudiendo incorporar análisis adicionales que no estaban inicialmente en la metodología, como para entender, entre otras cosas, la sensibilidad de los resultados ante parámetros por ejemplo. O la comparación con resultados de otros estudios, o conocimiento existente. En este capítulo se debe entender si lo que se hizo es útil o no.}
+
+Pescadero funciona como tal y tales cuerpos de agua (buscar) (discusion de kelly 2017 buena)
+payandeh tiene algunos pára comparar con enfoqye de viento
+wind: orientation of the bay, shallowness
+
+colocar problemas de los métodos de analisis
+wedberner number is too aproximasted
+frequency analysis doesnt show an specific time, shows all the dataset
+
+acording to Paugam 2021 the drag coefficient Cd can be difficult to estimate in shallow water %discusion?
+
+\section{Conclusions}
+
+\textit{1 o 2 páginas que resuman lo aprendido, y verifiquen que los objetivos se cumplieron.}
+
+\subsection{Estructura (Utilizar este estilo de subtítulo dentro de cada sección)}
+Utilizar la siguiente estructura para las secciones principales, como por ejemplo: Introducción, Objetivos, Metodología, Resultados, Discusión, Conclusiones y Referencias. Los títulos específicos de cada sección deben fijarse de acuerdo al tema de la memoria en conjunto con el profesor supervisor.\\
+
+La memoria podrá tener una extensión de máximo 30 páginas, sin contar con la portada y hoja de firmas.
+
+\subsection{Citas a las referencias}
+Citar las referencias en formato APA. En el texto los trabajos se citarán con el apellido de los autores y año de publicación en paréntesis. Si la referencia esta entre paréntesis el año se separara por una coma (Utilizar el siguiente formato de viñetas, donde lo requieran): 
+\begin{itemize}
+    \item Ejemplo de cita para un autor: (Fredlund, \cite*{fredlund2006unsaturated})
+    \item Ejemplo para cita de dos autores: 			(Kramer y Greenfield, \cite{kramer2017effects})
+    \item Ejemplo para cita de tres o más autores:	(Yoshimi et al., \cite*{yoshimi1989liquefaction})
+    \item Ejemplo de cita cuando se incluye la misma como relato del texto: Terzaghi et al. (\cite{terzaghi1996soil})
+\end{itemize}
+
+Todas las citaciones del manuscrito deben seguir el mismo patrón de citación.\\
+
+Para citar las referencias en el texto y listarlas en la sección de Referencias (al final del documento) deben utilizar el archivo Bibliografia.bib. Pueden copiar directamente el código de la cita desde Google Scholar.
+
+
+\section{Título 2}
+\subsection{Tablas y figuras}
+Las tablas y figuras incluidas en todo el documento deben ser enumeradas correlativamente, con título suficientemente auto explicativo. El título de las figuras debe presentarse en su parte inferior; mientras que el de las tablas en su parte superior. Tanto tablas o como figuras deben indicar la fuente de información de la cual han sido obtenidas, salvo cuando sean de autoría propia.
+
+\subsection{Ecuaciones}
+Las ecuaciones también se enumerarán en forma correlativa poniendo su número entre paréntesis justificado a la derecha. Toda ecuación debe ser presentada a través del editor de ecuaciones de MS. Word. Las ecuaciones no debiesen estar insertadas como una imagen.  A continuación de la presentación de la ecuación indique en el texto el significado de los términos que la conforman.
+
+\subsection{Referencias cruzadas}
+Toda tabla, figura o ecuación debe estar citada en la descripción del manuscrito y deben presentarse en el texto en el mismo orden que aparece en el documento. Verifique que estos elementos estén citados en el trabajo en el texto principal como, por ejemplo: “En la Figura \ref{fig: Ejemplo} se observa…” ó “La Figura \ref{fig: Ejemplo} muestra…”ó “la Tabla \ref{fig: Ejemplo} indica….” ó la Ecuación \ref{fig: Ejemplo} determina …” según corresponda, utilizando referencias cruzadas.\\
+
+Ejemplo de figura
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Imagenes/SWCC.PNG}
+    \caption{Nombre de la figura}
+    \label{fig: Ejemplo}
+\end{figure}
+
+Ejemplo de tabla
+
+\begin{table}[htbp]
+  \centering
+  \caption{Nombre de la tabla}
+    \begin{tabular}{p{7.855em}p{7.855em}p{15.5em}}
+    \hline
+    \textbf{Grado PG} & \textbf{Nomenclatura} & \textbf{Aplicación} \\
+    \hline
+    PG 64-16 & PG 64 & Mezcla convencional \\
+    PG 76-16 & PG 76 & Mezcla con asfalto modificado \\
+    PG 88-22 & PG 88 & Mezcla tibia \\
+    \hline
+    \end{tabular}%
+  \label{tab: Ejemplo}%
+\end{table}%
+
+Ejemplo de ecuación
+\begin{equation}
+    |H|=\sqrt{G_1^2+G_2^2}=\sqrt{(\sigma_o/\lambda_o)^2\cdot(cos^2\phi+sen^2\phi)}
+    \label{eq: Ejemplo}
+\end{equation}
+Donde: $H$ es el resultado en MPa, $G_1$ y $G_2$ son los términos en kN.\\
+
+Utilizar el editor de ecuaciones de Word para agregar las ecuaciones.
+Se deben definir las abreviaturas y acrónimos que no sean comunes la primera vez que aparecen en el texto, aún si ya se han definido en el resumen.  No utilice notas al pie para indicar el significado de términos o abreviaturas ni citar referencias.
+
+
+\section{Referencias}
+Esta sección debe ser la última sección del documento. Esta sección no lleva numeración al ser una sección especial (dejar solo Referencias mostrada al final de esta página).\\
+
+Se debe verificar con cuidado que todas las citas colocadas en el texto aparezcan en la lista de referencias de acuerdo al formato APA (para esto, se puede editar los códigos de las citas en Bibliografia.bib). En la lista solo deben aparecer las referencias que fueron utilizadas en el texto principal del trabajo, en las tablas o en las figuras. Esto implica que no deben aparecer referencias que no se citen en el documento, aunque las hayan consultado durante la preparación de la memoria.\\
+
+En esta sección listar en formato APA. Aplique una sangría francesa de 0.5 cm tal como se ilustra en el ejemplo.  Los nombres de los autores citados deben abreviarse poniendo sólo sus iniciales. Algunos ejemplos de cómo citar las referencias se presentan a continuación:
+
+\printbibliography
+\end{document}
