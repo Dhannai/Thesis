@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.2)  2 AUG 2022 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.2)  5 AUG 2022 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1089,7 +1089,11 @@ LaTeX Info: Redefining \today on input line 736.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 57.
  (C:\Users\Dhannai\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (main2.aux)
+) (main2.aux
+
+LaTeX Warning: Label `fig:dens' multiply defined.
+
+)
 \openout1 = `main2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -1494,68 +1498,221 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 308.
-(C:\Users\Dhannai\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+
 Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+<Imagenes/rotacion.png, id=68, 767.814pt x 219.0pt>
+File: Imagenes/rotacion.png Graphic file (type png)
+<use Imagenes/rotacion.png>
+Package pdftex.def Info: Imagenes/rotacion.png  used on input line 312.
+(pdftex.def)             Requested size: 472.03123pt x 134.63908pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+[13 <./Imagenes/rotacion.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
-
- []
-
-<Imagenes/saltemp.png, id=72, 875.27pt x 516.93124pt>
-File: Imagenes/saltemp.png Graphic file (type png)
-<use Imagenes/saltemp.png>
-Package pdftex.def Info: Imagenes/saltemp.png  used on input line 379.
-(pdftex.def)             Requested size: 437.63393pt x 258.46498pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
  []
 
 [14]
-<Imagenes/vista_long2.png, id=76, 656.343pt x 247.689pt>
+<Imagenes/windrose.png, id=77, 539.31488pt x 529.37775pt>
+File: Imagenes/windrose.png Graphic file (type png)
+<use Imagenes/windrose.png>
+Package pdftex.def Info: Imagenes/windrose.png  used on input line 384.
+(pdftex.def)             Requested size: 161.7957pt x 158.81454pt.
+<Imagenes/wind_vel.png, id=78, 629.35126pt x 212.795pt>
+File: Imagenes/wind_vel.png Graphic file (type png)
+<use Imagenes/wind_vel.png>
+Package pdftex.def Info: Imagenes/wind_vel.png  used on input line 391.
+(pdftex.def)             Requested size: 472.03123pt x 159.60234pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
+
+ []
+
+<Imagenes/saltemp.png, id=79, 875.27pt x 441.65pt>
+File: Imagenes/saltemp.png Graphic file (type png)
+<use Imagenes/saltemp.png>
+Package pdftex.def Info: Imagenes/saltemp.png  used on input line 402.
+(pdftex.def)             Requested size: 437.63393pt x 220.82445pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+[15 <./Imagenes/windrose.png> <./Imagenes/wind_vel.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+<Imagenes/vista_long2.png, id=85, 656.343pt x 247.689pt>
 File: Imagenes/vista_long2.png Graphic file (type png)
 <use Imagenes/vista_long2.png>
-Package pdftex.def Info: Imagenes/vista_long2.png  used on input line 390.
+Package pdftex.def Info: Imagenes/vista_long2.png  used on input line 415.
 (pdftex.def)             Requested size: 393.80882pt x 148.61453pt.
-<Imagenes/wave1.png, id=77, 730.73pt x 658.46pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+[16 <./Imagenes/saltemp.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+<Imagenes/wave1.png, id=90, 875.27pt x 514.92375pt>
 File: Imagenes/wave1.png Graphic file (type png)
 <use Imagenes/wave1.png>
-Package pdftex.def Info: Imagenes/wave1.png  used on input line 401.
-(pdftex.def)             Requested size: 438.44138pt x 395.07906pt.
- [15 <./Imagenes/saltemp.png>
-!pdfTeX error: pdflatex: fflush() failed (Invalid argument)
- ==> Fatal error occurred, no output PDF file produced!
+Package pdftex.def Info: Imagenes/wave1.png  used on input line 428.
+(pdftex.def)             Requested size: 472.03123pt x 277.70111pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/Q.png, id=91, 875.27pt x 152.57pt>
+File: Imagenes/Q.png Graphic file (type png)
+<use Imagenes/Q.png>
+Package pdftex.def Info: Imagenes/Q.png  used on input line 439.
+(pdftex.def)             Requested size: 472.03123pt x 82.2818pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
+
+ []
+
+<Imagenes/vels.png, id=92, 874.26625pt x 441.65pt>
+File: Imagenes/vels.png Graphic file (type png)
+<use Imagenes/vels.png>
+Package pdftex.def Info: Imagenes/vels.png  used on input line 454.
+(pdftex.def)             Requested size: 472.03123pt x 238.45375pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+[17 <./Imagenes/vista_long2.png>] [18 <./Imagenes/wave1.png> <./Imagenes/Q.png>]
+<Imagenes/dens.png, id=103, 875.27pt x 586.19pt>
+File: Imagenes/dens.png Graphic file (type png)
+<use Imagenes/dens.png>
+Package pdftex.def Info: Imagenes/dens.png  used on input line 477.
+(pdftex.def)             Requested size: 472.03123pt x 316.13538pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19 <./Imagenes/vels.png>] [20 <./Imagenes/dens.png>]
+File: Imagenes/dens.png Graphic file (type png)
+<use Imagenes/dens.png>
+Package pdftex.def Info: Imagenes/dens.png  used on input line 494.
+(pdftex.def)             Requested size: 472.03123pt x 316.13538pt.
+ [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+
+ []
+
+[23]
+
+c:/Users/Dhannai/Documents/git/push/tesis (Dhannai's Version)/main2.tex:552: LaTeX Error: Unicode character ́ (U+0301)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 \end
+          {document}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[24]
+
+c:/Users/Dhannai/Documents/git/push/tesis (Dhannai's Version)/main2.tex:552: LaTeX Error: Unicode character ́ (U+0301)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 \end
+          {document}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Users/Dhannai/Documents/git/push/tesis (Dhannai's Version)/main2.tex:552: LaTeX Error: Unicode character ́ (U+0301)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 \end
+          {document}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[25] [26] (main2.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
+Package logreq Info: Writing requests to 'main2.run.xml'.
+\openout1 = `main2.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 42731 strings out of 478337
+ 1010593 string characters out of 2835723
+ 1902035 words of memory out of 3000000
+ 60201 multiletter control sequences out of 15000+600000
+ 530958 words of font info for 199 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,7n,102p,1428b,5169s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main2.pdf (28 pages, 16705648 bytes).
+PDF statistics:
+ 182 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 42574 words of extra memory for PDF output out of 42996 (max. 10000000)
+
