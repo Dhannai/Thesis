@@ -1,0 +1,189 @@
+\documentclass[11pt,letterpaper]{article}
+
+%%% PACKAGES
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+% \usepackage{color}
+% \usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\setlength{\parindent}{0cm}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage{listings}
+% \usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{times}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{wasysym}
+\usepackage{wrapfig}
+\usepackage{amsbsy}
+\usepackage{flushend}
+\usepackage{url}
+\usepackage[percent]{overpic}
+\usepackage{caption} 
+\usepackage{pgfplots}
+\usepackage{sectsty}
+\usepackage[all]{nowidow}
+\usepackage{tikz}
+\usetikzlibrary{er,positioning,bayesnet}
+\usepackage{apacite}
+\usepackage{subfiles}
+
+%%% BIBLIOGRAPHY
+% \usepackage[hidelinks]{hyperref}
+% \usepackage[backend=biber,date=short, style=apa]{biblatex}
+% \addbibresource{Bibliografia.bib}
+% \usepackage[round, authoryear]{natbib}
+\usepackage{natbib}
+\bibliographystyle{apa}
+
+%%% PAGE DIMENSIONS
+\geometry{top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+
+%%% DATE
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+\monthname[\THEMONTH], \THEYEAR}
+
+%%% LINE SPACING
+\renewcommand{\baselinestretch}{1}
+
+
+\begin{document}
+
+%%%% TITLE PAGE
+\begin{titlepage}
+    \begin{figure}[H]
+    \centering
+    \vspace{-1.2cm}
+    \includegraphics[scale=0.55]{Imagenes/logo_universidad.png}
+    \end{figure}
+    \vspace{1cm}
+    
+    \begin{center}
+    Departamento de Obras Civiles\\
+    \vspace{4cm}
+    
+    {\Large \textbf{WIND-EFFECTS ON BAR-BUILT ESTUARY HYDRODYNAMICS }}\\
+    \vspace{2cm}
+    {Memoria de Título presentada por}
+    \vspace{0.5cm}
+    
+    {\Large{\textbf{Dhannai Tamara Sepúlveda González}}} \\
+    \vspace{1.5cm}
+    
+    {como requisito parcial para optar al título de la carrera de}\\
+    \vspace{0.5cm}
+    
+    \textbf{Ingeniería Civil}\\
+    \vspace{1.5cm}
+    
+    {y el grado de}\\
+    \vspace{0.5cm}
+    
+    \textbf{Magíster en Ciencias de la Ingeniería Civil}
+    
+    \vfill
+    {Profesor Guía}\\
+    {Megan Elizabeth Williams}\\
+    \vspace{0.5cm}
+    \textsc{\monthyeardate\today}\\
+    \end{center}
+    
+    \clearpage
+    \parindent=0mm
+    \end{titlepage}
+    
+    %%HOJA DE FIRMAS%%
+    \begin{titlepage}
+    \begin{figure}[H]
+    \vspace{-1cm}
+    \includegraphics[scale=0.45]{Imagenes/logo_universidad_letras_lateral.png}
+    \end{figure}
+    
+    \vspace{2.5cm}
+    
+    \noindent{\Large \sc{TÍTULO DE LA TESIS:}}\\
+    \vspace{0.3cm}
+    
+    \noindent{\Large \textbf{WIND-EFFECTS ON A BAR-BUILT ESTUARY HYDRODYNAMICS }}\\
+    \vspace{1.5cm}
+    
+    \noindent{\Large \sc{AUTOR:}}\\
+    \vspace{0.3cm}
+    
+    \noindent{\Large \textbf{DHANNAI TAMARA SEPÚLVEDA GONZÁLEZ}}\\
+    \vspace{2cm}
+    
+    \noindent{TRABAJO DE MEMORIA, presentado como requisito parcial para optar al grado de MAGÍSTER EN CIENCIAS DE LA INGENIERIA CIVIL de la Universidad Técnica Federico Santa María.}\\
+    \vspace{1.5cm}
+    
+    \noindent{\Large{Nombre Profesor Guía:\hspace{3.5cm}  Megan Williams}}
+    \vspace{1.5cm}
+    
+    \noindent{\Large{Nombre Miembro 1 Comisión:\hspace{2cm}  .............................................................}}
+    \vspace{1.5cm}
+    
+    \noindent{\Large{Nombre Miembro 2 Comisión:\hspace{2cm}  .............................................................}}
+    \vspace{1.5cm}
+    
+    \vfill
+    \begin{flushright}
+        {Valparaíso, Chile, September, 2022}\\
+    \end{flushright}
+    \end{titlepage}
+    
+    \clearpage
+    
+    
+    %%% DOCUMENT
+    \newpage
+    \begin{center}
+        \textsc{\textbf{\Large Wind-effects on bar-built estuary hydrodynamics}}
+    \end{center}
+    Dhannai Sepúlveda$^1$, Megan Williams$^1$\\
+    
+    1 Universidad Técnica Federico Santa María\\
+    
+    \textbf{Abstract}\\
+    Although bar-built estuaries are widespread on Mediterranean coasts all around the world, including central Chile, little research has been undertaken on its closed state, when its system is transformed into a salty lagoon. Understanding the dependence of hydrodynamic response and thermohaline-stratification on strong wind events and its associated transport and mixing is of prime importance on the impact of water quality and eutrophication on ecosystems in coastal lagoons. In this study, we analyze the role of external factors such as wind velocities, freshwater flow, and wave overtopping in the hydrodynamics of a shallow, highly salt-stratified bar-built estuary. Vertical mixing and forcing currents, governed by wind surface stress, were quantified for diurnal and hourly time scales.
+    
+    Data collected in early 2012 at Pescadero Estuary, California shows that in a close state there is a strong stratification and strong wind events during its closed state and due to its morphology wind is channelized into the along-estuary direction, causing the lagoon to receive mainly local forcing. Frequency spectral analysis is used to identify seiches on the surface due to upwelling caused by the wind. Wavelet analysis was also used to identify wave overtopping on the sand bar and observe the real effect of saline water entering the estuary. 
+    
+    During strong wind events, buoyancy frequency was reduced to almost 0 from the 0.1 $s^{-2}$ that the estuary usually had, and in some cases not return to its original value, showing upwelling and mixing of the water column. However, these effects varied over time depending on water level due to constant inflow from Pescadero and Butano creek. Some indicators like potential anomaly showed a good correlation with wind stress during the studied period. These preliminary findings show that wind effects are dominant in forcing vertical exchange of layers and generating currents at Pescadero.\\
+    
+    \textit{Key words: bar-built estuaries, wind stress, stratification, upwelling, mixing}
+
+    \newpage
+    \section*{ACKNOWLEDGEMENTS}
+    
+    my acknowledgments
+    \newpage
+    
+    \tableofcontents
+    
+    \listoffigures
+    
+    \listoftables
+    
+    \newpage
+    
+    \subfile{1-introduction}
+    \subfile{2-objectives}
+    \subfile{3-literature-review}
+    \subfile{4-methods}
+    \subfile{5-results}
+
+\bibliography{Bibliografia}
+
+
+\end{document}

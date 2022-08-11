@@ -5,7 +5,6 @@
 \usepackage{microtype}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage{booktabs}
 \usepackage{color}
 \usepackage{colortbl}
 \usepackage{graphicx}
@@ -36,11 +35,12 @@
 \usepackage[all]{nowidow}
 \usepackage{tikz}
 \usetikzlibrary{er,positioning,bayesnet}
+\usepackage{apacite}
 
 %%% BIBLIOGRAPHY
 % \usepackage[hidelinks]{hyperref}
-\usepackage[backend=biber,date=short, style=apa]{biblatex}
-\addbibresource{Bibliografia.bib}
+% \usepackage[backend=biber,date=short, style=apa]{biblatex}
+% \addbibresource{Bibliografia.bib}
 
 %%% PAGE DIMENSIONS
 \geometry{top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
@@ -268,7 +268,7 @@ In addition, it has been studied more physical phenomena like the effects of the
 
 \subsection{Field observations}
 
-Four field campaigns were carried out between 2010 and 2012 described in the work of \citeauthor{Williams2014} (\cite*{Williams2014}) and \citeauthor{williams2016} (\cite*{williams2016}), but in this work, we will focus exclusively on the data between January and March 2012 to analyze the behavior of the estuary in a closed state. Measurements were made using instruments for speed and depth, as well as including a meteorological station to collect wind speed and direction data. Depth data were collected using moored pressure, conductivity, and temperature sensors (CTD) placed at different heights and distributed along the estuary at four points as shown in (Fig. \ref{fig:mapPDO}), called Near Mouth (NM), Mid-Lagoon (ML), Deep Channel (DC), and Pescadero Creek (PC). Density profiles were made on February 16th with a CTD logger around 5 p.m. when the wind was calm at the locations indicated in (Fig. \ref{fig:mapPDO}).
+Four field campaigns were carried out between 2010 and 2012 described in the work of \citeauthor{Williams2014} (\cite*{Williams2014}) and \citeauthor{williams2016} (\cite*{williams2016}), but in this work, we will focus exclusively on the data between January and March 2012 to analyze the behavior of the estuary in a closed state. Measurements were made using instruments for speed and depth, as well as including a meteorological station to collect wind speed and direction data. Depth data were collected using moored pressure, conductivity, and temperature sensors (CTD) placed at different heights and distributed along the estuary at four points as shown in (Fig. \ref{fig:mapPDO}), called Near Mouth (NM), Mid-Lagoon (ML), Deep Channel (DC), and Pescadero Creek (PC). Density profiles were made on February 16th with a CTD logger around 5 p.m. at the locations indicated in Fig. \ref{fig:mapPDO}. The moment the profiles were made the wind was calm, so is not causing a disturbance in the water.
 
 
 \begin{figure}[h!]
@@ -278,23 +278,23 @@ Four field campaigns were carried out between 2010 and 2012 described in the wor
     \label{fig:mapPDO}
 \end{figure}
 
-Velocity measurements were made with an Acoustic Doppler Current Profiler (ADCP) anchored to the bottom of the estuary at location DC. This instrument is designed to be used in deeper water, so data collected from the surface could be affected by the interference caused by reflection. Due to the latter, the data were removed from the record. On the other hand, the ADCP has a blank space before measuring speed, so the first measured point was 71 cm above the ground, meaning there is only a window of velocity data in the water column. \\
+Velocity measurements were made with an Acoustic Doppler Current Profiler (ADCP) anchored to the bottom of the estuary at location DC. This instrument is designed to be used in deeper water, so data collected from the surface could be affected by the interference caused by reflection. Due to the latter, the data from the surface were removed from the record. On the other hand, the ADCP has a blank space at the bottom for measuring speed, so the first measured point was 71 cm above the ground, meaning there is only a window of velocity data in the water column. \\
 
-For wind speed data, an anemometer was installed 3 m above the water level in marshy land adjacent to the estuary (Fig. \ref{fig:mapPDO}). It was observed that due to the topography of the sector, the wind direction is channelized along the estuary, so the directions between 300 and 360 degrees come from the ocean and the wind that blows from 100 to 170 degrees comes from inland.\\
+For wind speed data, an anemometer was installed 3 m above the water level in marshy land adjacent to the estuary (Fig. \ref{fig:mapPDO}). It was observed that due to the topography of the sector, the wind direction is channelized along the estuary, so the wind goes mainly bidirectional. Directions between 300 and 360 degrees come from the ocean and the wind that blows from 100 to 170 degrees comes from inland.\\
 
-To complete the information, the freshwater streamflow into the Pescadero estuary is estimated based on a United States Geological Survey (USGS) gauge located on Pescadero Creek 8.5 km upstream from the mouth of the estuary (USGS 11162500). The tide height data in San Francisco Bay and Monterrey Bay (stations 9414290 and 9413450 respectively) were obtained from the National Oceanographic and Atmospheric Administration (NOAA) and waves data were obtained from the National Data Buoy Center, 40 km in the ocean from the coast of Half Moon Bay (station 46012). Additionally, the bottom pressure measurements at each sensor were corrected for sea-level atmospheric pressure measured at the nearest weather station located at the Half Moon Bay airport. This work focuses exclusively on the two periods where the estuary is closed between February and March.\\
+To complete the information, the freshwater streamflow into the Pescadero estuary is estimated based on a United States Geological Survey (USGS) gauge located on Pescadero Creek 8.5 km upstream from the mouth of the estuary (USGS 11162500) (\cite{usgs2022discharge}). The tide height data in San Francisco Bay and Monterrey Bay (stations 9414290 and 9413450 respectively) were obtained from the National Oceanographic and Atmospheric Administration (NOAA) (\cite{noaa2022sftides, noaa2022mntytides}), and waves data were obtained from the National Data Buoy Center, 40 km in the ocean from the coast of Half Moon Bay (station 46012) (\cite{noaa2022waves}). Additionally, the bottom pressure measurements at each sensor were corrected for sea-level atmospheric pressure measured at the nearest weather station located at the Half Moon Bay airport. This work focuses exclusively on the two periods where the estuary is closed between February and March.\\
 
 \subsection{Data processing}
 
 \subsubsection{Salinity and temperature}
 
-The measurements made with CTDs were made with a frequency of 10 or 30 sec, and at each location, there were one (PC), two (ML), three (NM), or four (DC) instruments at different depths, hence, we don't have a complete salinity or temperature profile in time and we don't know where the interface between the saltiest and the sweetest layer of the estuary lies. We obtained the density using the salinity, temperature, and pressure data, by the GSW Python package which is an implementation of the Thermodynamic Equation of Seawater (TEOS-2010).\\
+The CTDs measurements were made with a frequency of 10 or 30 sec, and at each location, there were one (PC), two (ML), three (NM), or four (DC) instruments at different depths, hence, we don't have a complete salinity or temperature profile in time and we don't know where the interface between the saltiest and the sweetest layer of the estuary lies. We obtained the density using the salinity, temperature, and pressure data, by the GSW Python package which is an implementation of the Thermodynamic Equation of Seawater (TEOS-2010).\\
 
 Additionally, there were taken CTD profiles on February 16th, between 17:00 and 17:30 which were used to calculate the density also using TEOS-2010. When the profiles were taken the wind was very calm so we can say that the estuary was not having any significant external forcing. \\
 
-Temperature is an important parameter for density, notwithstanding salinity stills dominate density values, there are a few points we must aboard about temperature in Pescadero. First, horizontal temperature gradients are present in Pescadero, where upstream is warmer meaning the water coming from the creek is warmer. In addition, during the studied period water temperature in San Francisco buoy from the National Data Buoy Center was between $9^o$C and $11^o$C, so water coming from the sea will be colder. Second, the temperature in the estuary is colder in the surface and warmer in the bottom, probably due to the fact that is winter during the studied period and the temperature in air is lower than in the water coming from upstream. Coldest temperature can be on the surface without sinking for being more dense because salinity dominates density in this case. Third, Pescadero in its closed state take form of a shallow lagoon, meaning that is more prone to heat loss and to air temperature than other bigger lakes (\cite{peeters2009currents}).\\
+Temperature is an important parameter for density, notwithstanding salinity stills dominates density values, there are a few points we must aboard about temperature in Pescadero. First, horizontal temperature gradients are present in Pescadero, where upstream is warmer meaning the water coming from the creek is warmer. In addition, during the studied period, the water temperature in San Francisco buoy from the National Data Buoy Center was between $9^o$C and $11^o$C, so the water coming from the sea will be colder. Second, the temperature in the estuary is colder on the surface and warmer at the bottom, probably since is winter during the studied period and the temperature in the air is lower than in the water coming from upstream. The coldest temperature can be on the surface without sinking for being denser because salinity dominates density in this case. Third, Pescadero in its closed state takes the form of a shallow lagoon, meaning that is more prone to heat loss and air temperature than other bigger lakes (\cite{peeters2009currents}).\\
 
-To represent stratification we used buoyancy frequency, defined as $N^2 = -(g/\rho)(\partial \rho/\partial z)$ (\cite{kundu2002fluid}) representing the water column stability, which increases or decreases as the fluid is more or less stratified. Potential energy anomaly was calculated to observe the behavior of density in the water column. It represents the work per volume required to completely mix the water column and is calculated using the equation shown by \citeauthor{simpson1990tidal}: 
+To represent stratification we used buoyancy frequency, defined as $N^2 = -(g/\rho)(\partial \rho/\partial z)$ (\cite{kundu2002fluid}) representing the water column stability, which increases or decreases as the fluid is more or less stratified. The potential energy anomaly was calculated to observe the behavior of density in the water column. It represents the work per volume required to completely mix the water column and is calculated using the equation shown by \citeauthor{simpson1990tidal}: 
 
 \begin{equation}
     \phi=\frac{1}{h}\int^h_0(\bar{\rho}-\rho)gzdz
@@ -305,16 +305,16 @@ which we discretized according to the number of sensors that each location had a
 
 \subsubsection{Estuary currents}
 
-Velocity data collected with the ADCP were axis-rotated to the principal coordinates ($u-v$), based on its direction of maximum variance as showed in Fig. \ref{fig:rotacion}. This was calculated for the studied period, obtaining an angle of $48.6^o$ from the west axis in a clockwise direction and it was established that the velocity was positive in the direction of the flow ($u$), that is, towards the sea.  \\
+Velocity data collected with the ADCP were axis-rotated to the principal coordinates ($u-v$), based on its direction of maximum variance as shown in Fig. \ref{fig:rotacion}. This was calculated for the studied period, obtaining an angle of $48.6^o$ from the west axis in a clockwise direction and it was established that the velocity was positive in the direction of the flow ($u$), that is, towards the sea.  \\
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\textwidth]{Imagenes/rotacion.png}
-    \caption{Time-series of wind speed .}
+    \caption{Speed data plotted in North-East and $u-v$ coordinates, and a map of Pescadero signaling the coordinates.}
     \label{fig:rotacion}
 \end{figure}
 
-ADCP data were averaged every 5 minutes to take off high-frequency signals. However, CTD data at the same location (DC) was not measured at the same depth due to bathymetry, thus we estimated the difference between both and adjusted speed data, finally adjusted the first cell to 0.91 m above the bottom of the estuary. \\
+ADCP data were averaged every 5 minutes to take off high-frequency signals. However, CTD data at the same location (DC) was not measured at the same depth due to bathymetry, thus we estimated the difference between both and adjusted the first cell to 0.91 m above the bottom of the estuary. \\
 
 \subsubsection{Wind stress}
 
@@ -325,7 +325,7 @@ Wind velocity data were also axis-rotated to the principal coordinates of the es
     \label{eq: tau}
 \end{equation}
 
-Where $\rho_{air}$ is the specific weight of air ($1.2 kg/m^3$), $C_D$ is the drag coefficient and was defined by \citeauthor{large1981open} (\cite*{large1981open}) at 0.0012 for wind velocities between 4 and 11 m/s, and considering that the collected speeds are smaller than 11 m/s and the results are not sensitive to $C_D$ it was set as 0.0012. $U_{10}$ is the adjusted wind speed at 10 meters high, and it was obtained by: 
+Where $\rho_{air}$ is the specific weight of air (1.2 $kg/m^3$), $C_D$ is the drag coefficient and was defined by \citeauthor{large1981open} (\cite*{large1981open}) at 0.0012 for wind velocities between 4 and 11 m/s, and considering that the collected speeds are smaller than 11 m/s and the results are not sensitive to $C_D$ it was set as 0.0012. $U_{10}$ is the adjusted wind speed at 10 meters high, and it was obtained by: 
 
 \begin{equation}
     U_{10}^2=U_z*(1-\frac{C_D}{\kappa}*\ln{\frac{10}{z}})^{-1}
@@ -344,7 +344,7 @@ To study the response of the stratified layers to a wind impulse and identify th
 where we estimated $h_1$ as the 30\% of the DC's total depth, L as 392 m, and for $u_*$ and g' we used:
 
 \begin{equation}
-    g'=\frac{\rho_{bottom}-\rho{surface}}{\rho_{surface}}*g
+    g'=\frac{\rho_{bottom}-\rho_{surface}}{\rho_{surface}}*g
     \label{eq: redg}
 \end{equation}
 
@@ -406,6 +406,8 @@ Pescadero estuary is characterized by having a strong thermohaline stratificatio
 
 We defined closed state at the estuary when the depth's change in time $\Delta h/\Delta t$, with $\Delta t=10$ hours, is positive and less than 0.01 m/h for more than a day (Fig. \ref{fig:saltemp}), meaning that the lagoon is filling with freshwater, increasing its level, and with a low influence from the sea. In that context Pescadero is in closed state three times, in mid January, in mid February, and in late February/early March where the first is at the start of the time series, not including the initial closure, while the second and third are in gray shadow (Fig. \ref{fig:saltemp}). The differences between these three closures are that the first has the highest water level, and second and third closures never get to the same level. \\
 
+It is known that the first breach of the bar was artificial (\cite{Williams2014}), openings that according to \Citeauthor{Behrens2013} (\cite*{Behrens2013}) would be less effective in keeping the mouth open than those that developed naturally, as in this case when the estuary is in open state for just a couple days. The second barrier breach is believed to have occurred naturally. \\
+
 In the time series we observed during closed state the temperature and salinity went stratified (Fig. \ref{fig:saltemp}). We observed a lower and non stable temperature at the surface (Sensors 3 and 4 in Fig. \ref{fig:saltemp}) due to the cold season and the following of day-night temperature changes. The temperature at the bottom (Sensors 1 and 2 in Fig. \ref{fig:saltemp}) is more stable, but still being influenced by daily changes and other external factors, indicating for example an abrupt fall on February 13th, and then started to increase again. The bottom salinity is also steady most of the time and is generally decreasing. The surface salinity is more vulnerable to external factors, and only is more stable during closed state. \\ 
 
 During closed state, we observed three layers in the density structure with the superior one getting thicker upstream. In Fig. \ref{fig:perfiles1} there is the longitudinal view of the estuary densities from the profiles and the moorings. We can observe that in near the mouth the salinity is higher or the water column is more homogeneous. After a few days in closed state, the estuary opened on February 21st and March 3rd observing a decrease in water level. \\
@@ -460,73 +462,125 @@ Fig. \ref{fig:vels} shows that as the wind increases, the along-estuary speeds (
 
 We can observe, that when the mouth is open tidal influence is present in Pescadero, and when significant wave height increases the influence is also larger (Fig. \ref{fig:wave1}). When the bar blocks the inlet, this causes accumulation of the upstream freshwater in the lagoon which is represented as an increase in Pescadero water level, reducing the ocean influence to be negligible to plain sight, but still could be wave overtopping. This wave overtopping can be detected by the fluctuations in the surface present in the data, but also we have to consider the fluctuations caused by wind stress or by an increment of the discharge.\\
 
-\subsection{Stratification controllers}
+\subsection{Hydrodynamic controllers}
 
-The external factors that could be affecting the estuary in closed state are freshwater inflow, saltwater intrusion, and wind stress. There are other factors involved as temperature or evaporation, but we estimated that those were negligible due to the haline stratification that dominates the estuary structure.
+The external factors that could be affecting the estuary in closed state are freshwater inflow, saltwater intrusion, and wind stress. There are other factors involved as temperature or evaporation, but we estimated that those were negligible due to the haline stratification that dominates the estuary structure.\\
 
-It is known that the first breach of the bar was artificial (Williams, 2014), openings that according to Behrens et al. (2013) would be less effective in keeping the mouth open than those that developed naturally, as in this case where the estuary is in open state for just a couple days. The second barrier breach is believed to have occurred naturally. 
+\subsubsection{Stratification controllers}
 
-We can notice a wind event in the offshore direction just before there is an increase in the Pescadero creek discharge, and we can observe this situation before other increases in flow, meaning the change of direction of the wind could happen during a storm.
-
-\subsubsection{Wind stress}
-
-At the beginning of both periods of disconnection, we noticed that there were changes in densities on the surface and in the deep layer, although the latter in smaller magnitude and fewer times (Figure 4). Three important wind events occurred in each period that matches with the increase in surface densities, observing that when the stress on the surface increases, so does the density in the upper layer in the three sensors. When wind forcing decreases, we noticed that density tends to return to its initial state, except for the largest events at the beginning of both periods, where density at the bottom is smaller after the event than before.
+At the beginning of both periods of disconnection, we noticed that there were changes in densities on the surface and in the deep layer, although the latter in smaller magnitude and fewer times (Fig. \ref{fig:dens}). Three important wind events occurred in each period that matches with the increase in surface densities, observing that when the stress on the surface increases, so does the density in the upper layer in the three sensors. When wind forcing decreases, we noticed that density tends to return to its initial state, except for the largest events at the beginning of both periods, where density at the bottom is smaller after the event than before.\\
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\textwidth]{Imagenes/dens.png}
-    \caption{Time-series of wind stress, NM, ML and DC densities in different depths, where the sensor 1 is the deepest and the sensor 4 is the shallowest (The positions in the water column of the sensors are showed in Fig. \ref{fig:perfiles1}), significant wave height in Halfmoon Bay (blue), Pescadero estuary water level (black) and tidal height in San Francisco (gray) in MLLW datum, and freshwater inflow of Pescadero creek.}
+    \caption{Time-series of wind stress ($\tau_w$), NM ($\rho_{NM}$), ML ($\rho_{ML}$) and DC ($\rho_{ML}$) densities in different depths, where the sensor 1 is the deepest and the sensor 4 is the shallowest (The positions in the water column of the sensors are showed in Fig. \ref{fig:perfiles1}), significant wave height in Halfmoon Bay in blue ($H_{sw}$), Pescadero estuary water level (black) and tidal height in San Francisco (gray) in MLLW datum, and freshwater inflow of Pescadero creek ($Q$).}
     \label{fig:dens}
 \end{figure}
 
 
-Upstream inflow had two increasing events in the studied period (Figure 4) and during those events, there wasn't an instant change in density, but we can notice that there is a trend in density, especially in the lower layers, where density is decreasing in time in both disconnected periods in NM and ML. In the first period, at DC location, different to the others, there is an increasing trend of density, which would not be unusual considering the lower layer of DC is much deeper than the ones of NM and ML (Figure 3), and the layer in DC with the same depth to those is the one before the deeper (in cyan, Figure 4-B). Another change in density that is noticeable occur in the middle layer of NM (in green, Figure 4-D) between February 13th and 17th, just before and after there was an increase in discharge, where density started being around 1015 kg/m3 and ended at almost 1000 kg/m3. 
+Upstream inflow had two increasing events in the studied period (Fig. \ref{fig:dens}) and during those events, there wasn't an instant change in density, but we can notice that there is a trend in density, especially in the lower layers, where density is decreasing in time in both disconnected periods in NM and ML. In the first period, at DC location, different to the others, there is an increasing trend of density, which would not be unusual considering the lower layer of DC is much deeper than the ones of NM and ML (Fig. \ref{fig:perfiles1}), and the layer in DC with the same depth to those is the one before the deeper (in cyan, Fig. \ref{fig:dens}). Another change in density that is noticeable occur in the middle layer of NM (in green, Fig. \ref{fig:dens}) between February 13th and 17th, just before and after there was an increase in discharge, where density started at around 1015 $kg/m^3$ and ended at almost 1000 $kg/m^3$. \\
 
-%%Hablar de las olas en el periodo de la boca abierta
-On the other hand, we could point out wave overtopping events in the estuary with wavelet analysis of the water level of the estuary (Figure 4-F), which identifies changes in its fluctuations showing when there is the presence of certain frequencies that could represent the ocean influence, crossed with tidal behavior and significant wave height. In Figure 4 we can observe increases in these frequencies' occurrence at the same time there are high waves and tide most of the time, but sometimes the wavelet analysis captures a signal during high tide but low wave height.
+Significant wave height and tidal height could be showing some wave overtopping events when there is high tide and high waves, but this does not mean there couldn't be wave overtopping when there is only high tide. Even though, we do not observe important increases in density that indicate an important saltwater input, so we cannot know when happens. Anyways, there are small changes in density both on the bottom and on the surface.\\
 
-Wave overtopping does not represent an important presence on density data, so we do not have too much saltwater intrusion, however, there are small changes in density both on the bottom and on the surface. On March 1st we observed a salt intrusion event with no wind stress on the surface, evidencing density fluctuations in locations NM, ML, and DC, but without causing important density changes (Figure 4), also we observed something similar on February 14th, 19th and 26th but right after the wind event, so we can't know which factor is causing it. On February 15th we observed after wave overtopping that there was an increase in salinity at NM bottom that doesn't look like the increases in salinity caused by wind effects, because the salinity is bigger than the one before the wind event. Although, as this still happens when there was a wind event, we can't attribute it just to salt intrusion. Between February 25th and 28th, there are three salinity increases at NM bottom happening at the same time there is high tide and where the last one is observable in ML too. Even though wave overtopping in these points is not too noticeable in wavelet analysis and those events happened after three different wind events it could be an influence in density due to salt intrusion in the estuary that contributes to wind influence. 
+First, we observed density fluctuations at the surface but without causing important changes on February 14th, 16th, 19th, 20th, 26th, 27th and March 1st, while there was high tide and sometimes high waves, but all of them happened right after a wind event or during an increase of discharge (fig. \ref{fig:dens}), so we can't assume that one factor or another is causing it. Second, at the bottom we observed some density increases that were momentary on February 15th, 26th, 27th and 28th during high tide, and mainly noticeable in NM, which is the closest sensor to the sea. Those increases do not look like the increases in salinity caused by wind effects, because the salinity is bigger than the one before the wind event in some cases, although, as this still happens when there was a wind event we can't attribute it just to wave overtopping. Third, there was a continuous increase in DC at the bottom which is after an important decrease of salinity after a wind event.\\
 
-%% graficar lo mismo que antes pero en vez de densidades con la superficie
+\subsubsection{Surface fluctuations controllers}
+
+If we focus on the depth at Pescadero we can observe more clearly how external factors are changing the estuary. The wavelet frequency analysis of depth is showing that between frequencies 0.01 and 0.001 Hz we can observe the effects of the waves into the lagoon, through identifying changes in its fluctuations and showing when there is presence of certain frequencies that could represent the ocean influence. If we crossed this information with tidal behavior and significant wave height we can obtain a more certain way to identify wave overtopping events. \\
+
+We notice that when the estuary is open the ocean effects are very marked (Fig. \ref{fig:surf}). In closed state the effects are also evident but more slightly and we could point out that those are wave overtopping events. Also, we can say that they occur exclusively in high tide, and in any wave height, but the events are bigger when the waves are larger. On the other hand, wave overtopping does not have a clear pattern of behavior in $dh/dt$ or in $(\hat{H}_{DC}-\hat{H}_{ML})/\Delta x$ when the inlet is closed.\\
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\textwidth]{Imagenes/dens.png}
-    \caption{Time-series of wind stress, NM, ML and DC densities in different depths, where the sensor 1 is the deepest and the sensor 4 is the shallowest (The positions in the water column of the sensors are showed in Fig. \ref{fig:perfiles1}), significant wave height in Halfmoon Bay (blue), Pescadero estuary water level (black) and tidal height in San Francisco (gray) in MLLW datum, and freshwater inflow of Pescadero creek.}
-    \label{fig:dens}
+    \includegraphics[width=\textwidth]{Imagenes/surf.png}
+    \caption{Time-series of wind stress ($\tau_w$), depth wavelet frequency analysis at DC, standardized depth ($\hat{H}$) in DC, NM and ML locations, the change of the water level in a 10-hour frame ($dh/dt$), standardized depth change between locations DC and ML ($(\hat{H}_{DC}-\hat{H}_{ML})/\Delta x$), significant wave height in Halfmoon Bay (blue), Pescadero estuary water level (black) and tidal height in San Francisco (gray) in MLLW datum, and freshwater inflow of Pescadero creek ($Q$).}
+    \label{fig:surf}
 \end{figure}
+
+As we notice earlier, discharge has two increase events during the studied period. We can observe that those increases are affecting directly to the surface, showing important peaks of $dh/dt$ during those events (\ref{fig:surf}). Also, the change of the standardized height in the horizontal showed at the beginning of the period negative values which changed to positive values after the increase of discharge, which result in happen after a big wind event and during a wave overtopping.\\
 
 \subsection{Wind-driven effects}
 
 As mentioned before, we noticed changes in density at the same time there were wind events, therefore for quantifying those events we calculated the potential energy anomaly of the water column in location NM and compared it to wind stress (Figure 5), where we noticed that there were a lot of similarities between both time-series. We observed that when wind stress magnitude increases, potential energy anomaly decreases, except when there are positive values like on February 28th and 29th, when there was no change in potential energy anomaly. However, we can notice that the potential energy anomaly has not the same behavior in two wind events of the same magnitude, and we can observe that, in time, wind decreases its effect on the potential energy anomaly, only reaching 0 at the firsts wind events of each period, in addition, we can observe that after those events there is a decrease in potential energy anomaly when wind stress is zero, showing a change in their stratification structure after those events.
 
-%% imagen potential anomaly wind stress 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{Imagenes/phi.png}
+    \caption{Time-series of wind stress ($\tau_w$), and potential energy anomaly ($\phi$). Dots are the instant when wind stress is zero. The shadowed window is when the estuary is in open state.}
+    \label{fig:phi}
+\end{figure}
 
 For further understanding, we implemented the Wedderburn number to observe if there was upwelling due to wind events. As we did not have the thickness of the epilimnion we estimated a range of positions for the pycnocline. This range started right after the first CTD, the deeper one (in black), and ended in the second CTD (in grey) (Figure 6-D). As we are working with a range of values, we considered a partial upwelling when just the upper boundary reaches W=1 and full upwelling when both boundaries reach that value. In each period we noticed one full upwelling event and two partial upwelling events, for a total of six upwelling events, always the first one being fully upwelled (Figure 6). After full upwelling events, density at the bottom of the water column did not come back to its original values from before the event. 
 
-%% imagen de esfuerzo de viento, densidad en nm, W y densidad en NM vertical
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{Imagenes/wedd.png}
+    \caption{Time-series of wind surface shear stress ($\tau_w$), Wedderburn number ($W$) where the dashed line shows W=1 and black and gray lines show W obtained at the lower and upper part of the selected window respectively, density at the bottom (blue), middle (green), and top (yellow) of the water column in NM location ($\rho_{nm}$) (see Fig. \ref{fig:perfiles1} for sensors positions), and colormap of density in time-space at each sensor of location NM with the black and gray line that limit the lower and upper part of the window of possible values for top layer width. The dark shadowed window is when the estuary is in open state. Light shadowed windows are when the upwelling events were observed. Red line is the water level, and the star indicates where the surface layer ends according to Fig. \ref{fig:perfiles1}.}
+    \label{fig:wedd}
+\end{figure}
+
 
 In Figure 6 we can observe how density at the surface is getting more resilient to wind effects in time. The three wind events in the first period are similar in magnitude, but the increase in density that they make is each time smaller, even though we can notice a small increase in wind stress at the beginning of the time series that increase density three times more than the last wind event in the period. We can also notice that with the density changes in the vertical where at the first wind events of both periods reached 0 but after those started going steadier.
 
 The first important wind event started on February 13th at 2 a.m. and the first location that was affected was NM, then ML, and finally DC. We can prove that with the change of density along the estuary (Figure 7-C) where we observed negative values almost all the time, showing there are higher values in NM than in DC. When the wind starts to blow there is an increase of $\Delta \rho/\Delta x$ magnitude, and after reaching the peak the value decreases again to zero and stays there if the wind speed is constant. If wind speed decreases there is another increase in $\Delta \rho/\Delta x$ magnitude, showing that the wind stops influencing DC location first and then NM.
 
-%imagen de wind stress,densidad superficial, cambios de densidad en la horizontal y en la vertical
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{Imagenes/diff.png}
+    \caption{Time-series of wind shear stress at the surface ($\tau_w$), surface densities in locations NM, ML, and DC ($\rho_{top}$), density change between locations DC and NM at the surface ($\frac{\rho_{DC}-\rho_{NM}}{\Delta x}$), and density change between surface and bottom in locations NM, ML, and DC ($\frac{\Delta \rho}{\Delta z} \; [kg/m^4]$).}
+    \label{fig:diff}
+\end{figure}
 
 To quantify the time difference between the moment wind started blowing and density started changing at the different CTD locations, we calculate by visual inspection how long it took for the wind to affect density at different points. To achieve this, we considered the moment that density just started to change into a trend after the wind started or stopped blowing. Also, to compare the obtained values we calculated the cross-correlation, between density and wind stress, first normalizing and standardizing both signals. We obtained the values of only the first wind event, how long took to start, and end, and for the cross-correlation we added the total of the first-period lag.
 
 In Table 1 we observed that surface sensors (NM3, DC4, and ML2) had no delay with the cross-correlation method and did have it with a visual inspection. Also, at the latter, we observed that NM3 was the last sensor that started to change after wind stress started, but it increased faster than the others, fact that we can observe slightly in Figure 7-B. Also, we observed that the one that took longer to come back to its initial value was NM3, then ML2 and DC4.
 
-\subsubsection{Upwelling and circulation}
 
-\subsubsection{Dynamic response}
+If we compared Table 1 values to the response tilt time obtained as the fourth part of the internal wave period, that is 11.75+-2.72 min, we observe that it approximates the most to the values of the total period obtained by cross-correlation at the surface, but they are the double of it. Also, at the beginning of the event by visual inspection DC4 takes 10 minutes to start changing which, considering that DC is at the center of the estuary, could be the correct value.
 
+Surface wind stress over the closed estuary causes the upper layer to go in the same direction as the wind, and the lower layer to move in the opposite direction. Given the limitations of the ADCP sensor, velocities near the surface were not always captured, therefore, we observed a range of speed, not showing what happens at the bottom or the surface. On the other hand, Figure 8 shows that as the wind increases, the speeds of the estuary increase in the same proportion, presenting the shape of the surface stress replicated on the speed distribution.
+
+%% figura velocidades
+
+The observed dynamic of the upper velocity in Figure 8 is such that when wind stress has positive velocity, considering positive the direction of the streamflow, the along-estuary water velocity is negative and vice versa. The magnitude of wind stress does not change this behavior in the estuary, but as the water level increase, the estuarine velocity gets smaller for the same wind-stress magnitude. Also, when wind stress is very small the dynamic change, and the along-estuary velocity goes in the same direction as the wind stress at the surface. 
+
+For the average vertical velocity (Figure 8-C), we can observe mainly positive direction (going up), but there is no interesting behavior in it until the second period when we observed more changes other than small fluctuations during a wind event. We could observe important peaks when the wind was starting to blow and, in some cases, right after the wind finished, showing that layers are going up at that moment.
+
+To observe in detail the behavior of the water column, densities and velocities profiles for each sensor were plotted in certain instants in the first wind event of the second period (Figure 9). This wind event is characterized by two wind increases and a period in the middle with small wind stress that lasted 3 hours approximately. The profiles before the event, during the first increase, the middle period, the second increase, and after the event were plotted.
+
+%%Figura perfiles
+
+We could notice that before the wind event the water column is stratified, and the velocity is zero. During the first part of the event, the principal effect is the density increase near the surface and the positive velocity in all the visible water columns. Then, when the wind stopped the estuary went stratified with similar values of density to the first profiles, but the velocity had a different behavior, and went negative in the upper layer, probably showing that the water is returning to its original state or that when wind stress is too small the surface water that goes into the same direction of the wind gets thicker and starts to be detected by the ADCP. When the wind reaches its maximum the water column is less stratified than in the first increase and velocity has bigger values. Finally, the last profiles show positive velocities at the surface and as there is no wind at that moment, maybe is showing the freshwater passing throw the estuary, also, the density profiles show a stratified estuary but less than before the event, meaning there was mixing in the water column during the wind event.
+
+When the wind is blowing inland, shear stress causes a setup at the end of the estuary by driving water away from the free surface, increasing upstream hydrostatic pressure and causing estuarine recirculation. This causes the pycnocline to move towards the surface and increase in density where the surface layer used to be. This is what is happening in Figure 9, where NM has been affected first and more abruptly than ML and DC, the latter being the one that changes its density the least. This may be because NM is the closest sensor to the mouth of the estuary, and therefore it is the one that detects the pycnocline first, followed by ML and DC.
+
+On the other hand, buoyancy frequency values when wind stress is zero decreased, going from 0.2 to 0.1 kg/m^3  showing less stratification after the big wind event. Also, we can notice that N^2 is steadier after the wind event and decrease less for winds of the same magnitude.
+
+%% fluctuations
+
+
+Figure 3-B and 3-F show the height of the standardized water column of the NM and DC sensors and their amplified difference. There it can be seen that for strong wind events there is an increase in surface fluctuations. In some cases these fluctuations exist together with a high tide, which may indicate the overflow of the waves to the estuary. The wavelet analysis shows high-frequency waves when that occurs (Figure 3-D and 3-H), but it could be hiding some insignificant wave overshoot events. It is probable that when there are high frequencies in the wavelet analysis it is the influence of the tide and when lower frequencies are observed it is that of the wind.
+%% imagen acercada de fig 12 para ver fluctuaciones del viento
+%% tratard eincluir wavelet completo de ese evento
+The inclination of the surface (set up) can be noticed at small (Figure 3-I and 3-J) and at medium scale (Figure 3-B and 3-F), if the standardized water level is observed between the sensor plus near the mouth (NM) and the central (DC). The difference between the levels of NM and DC indicates that when this value increases, the height in NM is increasing and the height in DC is decreasing, and vice versa. This could be caused by both the wind and other external factors such as inflow from upstream, flow that may be
+entering or escaping through the sand bar, among others.
+
+
+The spectral analysis of the height of the water column in DC and NM (Figure 4) shows a great overload, but in both sensors peaks of low significance can be discerned with periods between 55.5 and 17.5 min (Figure 4-A and 4-C), which could be a reflection of the period of wind forcing over the closed estuary, but it is something that should be checked. If we observe at a lower frequency, several peaks are observed, the most significant being 2.1 min (Figure 4-B and 4-D).
+
+%figura analisis espectral viento con superficie
 
 
 \section{Discussion}
 
 \textit{Para mí el capitulo fundamental. Los resultados son analizados en detalle, pudiendo incorporar análisis adicionales que no estaban inicialmente en la metodología, como para entender, entre otras cosas, la sensibilidad de los resultados ante parámetros por ejemplo. O la comparación con resultados de otros estudios, o conocimiento existente. En este capítulo se debe entender si lo que se hizo es útil o no.}
 
+Why during wave overtopping the bottom of NM increase and then go to normal
+explain the  continuous increase in DC at the bottom
+
 Near the mouth the upper layer is thinner probably because the salinity is higher due to the waves that are overtopping the sandbar.
+
+Hablar sobre como detecta el wavelet las olas (poner imagen de art congreso)
 
 Pescadero funciona como tal y tales cuerpos de agua (buscar) (discusion de kelly 2017 buena)
 payandeh tiene algunos pára comparar con enfoqye de viento
@@ -538,6 +592,8 @@ frequency analysis doesnt show an specific time, shows all the dataset
 
 acording to Paugam 2021 the drag coefficient Cd can be difficult to estimate in shallow water %discusion?
 
+We can notice a wind event in the offshore direction just before there is an increase in the Pescadero creek discharge, and we can observe this situation before other increases in flow, meaning the change of direction of the wind could happen during a storm.
+
 \section{Conclusions}
 
 \textit{1 o 2 páginas que resuman lo aprendido, y verifiquen que los objetivos se cumplieron.}
@@ -547,6 +603,6 @@ Utilizar la siguiente estructura para las secciones principales, como por ejempl
 
 La memoria podrá tener una extensión de máximo 30 páginas, sin contar con la portada y hoja de firmas.
 
-
-\printbibliography
+\bibliographystyle{apacite}
+\bibliography{bibliografia.bib}
 \end{document}

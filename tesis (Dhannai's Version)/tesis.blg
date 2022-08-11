@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tesis.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: apa.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Database file #1: Bibliografia.bib
+Warning--empty journal in sloan2006ecological
+You've used 57 entries,
+            1940 wiz_defined-function locations,
+            819 strings with 15013 characters,
+and the built_in function-call counts, 23824 in all, are:
+= -- 2298
+> -- 1143
+< -- 25
++ -- 407
+- -- 392
+* -- 2279
+:= -- 4182
+add.period$ -- 163
+call.type$ -- 57
+change.case$ -- 479
+chr.to.int$ -- 56
+cite$ -- 58
+duplicate$ -- 777
+empty$ -- 1533
+format.name$ -- 480
+if$ -- 4480
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 50
+newline$ -- 279
+num.names$ -- 171
+pop$ -- 375
+preamble$ -- 1
+purify$ -- 480
+quote$ -- 0
+skip$ -- 585
+stack$ -- 0
+substring$ -- 1711
+swap$ -- 112
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 340
+warning$ -- 1
+while$ -- 194
+width$ -- 0
+write$ -- 713
+(There was 1 warning)
