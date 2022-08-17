@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex tesis"] 1660253890 "tesis.aux" "tesis.bbl" "tesis" 1660253935
-  "Bibliografia.bib" 1660240838 27908 aea8e7d449a7cb0a18831337ab9aec4e ""
+["bibtex tesis"] 1660687663 "tesis.aux" "tesis.bbl" "tesis" 1660687670
+  "Bibliografia.bib" 1660682955 29168 2933d8a5957afadf57c35b9f98ad75d1 ""
   "C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/bibtex/bst/beebe/apa.bst" 954231233 23582 e3c8338eb1efb7432441aa8861285f53 ""
-  "tesis.aux" 1660253935 16555 cec720f95b29faa867b2f12ec1f31703 "pdflatex"
+  "tesis.aux" 1660687669 17498 0f2765df3def273ea84c2bc84b0d53d0 "pdflatex"
   (generated)
   "tesis.bbl"
   "tesis.blg"
-["pdflatex"] 1660253929 "c:/Users/Dhannai/Documents/git/push/tesis (Dhannai's Version)/tesis.tex" "tesis.pdf" "tesis" 1660253935
+["pdflatex"] 1660687663 "c:/Users/Dhannai/Documents/git/push/tesis (Dhannai's Version)/tesis.tex" "tesis.pdf" "tesis" 1660687670
   "1-introduction.tex" 1660246459 10149 8ffec87c865f8bfb0a7d1ec79415bf1c ""
   "2-objectives.tex" 1660242879 1531 b53ab0c9c26779031fa04c6a5337934f ""
   "3-literature-review.tex" 1660250338 9085 26ca13375f54a6fe5a51efbf191ea0f3 ""
   "4-methods.tex" 1660250559 11222 c7e83fa0b6c9a01cc31224f9931927e6 ""
-  "5-results.tex" 1660253928 31373 befe9f492504a961484d12410e7202cb ""
+  "5-results.tex" 1660687655 32570 d9d40b6219d6959fb03ef1c931f1e121 ""
   "C:/Users/Dhannai/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1660244819 279811 21458d7cb40c17308453d8eee000b2b5 ""
   "C:/Users/Dhannai/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1659454185 10331206 4fee66bb8edeceba93dd340796a3f311 ""
   "C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458470287 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -280,6 +280,7 @@
   "Imagenes/Q.png" 1659644406 19573 d88fadf06745d5258dde06af937405bb ""
   "Imagenes/dens.png" 1659720311 151292 9a8740e1df83e18b52a2700f39d046ae ""
   "Imagenes/diff.png" 1660232345 74128 07b5559fe7f1e858ffa3a8b23305e7c5 ""
+  "Imagenes/freqs.png" 1660662056 64317 916c19b934c0304b24387da739a6d1f7 ""
   "Imagenes/logo_universidad.png" 1659465956 8891 84e1a0eca1593973d7e3bab48623c521 ""
   "Imagenes/logo_universidad_letras_lateral.png" 1659465956 9476 c73183154c061278306d802a550f5100 ""
   "Imagenes/mapa1.png" 1659465956 13954191 be898ea03ec09b1e7b05260e3c6cfc46 ""
@@ -289,7 +290,8 @@
   "Imagenes/phi.png" 1660229530 47149 0e13b116657846ecd580b3aadce59640 ""
   "Imagenes/rotacion.png" 1659557700 1275345 6c1f48f4cbcf552b6005a2bb47d20db0 ""
   "Imagenes/saltemp.png" 1659633525 145960 3729ddcee5466711d16681dd1fce12c3 ""
-  "Imagenes/surf.png" 1660080221 150116 404fcb4117d7634b724413832b2779a6 ""
+  "Imagenes/surf.png" 1660656234 148427 0fd9301a436c0057891e88f4843cfc36 ""
+  "Imagenes/surf2.png" 1660660712 198823 949e421a5d0493562b61422d61591e13 ""
   "Imagenes/vel.png" 1656612504 16097 ad5ea98ee2f6de9b7e61260f752a2fab ""
   "Imagenes/vels.png" 1660252963 151029 2903aa8fbe28573f042230a9014705a2 ""
   "Imagenes/vista_long2.png" 1659465956 780968 104f36f30f2a8a670ffcf6c328bcfce5 ""
@@ -298,12 +300,12 @@
   "Imagenes/wind_vel.png" 1659548172 26903 d69a733dce1638192994550595b2cbec ""
   "Imagenes/windrose.png" 1659621535 80759 b214ec669597164229b81e338c575168 ""
   "c:/Users/Dhannai/Documents/git/push/tesis (Dhannai's Version)/tesis.tex" 1660248277 6547 379fa9a61a0fb1cc1bfab52c8709661d ""
-  "tesis.aux" 1660253935 16555 cec720f95b29faa867b2f12ec1f31703 "pdflatex"
-  "tesis.bbl" 1660253890 16408 8ef12d1048ce9a12ecd7a4ef75faee68 "bibtex tesis"
-  "tesis.lof" 1660253935 5125 7928aa34c6cd8b8727af543fb3ea7f79 "pdflatex"
-  "tesis.lot" 1660253935 347 cf9e80d7dbfb7846b346cc11c3d8ea6e "pdflatex"
+  "tesis.aux" 1660687669 17498 0f2765df3def273ea84c2bc84b0d53d0 "pdflatex"
+  "tesis.bbl" 1660687663 16647 a11c5c6ac1e274b14a9de8ae475e2133 "bibtex tesis"
+  "tesis.lof" 1660687669 5843 42ed1e5e3e106e95d0763a70808ecc35 "pdflatex"
+  "tesis.lot" 1660687669 347 3f8f911d2b71cdf9ec646d617074e1d8 "pdflatex"
   "tesis.tex" 1660248277 6547 379fa9a61a0fb1cc1bfab52c8709661d ""
-  "tesis.toc" 1660253935 2210 bf4154be0a4b7135c08da578670d4daa "pdflatex"
+  "tesis.toc" 1660687669 2211 c1d8e31c9b4ccc8514858f55f3fd29dd "pdflatex"
   (generated)
   "tesis.aux"
   "tesis.lof"

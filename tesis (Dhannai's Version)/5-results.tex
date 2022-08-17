@@ -120,7 +120,7 @@ As we notice earlier, discharge has two increase events during the studied perio
 
 \subsection{Wind-driven effects}
 
-As mentioned before, we noticed changes in density at the same time there were wind events, therefore for quantifying those events we calculated the potential energy anomaly of the water column in location NM and compared it to wind stress (Figure 5), where we noticed that there were a lot of similarities between both time-series. We observed that when wind stress magnitude increases, potential energy anomaly decreases, except when there are positive values like on February 28th and 29th, when there was no change in potential energy anomaly. However, we can notice that the potential energy anomaly has not the same behavior in two wind events of the same magnitude, and we can observe that, in time, wind decreases its effect on the potential energy anomaly, only reaching 0 at the firsts wind events of each period, in addition, we can observe that after those events there is a decrease in potential energy anomaly when wind stress is zero, showing a change in their stratification structure after those events.
+As mentioned before, we noticed changes in density at the same time there were wind events, therefore for quantifying those events we calculated the potential energy anomaly of the water column in location NM and compared it to wind stress (Fig. \ref{fig:phi}), where we noticed that there were a lot of similarities between both time-series. We observed that when wind stress magnitude increases, potential energy anomaly decreases, except when there are positive values like on February 28th and 29th, when there was no change in potential energy anomaly. However, we can notice that the potential energy anomaly has not the same behavior in two wind events of the same magnitude, and we can observe that, in time, wind decreases its effect on the potential energy anomaly, only reaching 0 at the firsts wind events of each period. In addition, we can observe that after those events there is a decrease in potential energy anomaly when wind stress is zero, showing a change in their stratification structure after those events.\\
 
 \begin{figure}[h!]
     \centering
@@ -129,7 +129,7 @@ As mentioned before, we noticed changes in density at the same time there were w
     \label{fig:phi}
 \end{figure}
 
-For further understanding, we implemented the Wedderburn number to observe if there was upwelling due to wind events. As we did not have the thickness of the epilimnion we estimated a range of positions for the pycnocline. This range started right after the first CTD, the deeper one (in black), and ended in the second CTD (in grey) (Figure 6-D). As we are working with a range of values, we considered a partial upwelling when just the upper boundary reaches W=1 and full upwelling when both boundaries reach that value. In each period we noticed one full upwelling event and two partial upwelling events, for a total of six upwelling events, always the first one being fully upwelled (Figure 6). After full upwelling events, density at the bottom of the water column did not come back to its original values from before the event. 
+For further understanding, we implemented the Wedderburn number to observe if there was upwelling due to wind events. As we did not have the thickness of the epilimnion we estimated a range of positions for the pycnocline. This range started right after the first CTD, the deeper one (in black), and ended in the second CTD (in grey) (Fig. \ref{fig:wedd}). Also, we marked with a star where was the epilimnion limit on February 16th which could be changing in time. As we are working with a range of values, we considered a partial upwelling when just the upper boundary reaches W=1 and full upwelling when both boundaries reach that value. In each period we noticed one full upwelling event and two partial upwelling events, for a total of six upwelling events observed in the studied period, always the first one being fully upwelled (Fig. \ref{fig:wedd}). After full upwelling events, density at the bottom of the water column did not come back to its original values from before the event. \\
 
 \begin{figure}[h!]
     \centering
@@ -138,9 +138,7 @@ For further understanding, we implemented the Wedderburn number to observe if th
     \label{fig:wedd}
 \end{figure}
 
-In Figure 6 we can observe how density at the surface is getting more resilient to wind effects in time. The three wind events in the first period are similar in magnitude, but the increase in density that they make is each time smaller, even though we can notice a small increase in wind stress at the beginning of the time series that increase density three times more than the last wind event in the period. We can also notice that with the density changes in the vertical where at the first wind events of both periods reached 0 but after those started going steadier.
-
-The first important wind event started on February 13th at 2 a.m. and the first location that was affected was NM, then ML, and finally DC. We can prove that with the change of density along the estuary (Figure 7-C) where we observed negative values almost all the time, showing there are higher values in NM than in DC. When the wind starts to blow there is an increase of $\Delta \rho/\Delta x$ magnitude, and after reaching the peak the value decreases again to zero and stays there if the wind speed is constant. If wind speed decreases there is another increase in $\Delta \rho/\Delta x$ magnitude, showing that the wind stops influencing DC location first and then NM.
+In Fig. \ref{fig:diff} we can observe how density at the surface is getting more resilient to wind effects in time. The three wind events in the first period are similar in magnitude, but the increase in density that they make is each time smaller. What's more, we can notice a small increase in wind stress at the beginning of the time series that increase density three times more than the last wind event in the period. We can also notice that with the density changes in the vertical where at the first wind events of both periods reached 0 but after those started going steadier.\\
 
 \begin{figure}[h!]
     \centering
@@ -149,9 +147,11 @@ The first important wind event started on February 13th at 2 a.m. and the first 
     \label{fig:diff}
 \end{figure}
 
-To quantify the time difference between the moment wind started blowing and density started changing at the different CTD locations, we calculate by visual inspection how long it took for the wind to affect density at different points. To achieve this, we considered the moment that density just started to change into a trend after the wind started or stopped blowing. Also, to compare the obtained values we calculated the cross-correlation, between density and wind stress, first normalizing and standardizing both signals. We obtained the values of only the first wind event, how long took to start, and end, and for the cross-correlation we added the total of the first-period lag.
+The first important wind event started on February 13th at 2 a.m. and the first location that was affected was NM, then ML, and finally DC. We can prove that with the change of density along the estuary (Fig. \ref{fig:diff}) where we observed negative values almost all the time, showing there are higher values in NM than in DC. When the wind starts to blow there is an increase of $\Delta \rho/\Delta x$ magnitude, and after reaching the peak the value decreases again to zero and stays there if the wind speed is constant. If wind speed decreases there is another increase in $\Delta \rho/\Delta x$ magnitude, showing that the wind stops influencing DC location first and then NM.\\
 
-In Table \ref{tab:lag} we observed that surface sensors (NM3, DC4, and ML2) had no delay with the cross-correlation method and did have it with a visual inspection. Also, at the latter, we observed that NM3 was the last sensor that started to change after wind stress started, but it increased faster than the others, fact that we can observe slightly in Figure 7-B. Also, we observed that the one that took longer to come back to its initial value was NM3, then ML2 and DC4.
+To quantify the time difference between the moment wind started blowing and density started changing at the different CTD locations, we calculate by visual inspection how long it took for the wind to affect density at different points. To achieve this, we considered the moment that density just started to change into a trend after the wind started or stopped blowing. Also, to compare the obtained values we calculated the cross-correlation, between density and wind stress, after normalizing and standardizing both signals. We obtained the values of the first wind event, how long took to start and end, and for the cross-correlation we added the total of the first-period lag.\\
+
+In Table \ref{tab:lag} we observed that surface sensors (NM3, DC4, and ML2) had no delay with the cross-correlation method and did have it with a visual inspection. Also, at the latter, we observed that NM3 was the last sensor that started to change after wind stress started, but it increased faster than the others, fact that we can observe slightly in Fig. \ref{fig:diff} for $\rho_{top}$. Also, we observed that the one that took longer to come back to its initial value was NM3, then ML2 and DC4.\\
 
 \begin{table}[]
     \centering
@@ -221,11 +221,9 @@ In Table \ref{tab:lag} we observed that surface sensors (NM3, DC4, and ML2) had 
     \label{tab:lag}
     \end{table}
 
-    If we compared Table 1 values to the response tilt time obtained as the fourth part of the internal wave period, that is 11.75+-2.72 min, we observe that it approximates the most to the values of the total period obtained by cross-correlation at the surface, but they are the double of it. Also, at the beginning of the event by visual inspection DC4 takes 10 minutes to start changing which, considering that DC is at the center of the estuary, could be the correct value.
+    If we compared Table \ref{tab:lag} values to the response tilt time obtained as the fourth part of the internal wave period, that is $11.75 \pm 2.72$ min, we observe that it approximates the most to the values of the total period obtained by cross-correlation at the surface, but they are the double of it. Also, at the beginning of the event by visual inspection DC4 takes 10 minutes to start changing which, considering that DC is at the center of the estuary, could be the correct value.\\
 
-    Surface wind stress over the closed estuary causes the upper layer to go in the same direction as the wind, and the lower layer to move in the opposite direction. Given the limitations of the ADCP sensor, velocities near the surface were not always captured, therefore, we observed a range of speed, not showing what happens at the bottom or the surface. On the other hand, Figure 8 shows that as the wind increases, the speeds of the estuary increase in the same proportion, presenting the shape of the surface stress replicated on the speed distribution.
-    
-    Fig. \ref{fig:vels} shows that as the wind increases, the along-estuary speeds ($u$) increase in a similar proportion, but in opposite direction. Wind is also influencing cross-estuary velocity ($v$), but in less intensity. Vertical velocity ($w$) present fluctuations and some negative or positive peaks during wind events or after in some cases. 
+    Surface wind stress over the closed estuary causes the upper layer to go in the same direction as the wind, and the lower layer to move in the opposite direction \citep{Katopodes2018}. Given the limitations of the ADCP sensor, velocities near the surface were not always captured, therefore, we observed a range of speed, not showing what happens at the bottom or the surface. On the other hand, Fig. \ref{fig:vels} shows that as the wind increases, the along-estuary speeds ($u$) increase in a similar proportion, but in opposite direction. Wind is also influencing cross-estuary velocity ($v$), but in less intensity. Vertical velocity ($w$) present fluctuations and some negative or positive peaks during wind events or after in some cases. \\
 
     \begin{figure}[h!]
         \centering
@@ -234,11 +232,11 @@ In Table \ref{tab:lag} we observed that surface sensors (NM3, DC4, and ML2) had 
         \label{fig:vels}
     \end{figure}
     
-    The observed dynamic of the upper velocity in Figure 8 is such that when wind stress has positive velocity, considering positive the direction of the streamflow, the along-estuary water velocity is negative and vice versa. The magnitude of wind stress does not change this behavior in the estuary, but as the water level increase, the estuarine velocity gets smaller for the same wind-stress magnitude. Also, when wind stress is very small the dynamic change, and the along-estuary velocity goes in the same direction as the wind stress at the surface. 
+    The observed dynamic of the upper velocity at the window shown in Fig. \ref{fig:vels} is such that when wind stress has positive velocity, considering positive the direction of the streamflow, the along-estuary water velocity is negative and vice versa. The magnitude of wind stress does not change this behavior along time, but as the water level increase, the estuarine velocity gets smaller for the same wind-stress magnitude. However, when wind stress is very small the dynamic change, and the upper along-estuary velocity at the window goes in the same direction as the wind stress at the surface. \\
     
-    For the average vertical velocity (Figure 8-C), we can observe mainly positive direction (going up), but there is no interesting behavior in it until the second period when we observed more changes other than small fluctuations during a wind event. We could observe important peaks when the wind was starting to blow and, in some cases, right after the wind finished, showing that layers are going up at that moment.
+    For the average vertical velocity in the water column ($\hat{w}$) (Fig. \ref{fig:vels}), we can observe mainly positive direction (going up), but there is no interesting behavior in it until the second period when we observed more changes other than small fluctuations during a wind event. We could observe important peaks when the wind was starting to blow and, in some cases, right after the wind finished, showing that layers are going up at that moment. Also, we observed negative values during the first wind event on the second period, showing probably that the water column is returning to its initial place.\\
     
-    To observe in detail the behavior of the water column, densities and velocities profiles for each sensor were plotted in certain instants in the first wind event of the second period (Figure 9). This wind event is characterized by two wind increases and a period in the middle with small wind stress that lasted 3 hours approximately. The profiles before the event, during the first increase, the middle period, the second increase, and after the event were plotted.
+    To observe in detail the behavior of the water column, densities and velocity profiles for each sensor were plotted in certain instants in the first wind event of the second period (Fig. \ref{fig:perfiles2}). This wind event is characterized by two wind increases and a period in the middle with small wind stress that lasted 3 hours approximately. The profiles before the event, during the first increase, the middle period, the second increase, and after the event were plotted.\\
 
     \begin{figure}[h!]
       \centering
@@ -249,13 +247,19 @@ In Table \ref{tab:lag} we observed that surface sensors (NM3, DC4, and ML2) had 
       \label{fig:perfiles2}
     \end{figure}
     
-    We could notice that before the wind event the water column is stratified, and the velocity is zero. During the first part of the event, the principal effect is the density increase near the surface and the positive velocity in all the visible water columns. Then, when the wind stopped the estuary went stratified with similar values of density to the first profiles, but the velocity had a different behavior, and went negative in the upper layer, probably showing that the water is returning to its original state or that when wind stress is too small the surface water that goes into the same direction of the wind gets thicker and starts to be detected by the ADCP. When the wind reaches its maximum the water column is less stratified than in the first increase and velocity has bigger values. Finally, the last profiles show positive velocities at the surface and as there is no wind at that moment, maybe is showing the freshwater passing throw the estuary, also, the density profiles show a stratified estuary but less than before the event, meaning there was mixing in the water column during the wind event.
+    We could notice that before the wind event the water column is stratified, and the velocity is zero. During the first part of the event, the principal effect is the density increase near the surface and the positive velocity in all the visible part of the water columns. Then, when the wind stopped the estuary went stratified with similar values of density to the first profiles, but the velocity had a different behavior, and went negative in the upper layer, probably showing that the water is returning to its original state or that when wind stress is too small the surface water that goes into the same direction of the wind gets thicker and starts to be detected by the ADCP. When the wind reaches its maximum the water column is less stratified than in the first increase and velocity has bigger values. Finally, the last profiles show positive velocities at the surface and as there is no wind at that moment, maybe is showing the freshwater passing throw the estuary, also, the density profiles show a stratified estuary but less than before the event, meaning there was mixing in the water column during the wind event.\\
     
     When the wind is blowing inland, shear stress causes a setup at the end of the estuary by driving water away from the free surface, increasing upstream hydrostatic pressure and causing estuarine recirculation. This causes the pycnocline to move towards the surface and increase in density where the surface layer used to be. This is what is happening in Figure 9, where NM has been affected first and more abruptly than ML and DC, the latter being the one that changes its density the least. This may be because NM is the closest sensor to the mouth of the estuary, and therefore it is the one that detects the pycnocline first, followed by ML and DC.
     
     On the other hand, buoyancy frequency values when wind stress is zero decreased, going from 0.2 to 0.1 kg/m3  showing less stratification after the big wind event. Also, we can notice that N2 is steadier after the wind event and decrease less for winds of the same magnitude.
     
-    %% fluctuations
+   
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=0.9\textwidth]{Imagenes/surf2.png}
+      \caption{Time-series of wind stress ($\tau_w$), depth wavelet frequency analysis at DC, standardized depth ($\hat{H}$) in DC and ML locations, the change of the water level in a 10-hour frame ($dh/dt$), standardized depth change between locations DC and ML ($(\hat{H}_{DC}-\hat{H}_{ML})/\Delta x$) with its rolling mean, and significant wave height in Halfmoon Bay (blue), Pescadero estuary water level (black) and tidal height in San Francisco (gray) in MLLW datum.}
+      \label{fig:surf2}
+    \end{figure}
     
     
     Figure 3-B and 3-F show the height of the standardized water column of the NM and DC sensors and their amplified difference. There it can be seen that for strong wind events there is an increase in surface fluctuations. In some cases these fluctuations exist together with a high tide, which may indicate the overflow of the waves to the estuary. The wavelet analysis shows high-frequency waves when that occurs (Figure 3-D and 3-H), but it could be hiding some insignificant wave overshoot events. It is probable that when there are high frequencies in the wavelet analysis it is the influence of the tide and when lower frequencies are observed it is that of the wind.
@@ -267,7 +271,13 @@ In Table \ref{tab:lag} we observed that surface sensors (NM3, DC4, and ML2) had 
     
     The spectral analysis of the height of the water column in DC and NM (Figure 4) shows a great overload, but in both sensors peaks of low significance can be discerned with periods between 55.5 and 17.5 min (Figure 4-A and 4-C), which could be a reflection of the period of wind forcing over the closed estuary, but it is something that should be checked. If we observe at a lower frequency, several peaks are observed, the most significant being 2.1 min (Figure 4-B and 4-D).
     
-    %figura analisis espectral viento con superficie
+   
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=0.9\textwidth]{Imagenes/freqs.png}
+      \caption{Frequency spectra of water level fluctuations in the estuary at sites in NM, DC and ML, and of wind surface stress.}
+      \label{fig:freq}
+    \end{figure}
 
 
 

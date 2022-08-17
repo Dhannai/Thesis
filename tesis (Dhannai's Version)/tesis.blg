@@ -6,45 +6,45 @@ The style file: apa.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: Bibliografia.bib
 Warning--empty journal in sloan2006ecological
-You've used 57 entries,
+You've used 58 entries,
             1940 wiz_defined-function locations,
-            819 strings with 15013 characters,
-and the built_in function-call counts, 23824 in all, are:
-= -- 2298
-> -- 1143
-< -- 25
-+ -- 407
-- -- 392
-* -- 2279
-:= -- 4182
-add.period$ -- 163
-call.type$ -- 57
-change.case$ -- 479
-chr.to.int$ -- 56
-cite$ -- 58
-duplicate$ -- 777
-empty$ -- 1533
-format.name$ -- 480
-if$ -- 4480
+            826 strings with 15133 characters,
+and the built_in function-call counts, 24337 in all, are:
+= -- 2350
+> -- 1154
+< -- 27
++ -- 410
+- -- 395
+* -- 2313
+:= -- 4260
+add.period$ -- 167
+call.type$ -- 58
+change.case$ -- 485
+chr.to.int$ -- 57
+cite$ -- 59
+duplicate$ -- 804
+empty$ -- 1578
+format.name$ -- 484
+if$ -- 4597
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 50
-newline$ -- 279
-num.names$ -- 171
-pop$ -- 375
+missing$ -- 51
+newline$ -- 284
+num.names$ -- 176
+pop$ -- 383
 preamble$ -- 1
-purify$ -- 480
+purify$ -- 486
 quote$ -- 0
-skip$ -- 585
+skip$ -- 607
 stack$ -- 0
-substring$ -- 1711
-swap$ -- 112
-text.length$ -- 1
+substring$ -- 1751
+swap$ -- 123
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 340
+type$ -- 346
 warning$ -- 1
-while$ -- 194
+while$ -- 199
 width$ -- 0
-write$ -- 713
+write$ -- 727
 (There was 1 warning)
