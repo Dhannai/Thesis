@@ -3,24 +3,125 @@
     
 \section{Discussion}
 
+Cosas a explicar (discutir que hubiese pasado si esto es diferente).
 
-Why during wave overtopping the bottom of NM increase and then go to normal
-explain the  continuous increase in DC at the bottom
+\textit{Para mí el capitulo fundamental. Los resultados son analizados en detalle, pudiendo incorporar análisis adicionales que no estaban inicialmente en la metodología, como para entender, entre otras cosas, la sensibilidad de los resultados ante parámetros por ejemplo. O la comparación con resultados de otros estudios, o conocimiento existente. En este capítulo se debe entender si lo que se hizo es útil o no.}
 
-Near the mouth the upper layer is thinner probably because the salinity is higher due to the waves that are overtopping the sandbar.
+\subsection{Estuarine structure and morphology}
 
-Hablar sobre como detecta el wavelet las olas (poner imagen de art congreso)
+Pescadero during its closed state function as a stratified coastal lagoon with river runoff forming a surface layer of fresh water
 
 Pescadero funciona como tal y tales cuerpos de agua (buscar) (discusion de kelly 2017 buena)
 payandeh tiene algunos pára comparar con enfoqye de viento
 wind: orientation of the bay, shallowness
 
-colocar problemas de los métodos de analisis
+Near the mouth the upper layer is thinner probably because the salinity is higher due to the waves that are overtopping the sandbar.
+
+\subsection{Analysis methods}
+
+- Wind and estuarine velocities were axis-rotated in principal direction of water (que hbiese pasado si esto hubiese sido de la dir ppal del viento)
+
+- We adjusted the first cell comparing data from different sensors estimating where to put the velocity range (se podria haber utilizado otro valor, que hubiese pasado)
+
+- Closed state definition was given by us and we defined a 10 hour frame by trial and error based on our timescale and the frame could change dependit¿ng on the timescale that we needed. But for the case this doesn't influence the values, because the opening and closures are not an instant, but a process, so it could be considered any instant during that process.
+
+- Temprature and evaporation are negligible in this context, because haline stratification dominates in this estuary.
+
+- To calculate wind stress we used a drag coefficient defined by Large and Pond 1981, but according to Paugam 2021 the drag coefficient Cd can be difficult to estimate in shallow water, so we have to consider this with wind stress and everything calculated with that coefficient.
+
+- colocar problemas de los métodos de analisis
 wedberner number is too aproximasted
 frequency analysis doesnt show an specific time, shows all the dataset
 
-acording to Paugam 2021 the drag coefficient Cd can be difficult to estimate in shallow water %discusion?
 
-We can notice a wind event in the offshore direction just before there is an increase in the Pescadero creek discharge, and we can observe this situation before other increases in flow, meaning the change of direction of the wind could happen during a storm.
-The wavelet analysis shows high-frequency waves when that occurs (Figure 3-D and 3-H), but it could be hiding some insignificant wave overshoot events.
+
+
+\subsection{Changes in Pescadero over time}
+
+\subsection{Wind stress mixing}
+
+- During big wind events the watercolumn mixes and change stratification
+
+- We can know that wind stress is causing mixing with the density profiles (Fig grande), d rho/dx y d rho/dz
+
+- Also, lake mixing-stratification indices show that: phi, W, N2
+
+- And H hat, dH hat/dx and wavelet show when wind is acting in the surface.
+ 
+\subsection{Wind-driven circulation}
+
+- There are water currents provoked by wind stress.
+
+- Wind is the main driver of hydrodynamic changes
+
+- El rango del ADCP no muestra la capa superior
+
+- Cuando sopla el viento la capa superior se desplaza hacia el fondo del estuario y no es detectado por los sensores.
+
+* Imagen de rango ADCP (articulo congreso)
+* Velocidad en un wind events
+* Dinamica del estuario en el tiempo (Apendice?)
+
+El ADCP no detecta la velocidad de la superficie porque los sensores se encuentran al principio del estuario, lo que genera que la capa superior sea mucho mas delgada que al fondo del estuario.
+Esto se puede mostrar con el esquema en katopodes ch11.
+
+
+
+% Discutir esta frase de los resultados: Then, when the wind stopped the estuary went stratified with similar values of density to the first profiles, but the velocity had a different behavior, and went negative in the upper layer, probably showing that the water is returning to its original state or that when wind stress is too small the surface water that goes into the same direction of the wind gets thicker and starts to be detected by the ADCP.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.6]{Imagenes/vel_wind.png}
+    \caption{Along-estuary velocity }
+    \label{fig:velwind}
+\end{figure}
+
+\subsection{Freshwater input}
+
+- Se observa un density decrease en el tiempo
+
+- Se puede ver en rho y en d rho/dz 
+
+- Tal vez se muestra en phi y W por sus cambios en el tiempo (cada vez el viento afecta menos al estuario)
+
+- Su efecto podria estar trabajando en conjunto con el viento para desestratificar el estuario o solo podria estar afectando el viento o solo el caudal
+
+- La teoria que solo el caudal afecta se podria descartar por el primer evento de viento del segundo periodo donde sin aumento de caudal hay un cambio en la estratificacion.
+
+- La teoria que solo el viento afecta se descarta con la disminucion constante de la densidad en el estuario.
+
+- Por otro lado, cuando hay aumento de caudal podria haber mezcla en el estuario debido a que el agua entra con mayor velocidad al estuario.
+
+- Es se observa que provoca cambios solo en la superficie y no tanto en la densidad (H hat, dh/dt, DH hat/Dx, Q)
+
+- Es posible que estos cambios abruptos en la cantidad de caudal entrante generen mezcla, aunque no hay evidencia suficiente para decir que esto esta ocurriendo.
+
+- Al mismo tiempo que hay aumentod de caudal hay Wave overtopping, por lo que no se puede atribuir los cambios en H hat, dh/dt, DH hat/Dx al efecto del aumento del caudal enteramente, pero es probable que si sea porque no se ve algo parecido en los demas eventos de wave overtopping.
+
+* Grafico de tau, H hat, Wavelet, rho, D rho/Dz, Q entre el 13-Feb y 17-Feb
+
+\subsection{Wave overtopping}
+
+- There could be presence of density increase due to wave overtopping 
+
+- In results section we observed some small changes in desnity after wave overtopping 
+
+- Menos en Dc que vimos cambios en el tiempo en el primer periodo.
+
+* Graficos de tau, rho DC fondo, wavelet, d rho/dt 10-hour-frame, Tide/Pdo/Hsw
+
+Why during wave overtopping the bottom of NM increase and then go to normal
+explain the  continuous increase in DC at the bottom
+
+The wavelet analysis shows high-frequency waves when that occurs (Figure 3-D and 3-H), but it could be hiding some insignificant wave overtop events.
+
+- Por otro lado, podría haber mezcla en el estuario debido a la entrada turbulenta de las olas sobre la barra de arena.
+
+- Esto se podría atribuir a que cuando hay wave overtopping se observan fluctuaciones en la superficie (H hat, dh/dt, DH hat/Dx, Q), además de los pequeños cambios observados en la densidad
+
+- igual que para el Caso del caudal las surface fluctuations Pueden Ser indicadores de que hay mezcla
+
+- no hay evidencia que lo respalde.
+
+
 \end{document}
