@@ -9,7 +9,7 @@ Cosas a explicar (discutir que hubiese pasado si esto es diferente).
 
 \subsection{Estuarine structure and morphology}
 
-During the winter of 2012 Pescadero estuary received less freshwater inflow compared to other months throughout the year leading the inlet to disconnect from the ocean. Pescadero during its closed state function as a stratified coastal lagoon with river runoff forming a surface layer of fresh water and occasionally having a landward tidal intrusion of saline water. The orientation of the bay and the shallowness result in events-exposure of all the water column to the wind stress. In this regard, Pescadero shares many physical traits with other bar-built estuaries where the local wind forcing is the dominant driver.\\
+During the winter of 2012 Pescadero estuary received less freshwater inflow compared to other months throughout the year, leading the inlet to disconnect from the ocean. Pescadero during its closed state function as a stratified coastal lagoon with river runoff forming a surface layer of fresh water and occasionally having tidal inflows of saline water. The orientation of the bay and the shallowness result in the exposure of all the water column to the wind stress events. In this regard, Pescadero shares many physical traits with other bar-built estuaries where the local wind forcing is the dominant driver.\\
 
 Apart from the stratification, there is an along-estuary density gradient between the outlet of the creek and the mouth, due to the constant discharge of freshwater. Near the mouth the upper layer is thinner than in the creek's outlet, probably because the salinity is higher in the mouth due to the waves that are overtopping the sandbar along with upstream continuous freshwater input.\\
 
@@ -19,32 +19,29 @@ The present study analysis reported that the major driver of mixing is wind stre
 
 Wind and estuarine velocities were axis-rotated in the direction of maximum variance of water currents (See Fig. \ref{fig:rotacion}, Section \ref{Estuary_currents}). This puts the main focus in the estuary currents instead of the wind velocity, but in this particular case, both, wind and water velocities, have a similar principal direction, so it wouldn't be a big difference between each option.\\
 
-We adjusted the first cell of the ADCP data by a visual inspection, using the blank space given by the ADCP, that was 0.71 m, and overlapping it with the CTD data on the same location DC. This comparison gave us the value of 0.91 m for the first cell    
-comparing data from different sensors estimating where to put the velocity range (se podria haber utilizado otro valor, que hubiese pasado)
+We adjusted the first cell of the ADCP data by a visual inspection, using the blank space given by the ADCP, that was 0.71 m, and overlapping it with the CTD data on the same location DC. This comparison gave us the value of 0.91 m for the first cell location, which is a merely estimation, so it could have been a different value, bigger or smaller depending in how we had place the overlapping. This does not affect velocity values, but we have to consider it for the positions of the layers or for the profiles, but it does not make an important change in the analysis.\\
 
-- Closed state definition was given by us and we defined a 10 hour frame by trial and error based on our timescale and the frame could change dependit¿ng on the timescale that we needed. But for the case this doesn't influence the values, because the opening and closures are not an instant, but a process, so it could be considered any instant during that process.
+The closed state definition was set in a range of depth's change in time values with a 10 hour frame. The frame was selected by trial and error based on the timescale we were working on and it could change depending on the period in which the data was collected and in the data collection frequency. Also we have to consider that the opening and closures do not happen on an instant, but in a process that could last from minutes to hours, so it could be considered any instant during that process.\\ 
 
-- Temprature and evaporation are negligible in this context, because haline stratification dominates in this estuary.
+In this study we did not considered temperature and evaporation factors. We considered that the efect of temperature was not important due to the haline stratification that dominated the estuary, but it could be studied in greater depth in future analyzes carried out in Pescadero. Also, we didn't consider evaporation as a factor in depth changes because we are studing an estuary with small area and as it was winter time the air temperature was not too hight to cause mayor impacts.\\
 
-- To calculate wind stress we used a drag coefficient defined by Large and Pond 1981, but according to Paugam 2021 the drag coefficient Cd can be difficult to estimate in shallow water, so we have to consider this with wind stress and everything calculated with that coefficient.
+To calculate wind stress we used a drag coefficient defined by \cite{large1981open}, but according to \cite{paugam2021wind} the drag coefficient $C_D$ can be difficult to estimate in shallow water, so we have to consider the obtained $C_D$ as an aproximation in wind stress and everything calculated with that coefficient. In future studies there could be used other drag coefficients to observe if there is a big difference in wind stress and other indices obtained with $C_D$.\\
 
-- colocar problemas de los métodos de analisis
-wedberner number is too aproximasted
-frequency analysis doesnt show an specific time, shows all the dataset
+The Wedderburn number was obtained with the equation for a rectangular basin defined by \cite{Monismith1985}, so it is showing us an approximated value. Despite this, it is still a good indicator to estimate the behavior of the stratification to the wind stress. We could try in future research more adapted Wedderburn numbers to Pescadero basin and compare the results with the obtained in this study.\\
 
-
-
+The frequency spectral analysis only show a general view of the most important frequencies in the dataset, but does not show the specific time when this happens. This make it an special tool to detect fequency peaks and contrasts different datasets.\\
 
 \subsection{Changes in Pescadero over time}
 
 \subsection{Wind stress mixing}
 
-- During big wind events the watercolumn mixes and change stratification
+Sporadic abrupt changes in density along the water column in different locations were apparent during the periods of closed state. This abrupt changes indicate that they were not caused by gradual processes, but rather resulted from sporadic events that are attributed to the effects of wind stress present at the same time as the density changes. After this events, density did not return to its original values from before the event so mixing was present in the three studied locations.\\
 
-- We can know that wind stress is causing mixing with the density profiles (Fig grande), d rho/dx y d rho/dz
+Fig. \ref{fig:perfiles2} is showing density profiles in the studied locations before (in red) and after (in cyan) a big wind event, showing a difference in the density values specially in the bottom where there is a decrease in density. Buoyancy frequency showed a decreased after the wind event meaning a change in stratification same as potential energy anomaly in Fig. \ref{fig:phi}. Also in Fig. \ref{fig:diff} $\Delta \rho/\Delta z$ is showing a decrease in stratification between before and after big wind events, only observing this abrupt change twice, one time during each closed state period.\\
 
-- Also, lake mixing-stratification indices show that: phi, W, N2
+Wedderburn number showed that the lower layer upwelled to the surface during the wind events previously mencioned (Fig. \ref{fig:wedd}). During this mencioned full upwelling event there is the presence of baroclinic presure gradients
 
+On the other hand, 
 - And H hat, dH hat/dx and wavelet show when wind is acting in the surface.
  
 \subsection{Wind-driven circulation}

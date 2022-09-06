@@ -161,6 +161,12 @@ McSweeney, S., Kennedy, D., Rutherfurd, I., and Stout, J. (2017).
   distribution and boundary conditions.
 \newblock {\em Geomorphology}, 292:142--152.
 
+\bibitem[\protect\astroncite{Monismith}{1985}]{Monismith1985}
+Monismith, S.~G. (1985).
+\newblock {Wind‐forced motions in stratified lakes and their effect on
+  mixed‐layer shear}.
+\newblock {\em Limnology and oceanography}, 30(4):771--783.
+
 \bibitem[\protect\astroncite{National Data Buoy~Center}{2022}]{noaa2022waves}
 National Data Buoy~Center, N. (2022).
 \newblock Half moon bay standard meteorological data station 46012.
@@ -182,6 +188,13 @@ Omstedt, A., Pettersen, C., Rodhe, J., and Winsor, P. (2004).
 \newblock Baltic sea climate: 200 yr of data on air temperature, sea level
   variation, ice cover, and atmospheric circulation.
 \newblock {\em Climate research}, 25(3):205--216.
+
+\bibitem[\protect\astroncite{Paugam et~al.}{2021}]{paugam2021wind}
+Paugam, C., Sous, D., Rey, V., Meul{\'e}, S., Faure, V., Boutron, O.,
+  Luna-Laurent, E., and Migne, E. (2021).
+\newblock Wind tides and surface friction coefficient in semi-enclosed shallow
+  lagoons.
+\newblock {\em Estuarine, Coastal and Shelf Science}, 257:107406.
 
 \bibitem[\protect\astroncite{Payandeh et~al.}{2019}]{payandeh2019subtidal}
 Payandeh, A., Justic, D., Mariotti, G., Huang, H., and Sorourian, S. (2019).

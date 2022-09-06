@@ -32,7 +32,7 @@
 \contentsline {subsection}{\numberline {6.2}Analysis methods}{30}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Changes in Pescadero over time}{31}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Wind stress mixing}{31}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Wind-driven circulation}{31}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Freshwater input}{31}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Wave overtopping}{32}{subsection.6.7}%
-\contentsline {section}{\numberline {7}Conclusion}{33}{section.7}%
+\contentsline {subsection}{\numberline {6.5}Wind-driven circulation}{32}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Freshwater input}{32}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Wave overtopping}{33}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Conclusion}{34}{section.7}%
