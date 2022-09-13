@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.26)  12 SEP 2022 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.26)  13 SEP 2022 15:36
 entering extended mode
 **"c:/Users/dhann/Documents/git/Thesis/tesis (Dhannai's Version)/6-discussion.tex"
 ("c:/Users/dhann/Documents/git/Thesis/tesis (Dhannai's Version)/6-discussion.tex"
@@ -1170,25 +1170,47 @@ File: Imagenes/ADCP_range.png Graphic file (type png)
 <use Imagenes/ADCP_range.png>
 Package pdftex.def Info: Imagenes/ADCP_range.png  used on input line 65.
 (pdftex.def)             Requested size: 283.22162pt x 123.78543pt.
- [4 <./Imagenes/ADCP_range.png>]
-<Imagenes/qh.png, id=72, 520.94624pt x 273.02pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[4 <./Imagenes/ADCP_range.png>]
+<Imagenes/wind_event.png, id=72, 516.183pt x 676.929pt>
+File: Imagenes/wind_event.png Graphic file (type png)
+<use Imagenes/wind_event.png>
+Package pdftex.def Info: Imagenes/wind_event.png  used on input line 75.
+(pdftex.def)             Requested size: 448.42822pt x 588.09715pt.
+ [5 <./Imagenes/wind_event.png>]
+<Imagenes/wind_event2.png, id=79, 756.8275pt x 233.87375pt>
+File: Imagenes/wind_event2.png Graphic file (type png)
+<use Imagenes/wind_event2.png>
+Package pdftex.def Info: Imagenes/wind_event2.png  used on input line 83.
+(pdftex.def)             Requested size: 448.42822pt x 138.57312pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+<Imagenes/qh.png, id=82, 520.94624pt x 273.02pt>
 File: Imagenes/qh.png Graphic file (type png)
 <use Imagenes/qh.png>
-Package pdftex.def Info: Imagenes/qh.png  used on input line 114.
+Package pdftex.def Info: Imagenes/qh.png  used on input line 119.
 (pdftex.def)             Requested size: 472.03123pt x 247.38628pt.
-<Imagenes/mix_q.png, id=73, 875.27pt x 730.73pt>
+[6 <./Imagenes/wind_event2.png>]
+<Imagenes/mix_q.png, id=89, 875.27pt x 730.73pt>
 File: Imagenes/mix_q.png Graphic file (type png)
 <use Imagenes/mix_q.png>
-Package pdftex.def Info: Imagenes/mix_q.png  used on input line 122.
+Package pdftex.def Info: Imagenes/mix_q.png  used on input line 127.
 (pdftex.def)             Requested size: 472.03123pt x 394.08656pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/mix_wo.png, id=74, 875.27pt x 730.73pt>
+<Imagenes/mix_wo.png, id=90, 875.27pt x 730.73pt>
 File: Imagenes/mix_wo.png Graphic file (type png)
 <use Imagenes/mix_wo.png>
-Package pdftex.def Info: Imagenes/mix_wo.png  used on input line 152.
+Package pdftex.def Info: Imagenes/mix_wo.png  used on input line 161.
 (pdftex.def)             Requested size: 472.03123pt x 394.08656pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1196,12 +1218,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package natbib Warning: There were undefined citations.
 
-[5 <./Imagenes/qh.png>] [6 <./Imagenes/mix_q.png>] [7 <./Imagenes/mix_wo.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+[7 <./Imagenes/qh.png>] [8 <./Imagenes/mix_q.png>] [9 <./Imagenes/mix_wo.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
  (6-discussion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 Package rerunfilecheck Info: File `6-discussion.out' has not changed.
 (rerunfilecheck)             Checksum: BDAF131E710643F11AC32427F13D0AEA;541.
 
@@ -1210,17 +1232,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 37182 strings out of 480790
- 856572 string characters out of 2897301
- 1261196 words of memory out of 3000000
- 52305 multiletter control sequences out of 15000+200000
- 569130 words of font info for 139 fonts, out of 3000000 for 9000
+ 37211 strings out of 480790
+ 857033 string characters out of 2897301
+ 1261278 words of memory out of 3000000
+ 52317 multiletter control sequences out of 15000+200000
+ 569584 words of font info for 146 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,6n,104p,1342b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 6-discussion.pdf (7 pages, 598755 bytes).
+Output written on 6-discussion.pdf (9 pages, 932457 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 26214 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 26224 words of extra memory for PDF output out of 29859 (max. 10000000)
 

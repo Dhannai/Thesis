@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1663009558 "c:/Users/dhann/Documents/git/Thesis/tesis (Dhannai's Version)/6-discussion.tex" "6-discussion.pdf" "6-discussion" 1663009564
-  "6-discussion.aux" 1663009563 3140 07c7559ddb71c95e7e08940babc7f639 "pdflatex"
-  "6-discussion.out" 1663009563 541 bdaf131e710643f11ac32427f13d0aea "pdflatex"
-  "6-discussion.tex" 1663009550 14519 a2cf0cdfb9f54adb53659ee23e38e74a ""
+["pdflatex"] 1663094191 "c:/Users/dhann/Documents/git/Thesis/tesis (Dhannai's Version)/6-discussion.tex" "6-discussion.pdf" "6-discussion" 1663094199
+  "6-discussion.aux" 1663094198 3551 ea5c1440fdc8cf6d64d3464f21c9e31b "pdflatex"
+  "6-discussion.out" 1663094198 541 bdaf131e710643f11ac32427f13d0aea "pdflatex"
+  "6-discussion.tex" 1663094147 16160 20b2cb4e1566cc104e95808a003ba0ab ""
   "C:/Users/dhann/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1601140628 10020124 5f35931b1e0226f934905c713bee86bd ""
-  "C:/Users/dhann/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1661188248 279811 21458d7cb40c17308453d8eee000b2b5 ""
+  "C:/Users/dhann/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1663083012 279811 21458d7cb40c17308453d8eee000b2b5 ""
   "C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1254938640 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Users/dhann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1254938640 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -278,8 +278,10 @@
   "Imagenes/mix_wo.png" 1662393406 184043 c101a064b52b69cf62cf0c938e4360d4 ""
   "Imagenes/qh.png" 1662393406 14714 efd035e17e0969fb5aa25e4597fc073e ""
   "Imagenes/vel_wind.png" 1662990382 157240 498258838fd70062c85401fdc8bc81a7 ""
-  "c:/Users/dhann/Documents/git/Thesis/tesis (Dhannai's Version)/6-discussion.tex" 1663009550 14519 a2cf0cdfb9f54adb53659ee23e38e74a ""
-  "tesis.tex" 1661445457 6601 4755fb6e62ebffb01b0519b6da84f56c ""
+  "Imagenes/wind_event.png" 1663083590 454221 ef1c4bf610f4075f798fa07e789253b4 ""
+  "Imagenes/wind_event2.png" 1663083625 19234 31f7655ca9593fbee78eab183beab120 ""
+  "c:/Users/dhann/Documents/git/Thesis/tesis (Dhannai's Version)/6-discussion.tex" 1663094147 16160 20b2cb4e1566cc104e95808a003ba0ab ""
+  "tesis.tex" 1663082993 6609 f9619fe51d2218bb05ba27d1238dd9d2 ""
   (generated)
   "6-discussion.aux"
   "6-discussion.log"
