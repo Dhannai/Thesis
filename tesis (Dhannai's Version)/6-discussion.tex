@@ -5,7 +5,7 @@
 
 \subsection{Estuarine structure and morphology}
 
-During the winter of 2012 Pescadero estuary received less freshwater inflow compared to other months throughout the year, leading the inlet to disconnect from the ocean. Pescadero during its closed state function as a stratified coastal lagoon with river runoff forming a surface layer of fresh water and occasionally having tidal inflows of saline water. The orientation of the bay and the shallowness result in the exposure of all the water column to the wind stress events. In this regard, Pescadero shares many physical traits with other bar-built estuaries where the local wind forcing is the dominant driver.\\
+During the winter of 2012 Pescadero estuary received less freshwater inflow compared to other months throughout the year, leading the inlet to disconnect from the ocean. Pescadero during its closed state function as a stratified coastal lagoon with river runoff forming a surface layer of freshwater and occasionally having tidal inflows of saline water. The orientation of the bay and the shallowness result in the exposure of all the water column to the wind stress events. In this regard, Pescadero shares many physical traits with other bar-built estuaries where the local wind forcing is the dominant driver.\\
 
 Apart from the stratification, there is an along-estuary density gradient between the outlet of the creek and the mouth, due to the constant discharge of freshwater. Near the mouth the upper layer is thinner than in the creek's outlet, probably because the salinity is higher in the mouth due to the waves that are overtopping the sandbar along with upstream continuous freshwater input.\\
 
@@ -13,9 +13,9 @@ The present study analysis reported that the major driver of mixing is wind stre
 
 \subsection{Analysis methods}
 
-Wind and estuarine velocities were axis-rotated in the direction of maximum variance of water currents (See Fig. \ref{fig:rotacion}, Section \ref{Estuary_currents}). This puts the main focus in the estuary currents instead of the wind velocity, but in this particular case, both, wind and water velocities, have a similar principal direction, so it wouldn't be a big difference between each option.\\
+Wind and estuarine velocities were axis-rotated in the direction of maximum variance of water currents (See Fig. \ref{fig:rotacion}, Section \ref{Estuary_currents}), but there was also the opcion of doing it in the dirention of wind velocity. This puts the main focus in the estuary currents instead of the wind velocity, but in this particular case, both, wind and water velocities, have a similar principal direction, so it wouldn't be a big difference between each option.\\
 
-We adjusted the first cell of the ADCP data by a visual inspection, using the blank space given by the ADCP, that was 0.71 m, and overlapping it with the CTD data on the same location DC. This comparison gave us the value of 0.91 m for the first cell location, which is a merely estimation, so it could have been a different value, bigger or smaller depending in how we had place the overlapping. This does not affect velocity values, but we have to consider it for the positions of the layers or for the profiles, but it does not make an important change in the analysis.\\
+We adjusted the first cell of the ADCP data by visual inspection, using the blank space given by the ADCP, that was 0.71 m, and overlapping it with the CTD data on the same location DC. This comparison gave us the value of 0.91 m for the first cell location, which is a merely estimation, so it could have been a different value, bigger or smaller depending in how we had place the overlapping. This does not affect velocity values, but we have to consider it for the positions of the layers or for the profiles, but it does not make an important change in the analysis.\\
 
 The closed state definition was set in a range of depth's change in time values with a 10 hour frame. The frame was selected by trial and error based on the timescale we were working on and it could change depending on the period in which the data was collected and in the data collection frequency. Also we have to consider that the opening and closures do not happen on an instant, but in a process that could last from minutes to hours, so it could be considered any instant during that process.\\ 
 
@@ -113,47 +113,29 @@ The freshwater inflow is affecting stratification in medium term and not in shor
 
 \subsection{Wave overtopping}
 
-Wave overtopping is an event that happens during high tide and relatively high significant wave height, but also can depends on the wave period or the wave direction. 
-
-
-provoca cambios en las velocidades superficiales
-
-
-- There could be presence of density increase due to wave overtopping 
-
-- In results section we observed some small changes in desnity after wave overtopping 
-
-- Menos en Dc que vimos cambios en el tiempo en el primer periodo.
-
-* Graficos de tau, rho DC fondo, wavelet, d rho/dt 10-hour-frame, Tide/Pdo/Hsw
-
-Why during wave overtopping the bottom of NM increase and then go to normal
-explain the  continuous increase in DC at the bottom
-
-The wavelet analysis shows high-frequency waves when that occurs (Figure 3-D and 3-H), but it could be hiding some insignificant wave overtop events.
-
-- Por otro lado, podría haber mezcla en el estuario debido a la entrada turbulenta de las olas sobre la barra de arena.
-
-- Esto se podría atribuir a que cuando hay wave overtopping se observan fluctuaciones en la superficie (H hat, dh/dt, DH hat/Dx, Q), además de los pequeños cambios observados en la densidad
-
-- igual que para el Caso del caudal las surface fluctuations Pueden Ser indicadores de que hay mezcla
-
-- no hay evidencia que lo respalde.
+Wave overtopping is an event that happens during high tide and relatively high significant wave height, but also can depends on the wave period or the wave direction. To determine the factors involved in this process Fig. \ref{fig:WO} illustrates the tide level with significant wave height, dominant wave period and dominant wave period direction as the estuary level rises. We noticed that two events happened with a significant wave height between 4 and 6 m and the others between 2 and 4 m. For the dominant wave period we didn't observe a clear pattern, but the direction of the dominant period showed the events occurred between 300$^o$ and 325$^o$. \\
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\textwidth]{Imagenes/WO.png}
-    \caption{Significant wave height,  dominant wave period, dominant wave period direction}
+    \caption{Tide level ($\eta$) versus significant wave height ($H_{SW}$), dominant wave period ($T_{DW}$) and dominant wave period direction ($dir_{DW}$) with the water level of Pescadero (Depth PDO) in colors, during the period between February 11th and February 20th. Four wave overtopping events were selected as the most prominent of the period and were marked in the plot with stars. }
     \label{fig:WO}
 \end{figure}
 
+As we already mentioned wave overtopping causes changes in surface velocities, which led us to believe that there would be mixing in the estuary during these events due to the turbulent entry of the waves over the sand bar. However we couldn't find any evidence of it causing desestratification or decrease of the $\phi$ in Fig. \ref{fig:mix_q}, probably because it wasn't an event big enough for the water level. \\
+
+On the other hand we observed a slow increase in density at the bottom layer of DC, which does not follow the same pattern of density decrease that the other locations had. In Fig. \ref{fig:mix_wo} there is a close up of DC bottom density during the first period. First, we noticed that in February 14th there is an important wave overtopping event during which there is a negative spike in $\rho_{DC}$. After that, density started increasing but did not recover its value from before the spike. This could mean there was mixing due to the waves action, but as at the same time there was a $Q$ increase we cannot attribute any driver in specific. It could be the action of both causing the spike.\\
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\textwidth]{Imagenes/mix_wo.png}
-    \caption{ddfsdfsdf }
+    \caption{Time-series of wind stress ($\tau_w$), bottom density in DC location ($\rho_{DC}$), depth wavelet frequency analysis at DC, the change of density in a 10-hour time frame ($\Delta \rho / \Delta t$), significant wave height in Halfmoon Bay (blue), tidal height in San Francisco (gray), and Pescadero estuary water level (black) in MLLW datum, and freshwater discharge ($Q$). }
     \label{fig:mix_wo}
 \end{figure}
+
+After that, the wind would further reduce the density and, later, it would progressively increase. During that increase we observed a smaller decrease during a wind event and another during a wave overtopping event in February 17th (Fig. \ref{fig:mix_wo}). By observing this we can say that there is mixing due to the turbulent inflow of waves into the estuary that affects the deeper layer.\\ 
+
+Also, the salinewater inflow from the wave overtopping events could be causing the increase in density at the bottom of DC. The baroclinic effect could be making that the saltwater set at the bottom slowly after the waves, but also it is possible that there is not enough saline water to change salinity and a baroclinic effect alone is acting in Pescadero.\\
 
 
 \end{document}
