@@ -3,24 +3,24 @@
 \bibitem[\protect\astroncite{Avalos~Cueva et~al.}{2019}]{avalos2019natural}
 Avalos~Cueva, D., Monz{\'o}n, C.~O., Filonov, A., Tereshchenko, I.,
   Lim{\'o}n~Covarrubias, P., and Galaviz~Gonz{\'a}lez, J.~R. (2019).
-\newblock Natural frequencies of seiches in lake chapala.
-\newblock {\em Scientific reports}, 9(1):1--11.
+\newblock Natural frequencies of seiches in {L}ake {C}hapala.
+\newblock {\em Scientific Reports}, 9(1):1--11.
 
 \bibitem[\protect\astroncite{Behrens et~al.}{2016}]{Behrens2016}
 Behrens, D.~K., Bombardelli, F.~A., and Largier, J.~L. (2016).
 \newblock {Landward propagation of saline waters following closure of a
-  bar-built estuary: Russian River (California, USA)}.
-\newblock {\em Estuaries and coasts}, 39(3):621--638.
+  bar-built estuary: {R}ussian {R}iver ({C}alifornia, {USA})}.
+\newblock {\em Estuaries and Coasts}, 39(3):621--638.
 
 \bibitem[\protect\astroncite{Behrens et~al.}{2013}]{Behrens2013}
 Behrens, D.~K., Bombardelli, F.~A., Largier, J.~L., and Twohy, E. (2013).
-\newblock {Episodic closure of the tidal inlet at the mouth of the Russian
-  River—A small bar-built estuary in California}.
+\newblock {Episodic closure of the tidal inlet at the mouth of the {R}ussian
+  {R}iver—{A} small bar-built estuary in {C}alifornia}.
 \newblock {\em Geomorphology}, 189:66--80.
 
 \bibitem[\protect\astroncite{Clark and O'Connor}{2019}]{clark2019systematic}
 Clark, R. and O'Connor, K. (2019).
-\newblock A systematic survey of bar-built estuaries along the california
+\newblock A systematic survey of bar-built estuaries along the {C}alifornia
   coast.
 \newblock {\em Estuarine, Coastal and Shelf Science}, 226:106285.
 
@@ -28,7 +28,7 @@ Clark, R. and O'Connor, K. (2019).
 Coman, M.~A. and Wells, M.~G. (2012).
 \newblock {Temperature variability in the nearshore benthic boundary layer of
   Lake Opeongo is due to wind-driven upwelling events}.
-\newblock {\em Canadian journal of fisheries and aquatic sciences},
+\newblock {\em Canadian Journal of Fisheries and Aquatic Sciences},
   69(2):282--296.
 
 \bibitem[\protect\astroncite{Cousins et~al.}{2010}]{Cousins2010}
@@ -40,13 +40,12 @@ Cousins, M., Stacey, M.~T., and Drake, J.~L. (2010).
 \bibitem[\protect\astroncite{Curry et~al.}{1985}]{curry1985pescadero}
 Curry, R., Houghton, R., Kidwell, T., and Tang, P. (1985).
 \newblock Pescadero marsh management: A plan for persistence and productivity.
-\newblock {\em January}, 28:1985.
 
 \bibitem[\protect\astroncite{de~la Fuente et~al.}{2010}]{delafuente2010strong}
 de~la Fuente, A., Meruane, C., Contreras, M., Ulloa, H., and Ni{\~n}o, Y.
   (2010).
 \newblock Strong vertical mixing of deep water of a stratified reservoir during
-  the maule earthquake, central chile (mw 8.8).
+  the {M}aule earthquake, central {C}hile ({M}w 8.8).
 \newblock {\em Geophysical Research Letters}, 37(24).
 
 \bibitem[\protect\astroncite{Dussaillant et~al.}{2009}]{dussaillant2009}
@@ -104,25 +103,29 @@ Kelly, S., de~Eyto, E., Dillane, M., Poole, R., Brett, G., and White, M.
   saline lagoon}.
 \newblock {\em Marine and Freshwater Research}, 69(3):432--445.
 
-\bibitem[\protect\astroncite{Kundu and Cohen}{2002}]{kundu2002fluid}
-Kundu, P.~K. and Cohen, I. (2002).
-\newblock Fluid mechanics. sl.
+\bibitem[\protect\astroncite{Kundu et~al.}{2015}]{kundu2002fluid}
+Kundu, P.~K., Cohen, I.~M., and Dowling, D.~R. (2015).
+\newblock {\em Fluid Mechanics}.
+\newblock Academic press.
 
 \bibitem[\protect\astroncite{Large and Pond}{1981}]{large1981open}
 Large, W. and Pond, S. (1981).
 \newblock Open ocean momentum flux measurements in moderate to strong winds.
-\newblock {\em Journal of physical oceanography}, 11(3):324--336.
+\newblock {\em Journal of Physical Oceanography}, 11(3):324--336.
 
 \bibitem[\protect\astroncite{Largier}{2021}]{Largier2021}
 Largier, J. (2021).
-\newblock Hydrological responses to closure in californian estuaries.
-\newblock In {\em Global Forum on Intermittent Estuaries}.
+\newblock Hydrological responses to closure in {C}alifornian estuaries.
+\newblock Coastal \& Marine Sciences Institute, University of California Davis,
+  Global Forum on Intermittent Estuaries.
+\newblock \url{https://www.youtube.com/watch?v=HXWZNu1KYMQ&t=140s}.
 
 \bibitem[\protect\astroncite{Largier et~al.}{2015}]{largier2015}
 Largier, J., Aiello, I., Jacobs, D., Lacy, J., Pallud, C., Stacey, M., Carlson,
   S., Huber, E., and Bowles, C. (2015).
 \newblock Report of pescadero lagoon science panel.
-\newblock {\em Prepared for California State Parks}.
+\newblock
+  \url{https://repository.library.noaa.gov/view/noaa/40845/noaa_40845_DS1.pdf}.
 
 \bibitem[\protect\astroncite{Laudier et~al.}{2011}]{laudier2011measured}
 Laudier, N.~A., Thornton, E.~B., and MacMahan, J. (2011).
@@ -152,7 +155,7 @@ Marti-Cardona, B., Steissberg, T., Schladow, S.~G., and Hook, S. (2008).
 Mart{\'\i}nez, M.~L., Intralawan, A., V{\'a}zquez, G., P{\'e}rez-Maqueo, O.,
   Sutton, P., and Landgrave, R. (2007).
 \newblock The coasts of our world: Ecological, economic and social importance.
-\newblock {\em Ecological economics}, 63(2-3):254--272.
+\newblock {\em Ecological Economics}, 63(2-3):254--272.
 
 \bibitem[\protect\astroncite{McSweeney
   et~al.}{2017}]{mcsweeney2017intermittently}
@@ -167,10 +170,6 @@ Monismith, S.~G. (1985).
   mixed‐layer shear}.
 \newblock {\em Limnology and oceanography}, 30(4):771--783.
 
-\bibitem[\protect\astroncite{National Data Buoy~Center}{2022}]{noaa2022waves}
-National Data Buoy~Center, N. (2022).
-\newblock Half moon bay standard meteorological data station 46012.
-
 \bibitem[\protect\astroncite{Neumann et~al.}{2015}]{neumann2015future}
 Neumann, B., Vafeidis, A.~T., Zimmermann, J., and Nicholls, R.~J. (2015).
 \newblock Future coastal population growth and exposure to sea-level rise and
@@ -180,14 +179,15 @@ Neumann, B., Vafeidis, A.~T., Zimmermann, J., and Nicholls, R.~J. (2015).
 \bibitem[\protect\astroncite{Nunes and Adams}{2014}]{nunes2014responses}
 Nunes, M. and Adams, J. (2014).
 \newblock Responses of primary producers to mouth closure in the temporarily
-  open/closed great brak estuary in the warm-temperate region of south africa.
+  open/closed {G}reat {B}rak {E}stuary in the warm-temperate region of {S}outh
+  {A}frica.
 \newblock {\em African Journal of Aquatic Science}, 39(4):387--394.
 
 \bibitem[\protect\astroncite{Omstedt et~al.}{2004}]{omstedt2004baltic}
 Omstedt, A., Pettersen, C., Rodhe, J., and Winsor, P. (2004).
-\newblock Baltic sea climate: 200 yr of data on air temperature, sea level
+\newblock Baltic {S}ea climate: 200 yr of data on air temperature, sea level
   variation, ice cover, and atmospheric circulation.
-\newblock {\em Climate research}, 25(3):205--216.
+\newblock {\em Climate Research}, 25(3):205--216.
 
 \bibitem[\protect\astroncite{Paugam et~al.}{2021}]{paugam2021wind}
 Paugam, C., Sous, D., Rey, V., Meul{\'e}, S., Faure, V., Boutron, O.,
@@ -199,12 +199,14 @@ Paugam, C., Sous, D., Rey, V., Meul{\'e}, S., Faure, V., Boutron, O.,
 \bibitem[\protect\astroncite{Payandeh et~al.}{2019}]{payandeh2019subtidal}
 Payandeh, A., Justic, D., Mariotti, G., Huang, H., and Sorourian, S. (2019).
 \newblock Subtidal water level and current variability in a bar-built estuary
-  during cold front season: Barataria bay, gulf of mexico.
+  during cold front season: {B}arataria {B}ay, {G}ulf of {M}exico.
 \newblock {\em Journal of Geophysical Research: Oceans}, 124(10):7226--7246.
 
 \bibitem[\protect\astroncite{Peeters and Kipfer}{2009}]{peeters2009currents}
 Peeters, F. and Kipfer, R. (2009).
 \newblock Currents in stratified water bodies 1: Density-driven flows.
+\newblock In Likens, G.~E., editor, {\em Encyclopedia of Inland Waters}, pages
+  530--538. Academic Press, Oxford.
 
 \bibitem[\protect\astroncite{Ranasinghe and
   Pattiaratchi}{1999}]{Ranasinghe1999}
@@ -240,8 +242,8 @@ Roberts, D.~C., Egan, G.~C., Forrest, A.~L., Largier, J.~L., Bombardelli,
 
 \bibitem[\protect\astroncite{Schernewski}{2002}]{schernewski2002baltic}
 Schernewski, G. (2002).
-\newblock {\em Baltic coastal ecosystems: structure, function and coastal zone
-  management}.
+\newblock {\em Baltic Coastal Ecosystems: Structure, Function and Coastal Zone
+  Management}.
 \newblock Springer Science \& Business Media.
 
 \bibitem[\protect\astroncite{Schmidtko et~al.}{2017}]{schmidtko2017decline}
@@ -253,8 +255,8 @@ Schmidtko, S., Stramma, L., and Visbeck, M. (2017).
 \bibitem[\protect\astroncite{Shintani et~al.}{2010}]{Shintani2010}
 Shintani, T., de~la Fuente, A., de~la Fuente, A., Ni{\~{n}}o, Y., and Imberger,
   J. (2010).
-\newblock {Generalizations of the Wedderburn number: Parameterizing upwelling
-  in stratified lakes}.
+\newblock {{G}eneralizations of the {W}edderburn number: {P}arameterizing
+  upwelling in stratified lakes}.
 \newblock {\em Limnology and Oceanography}, 55(3):1377--1389.
 
 \bibitem[\protect\astroncite{Simpson et~al.}{1985}]{simpson1990tidal}
@@ -265,8 +267,10 @@ Simpson, J.~H., Brown, J., Matthews, J., and Allen, G. (1985).
 
 \bibitem[\protect\astroncite{Sloan}{2006}]{sloan2006ecological}
 Sloan, R.~M. (2006).
-\newblock Ecological investigations of a fish kill in pescadero lagoon,
-  california.
+\newblock Ecological investigations of a fish kill in {P}escadero {L}agoon,
+  {C}alifornia.
+\newblock 3032.
+\newblock Master's Theses.
 
 \bibitem[\protect\astroncite{Stevens and Imberger}{1996}]{stevens1996initial}
 Stevens, C. and Imberger, J. (1996).
@@ -283,17 +287,10 @@ Thorne, K.~M., Buffington, K.~J., Jones, S.~F., and Largier, J.~L. (2021).
   keep pace with sea-level rise.
 \newblock {\em Estuarine, Coastal and Shelf Science}, 257:107386.
 
-\bibitem[\protect\astroncite{Tides and Currents}{2022a}]{noaa2022mntytides}
-Tides and Currents, N. (2022a).
-\newblock Monterey standard meteorological data buoy 9413450.
-
-\bibitem[\protect\astroncite{Tides and Currents}{2022b}]{noaa2022sftides}
-Tides and Currents, N. (2022b).
-\newblock San francisco standard meteorological data buoy 9414290.
-
 \bibitem[\protect\astroncite{U.S. Climate~Data}{2021}]{climatedata2021}
 U.S. Climate~Data, N. (2021).
 \newblock Weather history for half moon bay.
+\newblock \url{https://www.usclimatedata.com/}.
 
 \bibitem[\protect\astroncite{Viaroli et~al.}{2008}]{viaroli2008community}
 Viaroli, P., Bartoli, M., Giordani, G., Naldi, M., Orfanidis, S., and Zaldivar,
@@ -303,32 +300,32 @@ Viaroli, P., Bartoli, M., Giordani, G., Naldi, M., Orfanidis, S., and Zaldivar,
 \newblock {\em Aquatic Conservation: Marine and Freshwater Ecosystems},
   18(S1):S105--S117.
 
-\bibitem[\protect\astroncite{Water~Data}{2022}]{usgs2022discharge}
-Water~Data, U. (2022).
-\newblock Current conditions for usgs 11162500 pescadero creek.
-
 \bibitem[\protect\astroncite{Welch}{1967}]{welch1967use}
 Welch, P. (1967).
-\newblock The use of fast fourier transform for the estimation of power
+\newblock The use of fast {F}ourier transform for the estimation of power
   spectra: a method based on time averaging over short, modified periodograms.
 \newblock {\em IEEE Transactions on audio and electroacoustics}, 15(2):70--73.
 
 \bibitem[\protect\astroncite{Whitfield and Bate}{2007}]{whitfield2007review}
 Whitfield, A. and Bate, G. (2007).
 \newblock A review of information on temporarily open/closed estuaries in the
-  warm and cool temperate biogeographic regions of south africa, with
+  warm and cool temperate biogeographic regions of {S}outh {A}frica, with
   particular emphasis on the influence of river flow on these systems.
 \newblock {\em Water Research Commission, Report}, 1581(1):07.
 
 \bibitem[\protect\astroncite{Williams et~al.}{1990}]{williams1990pescadero}
 Williams, J. et~al. (1990).
 \newblock Pescadero marsh natural preserve hydrologic enhancement plan.
-\newblock {\em San Francisco, CA}.
+\newblock {\em Prepared for California Department of Parks and Recreation.
+  Report no. 504, 31 August. Prepared by Phillip Williams and Associates, San
+  Francisco, California}.
 
 \bibitem[\protect\astroncite{Williams}{2014}]{Williams2014}
 Williams, M. (2014).
 \newblock {Hydrodynamics and salt dispersion in intermittently closed bar-built
   estuaries}.
+\newblock {\em PhD Thesis}.
+\newblock UC Berkeley.
 
 \bibitem[\protect\astroncite{Williams and Stacey}{2016}]{williams2016}
 Williams, M. and Stacey, M.~T. (2016).

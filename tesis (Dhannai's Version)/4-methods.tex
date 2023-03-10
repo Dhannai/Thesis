@@ -57,9 +57,9 @@ For wind speed data, an anemometer (Model $\#$05106, RM Young) was installed 3 m
 
 \subsection{External data}
 
-To complete the information, the freshwater streamflow into the Pescadero estuary is estimated based on a United States Geological Survey (USGS) gauge located on Pescadero Creek 8.5 km upstream from the estuary mouth (USGS 11162500) \citep{usgs2022discharge}. As the Butano creek is also contributing, the total discharge estimation given by \cite{Williams2014} is $Q_{T} = 1.76 Q_{P,C}$. \\
+To complete the information, the freshwater streamflow into the Pescadero estuary is estimated based on a United States Geological Survey (USGS) gauge located on Pescadero Creek 8.5 km upstream from the estuary mouth (USGS 11162500). As the Butano creek is also contributing, the total discharge estimation given by \cite{Williams2014} is $Q_{T} = 1.76 Q_{P,C}$. \\
 
-The tide height data in San Francisco Bay and Monterrey Bay (stations 9414290 and 9413450 respectively) were obtained from the National Oceanographic and Atmospheric Administration (NOAA) \citep{noaa2022sftides, noaa2022mntytides}.Wave climate data were obtained from the National Data Buoy Center, 40 km in the ocean from the coast of Half Moon Bay (station 46012) \citep{noaa2022waves} (Fig. \ref{fig:mapext}). 
+The tide height data in San Francisco Bay and Monterrey Bay (stations 9414290 and 9413450 respectively) were obtained from the National Oceanographic and Atmospheric Administration (NOAA). Wave climate data were obtained from the National Data Buoy Center, 40 km in the ocean from the coast of Half Moon Bay (station 46012) (Fig. \ref{fig:mapext}). 
 
 \begin{figure}[h!]
     \centering
@@ -164,7 +164,7 @@ To analyze the relationship between wind stress and density we standardized and 
 
 \subsubsection{Surface fluctuations analysis}
 
-To analyze what was happening on the surface, a frequency spectral analysis was carried out in order to identify the most important processes that affect the water level. First, \cite{welch1967use} method was applied to reduce the data noise and there was applied a detrend. Finally, the signal was multiplied by a quadratic window of the size of the data number to obtain much clearer data and then apply the frequency spectral analysis. \\
+To analyze what was happening on the surface, a frequency spectral analysis was carried out in order to identify the most important processes that affect the water level. First, \cite{welch1967use} method was applied to reduce the data noise and there was applied a detrend. Finally, the signal was multiplied by a quadratic window $w[n]=\left( \frac{n-N/2}{N/2} \right)^2$, $0 \leq n \leq N$ to obtain much clearer data and then apply the frequency spectral analysis. \\
 
 To complement this information, an analysis of the wavelet transform was carried out using the Python package PyWavelets \citep{lee2019pywavelets}. The one-dimensional continuous wavelet transform was applied to the DC surface height data using the first-order Gaussian derivative family for a period range between 10 s and 2.8 min, we limited the frequencies to highlight what is important. This, in order to identify important events and other external phenomena, such as a wave overtopping the sandbar due to high tide. This analysis delivers coefficients that are a function of scale and position and that serve as a scalogram to visualize the wavelet.\\
 

@@ -5,46 +5,49 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 The style file: apa.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: Bibliografia.bib
+Warning--empty journal in curry1985pescadero
+Warning--empty booktitle in Largier2021
+Warning--empty journal in largier2015
 Warning--empty journal in sloan2006ecological
-You've used 62 entries,
+You've used 58 entries,
             1940 wiz_defined-function locations,
-            846 strings with 15903 characters,
-and the built_in function-call counts, 26019 in all, are:
-= -- 2509
-> -- 1239
-< -- 29
-+ -- 440
-- -- 425
-* -- 2474
-:= -- 4560
+            845 strings with 16091 characters,
+and the built_in function-call counts, 25349 in all, are:
+= -- 2441
+> -- 1208
+< -- 25
++ -- 430
+- -- 416
+* -- 2416
+:= -- 4409
 add.period$ -- 178
-call.type$ -- 62
-change.case$ -- 520
-chr.to.int$ -- 61
-cite$ -- 63
-duplicate$ -- 857
-empty$ -- 1684
-format.name$ -- 518
-if$ -- 4910
-int.to.chr$ -- 2
+call.type$ -- 58
+change.case$ -- 494
+chr.to.int$ -- 58
+cite$ -- 62
+duplicate$ -- 839
+empty$ -- 1659
+format.name$ -- 499
+if$ -- 4814
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 54
-newline$ -- 303
-num.names$ -- 188
-pop$ -- 410
+missing$ -- 58
+newline$ -- 294
+num.names$ -- 178
+pop$ -- 400
 preamble$ -- 1
-purify$ -- 521
+purify$ -- 496
 quote$ -- 0
-skip$ -- 647
+skip$ -- 629
 stack$ -- 0
-substring$ -- 1873
-swap$ -- 130
-text.length$ -- 2
+substring$ -- 1841
+swap$ -- 135
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 370
-warning$ -- 1
-while$ -- 212
+type$ -- 344
+warning$ -- 4
+while$ -- 206
 width$ -- 0
-write$ -- 776
-(There was 1 warning)
+write$ -- 753
+(There were 4 warnings)
