@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tesis.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: apa.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Database file #1: Bibliografia.bib
+Warning--empty journal in curry1985pescadero
+Warning--empty booktitle in Largier2021
+Warning--empty journal in largier2015
+Warning--empty journal in sloan2006ecological
+You've used 65 entries,
+            1940 wiz_defined-function locations,
+            885 strings with 17337 characters,
+and the built_in function-call counts, 28379 in all, are:
+= -- 2744
+> -- 1334
+< -- 27
++ -- 474
+- -- 458
+* -- 2711
+:= -- 4927
+add.period$ -- 199
+call.type$ -- 65
+change.case$ -- 550
+chr.to.int$ -- 65
+cite$ -- 69
+duplicate$ -- 937
+empty$ -- 1867
+format.name$ -- 552
+if$ -- 5390
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 65
+newline$ -- 329
+num.names$ -- 199
+pop$ -- 440
+preamble$ -- 1
+purify$ -- 552
+quote$ -- 0
+skip$ -- 701
+stack$ -- 0
+substring$ -- 2102
+swap$ -- 149
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 386
+warning$ -- 4
+while$ -- 234
+width$ -- 0
+write$ -- 844
+(There were 4 warnings)
