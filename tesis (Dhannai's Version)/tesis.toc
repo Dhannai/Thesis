@@ -1,42 +1,42 @@
-\contentsline {section}{\numberline {1}Introduction}{7}{section.1}%
-\contentsline {subsection}{\numberline {1.1}The Pescadero estuary}{8}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Motivation}{9}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Objectives}{10}{section.2}%
-\contentsline {subsection}{\numberline {2.1}General objective}{10}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Specific objectives}{10}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Literature review}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Bar-built estuaries in the ecosystem and the community}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}How bar-built estuaries are studied in Chile and around the world}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Hydrodynamics of a stratified waterbody}{12}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Pescadero estuary studies}{13}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Methods}{13}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Field measurements}{13}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}External data}{15}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Data processing}{16}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Salinity and temperature}{16}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Water velocity}{16}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Wind velocity}{17}{subsubsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.4}Analysis techniques}{17}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Stratification}{17}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Wind stress}{17}{subsubsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.3}Surface fluctuations analysis}{18}{subsubsection.4.4.3}%
-\contentsline {section}{\numberline {5}Results}{19}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Conditions observed during the closed state}{19}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Wind in the estuary}{19}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Evolution of density structure}{19}{subsubsection.5.1.2}%
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The Pescadero estuary}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Motivation}{6}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Objectives}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}General objective}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Specific objectives}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Literature review}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Bar-built estuaries in the ecosystem and the community}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}How bar-built estuaries are studied in Chile and around the world}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Hydrodynamics of a stratified waterbody}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Pescadero estuary studies}{11}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Methods}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Field measurements}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}External data}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Data processing}{14}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Salinity and temperature}{14}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Water velocity}{15}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Wind velocity}{16}{subsubsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.4}Analysis techniques}{16}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Stratification}{16}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Wind stress}{16}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Surface fluctuations analysis}{17}{subsubsection.4.4.3}%
+\contentsline {section}{\numberline {5}Results}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Conditions observed during the closed state}{17}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Wind in the estuary}{18}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Evolution of density structure}{18}{subsubsection.5.1.2}%
 \contentsline {subsubsection}{\numberline {5.1.3}Tidal and waves conditions}{21}{subsubsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.4}Pescadero creek discharge}{22}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.4}Pescadero creek discharge}{21}{subsubsection.5.1.4}%
 \contentsline {subsubsection}{\numberline {5.1.5}Currents speed and direction}{22}{subsubsection.5.1.5}%
 \contentsline {subsubsection}{\numberline {5.1.6}Surface fluctuations}{22}{subsubsection.5.1.6}%
-\contentsline {subsection}{\numberline {5.2}Hydrodynamic controllers}{23}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Stratification controllers}{24}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Surface fluctuations controllers}{25}{subsubsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.3}Wind-driven effects}{25}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Discussion}{34}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Estuarine structure and morphology}{34}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Analysis methods}{34}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Wind stress mixing}{35}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Wind-driven circulation}{36}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Freshwater input}{39}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Wave overtopping}{40}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Conclusion}{43}{section.7}%
+\contentsline {subsection}{\numberline {5.2}Hydrodynamic controllers}{22}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Stratification controllers}{22}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Surface fluctuations controllers}{24}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.3}Wind-driven effects}{24}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Discussion}{33}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Estuarine structure and morphology}{33}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Analysis methods}{33}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Wind stress mixing}{34}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Wind-driven circulation}{35}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Freshwater input}{38}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Wave overtopping}{39}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Conclusion}{42}{section.7}%
