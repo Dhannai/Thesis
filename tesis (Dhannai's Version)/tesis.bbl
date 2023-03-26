@@ -6,6 +6,12 @@ Avalos~Cueva, D., Monz{\'o}n, C.~O., Filonov, A., Tereshchenko, I.,
 \newblock Natural frequencies of seiches in {L}ake {C}hapala.
 \newblock {\em Scientific Reports}, 9(1):1--11.
 
+\bibitem[\protect\astroncite{Bastidas et~al.}{2021}]{bastidas2021comparison}
+Bastidas, L., Piedrahita, R., and Llanos-Rivera, A. (2021).
+\newblock A comparison of upwelling systems: A review of physical processes and
+  ecosystem effects.
+\newblock {\em Progress in Oceanography}, 191:102475.
+
 \bibitem[\protect\astroncite{Behrens et~al.}{2016}]{Behrens2016}
 Behrens, D.~K., Bombardelli, F.~A., and Largier, J.~L. (2016).
 \newblock {Landward propagation of saline waters following closure of a
@@ -96,6 +102,12 @@ Imam, Y.~E., Laval, B., Pieters, R., and Lawrence, G. (2013).
 \newblock {The strongly damped baroclinic response to wind in a multibasin
   reservoir}.
 \newblock {\em Limnology and oceanography}, 58(4):1243--1258.
+
+\bibitem[\protect\astroncite{Jayaweera et~al.}{2019}]{jayaweera2019turbulent}
+Jayaweera, H., Lowe, R., Zhang, H., and Pattiaratchi, C. (2019).
+\newblock Turbulent mixing across the pycnocline under varying wind and
+  buoyancy forcing: Observations from a coastal lagoon.
+\newblock {\em Journal of Geophysical Research: Oceans}, 124(8):6035--6054.
 
 \bibitem[\protect\astroncite{Jenkins and Simpson}{1984}]{jenkins1984response}
 Jenkins, A. and Simpson, J. (1984).
@@ -204,6 +216,13 @@ Neumann, B., Vafeidis, A.~T., Zimmermann, J., and Nicholls, R.~J. (2015).
 \newblock Future coastal population growth and exposure to sea-level rise and
   coastal flooding-a global assessment.
 \newblock {\em PloS one}, 10(3):e0118571.
+
+\bibitem[\protect\astroncite{Nidheesh
+  et~al.}{2018}]{nidheesh2018stratification}
+Nidheesh, A., Gandhimathi, R., and Suguna, J. (2018).
+\newblock Stratification dynamics in a freshwater reservoir under changing
+  thermal regime.
+\newblock {\em Journal of Hydro-environment Research}, 19:9--19.
 
 \bibitem[\protect\astroncite{Nunes and Adams}{2014}]{nunes2014responses}
 Nunes, M. and Adams, J. (2014).
@@ -398,5 +417,11 @@ Woolway, R.~I., Meinson, P., N{\~o}ges, P., Jones, I.~D., and Laas, A. (2017).
 W{\"{u}}est, A. and Lorke, A. (2003).
 \newblock {Small-scale hydrodynamics in lakes}.
 \newblock {\em Annual Review of fluid mechanics}, 35(1):373--412.
+
+\bibitem[\protect\astroncite{Xu et~al.}{2017}]{xu2017vertical}
+Xu, D., Hesser, T., and Mayer, T. (2017).
+\newblock Vertical exchange and interfacial layer dynamics in two-layered
+  shallow estuaries.
+\newblock {\em Journal of Geophysical Research: Oceans}, 122(7):5506--5525.
 
 \end{thebibliography}
