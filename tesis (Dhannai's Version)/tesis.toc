@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {3.4}Pescadero estuary studies}{13}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Methods}{14}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Field measurements}{14}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}External data}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}External data}{15}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Data processing}{16}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}Salinity and temperature}{16}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}Water velocity}{17}{subsubsection.4.3.2}%
@@ -37,6 +37,6 @@
 \contentsline {subsection}{\numberline {6.2}Analysis methods}{35}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Wind stress mixing}{36}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Wind-driven circulation}{37}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Freshwater input}{40}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Wave overtopping}{41}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Conclusion}{44}{section.7}%
+\contentsline {subsection}{\numberline {6.5}Freshwater input}{41}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Wave overtopping}{42}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Conclusion}{45}{section.7}%
