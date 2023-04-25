@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex tesis"] 1681615043 "tesis.aux" "tesis.bbl" "tesis" 1681615055
+["bibtex tesis"] 1681786028 "tesis.aux" "tesis.bbl" "tesis" 1681786039
   "Bibliografia.bib" 1680560897 34595 e28fe2f1f7c9ae3a5d561d6fb8d22b0c ""
   "C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/bibtex/bst/beebe/apa.bst" 954231233 23582 e3c8338eb1efb7432441aa8861285f53 ""
-  "tesis.aux" 1681615054 34374 19a5bec955280d9edf6160fba00fa852 "pdflatex"
+  "tesis.aux" 1681786038 34193 4b908a53e8c5543e89d8a4dea9d078d0 "pdflatex"
   (generated)
   "tesis.bbl"
   "tesis.blg"
-["pdflatex"] 1681615044 "c:/Users/Dhannai/Documents/git/push/tesis (Dhannai's Version)/tesis.tex" "tesis.pdf" "tesis" 1681615055
+["pdflatex"] 1681786028 "c:/Users/Dhannai/Documents/git/push/tesis (Dhannai's Version)/tesis.tex" "tesis.pdf" "tesis" 1681786039
   "1-introduction.tex" 1681615029 9336 b7632d5a1ca98f7b64d55beeb0ecf8b5 ""
   "2-objectives.tex" 1681615029 2319 02488b3ff8e5b4cab570d2b75c5cf6b2 ""
-  "3-literature-review.tex" 1680652866 14110 53b5233c05cb9253c1b7a573f7464d02 ""
+  "3-literature-review.tex" 1681786016 13610 b0ee1b6f87d58595e204fe33be22f35c ""
   "4-methods.tex" 1678390431 14321 2926a1e5d9892d69561374b01917e3b6 ""
   "5-results.tex" 1681615029 36878 4bfbcd647665c07ab6b248f454445efb ""
   "6-discussion.tex" 1681615029 24575 3213a05ae32a60622daf6fac27b1abcc ""
@@ -340,13 +340,13 @@
   "Imagenes/wind_vel.png" 1659548172 26903 d69a733dce1638192994550595b2cbec ""
   "Imagenes/windrose.png" 1659621535 80759 b214ec669597164229b81e338c575168 ""
   "c:/Users/Dhannai/Documents/git/push/tesis (Dhannai's Version)/tesis.tex" 1678321527 6635 1bc6495a6d8f3cfc352d1f3eb3cf63ed ""
-  "tesis.aux" 1681615054 34374 19a5bec955280d9edf6160fba00fa852 "pdflatex"
-  "tesis.bbl" 1681615044 20814 d7e3fbe908c1a9d4f1a8f1b646039372 "bibtex tesis"
-  "tesis.lof" 1681615054 9446 875643ef49042e0477f06219931d2bbe "pdflatex"
-  "tesis.lot" 1681615054 518 40a9294168e13c04f8b79386523ea542 "pdflatex"
-  "tesis.out" 1681615054 7228 1c3b4f7b824611a8b219ba0a92c4fa99 "pdflatex"
+  "tesis.aux" 1681786038 34193 4b908a53e8c5543e89d8a4dea9d078d0 "pdflatex"
+  "tesis.bbl" 1681786028 20535 373affc7ed10a0e92f50d146cb11f114 "bibtex tesis"
+  "tesis.lof" 1681786038 9446 875643ef49042e0477f06219931d2bbe "pdflatex"
+  "tesis.lot" 1681786038 518 40a9294168e13c04f8b79386523ea542 "pdflatex"
+  "tesis.out" 1681786038 7228 1c3b4f7b824611a8b219ba0a92c4fa99 "pdflatex"
   "tesis.tex" 1678321527 6635 1bc6495a6d8f3cfc352d1f3eb3cf63ed ""
-  "tesis.toc" 1681615054 3787 0805c8bc457a276a3d10abf235e03b00 "pdflatex"
+  "tesis.toc" 1681786038 3787 150a9054608139679946cdaea239e1ac "pdflatex"
   (generated)
   "tesis.aux"
   "tesis.lof"

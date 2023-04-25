@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.2)  15 APR 2023 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.2)  17 APR 2023 22:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1224,12 +1224,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
@@ -1284,22 +1284,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[13]) (4-methods.tex
+) (4-methods.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-<Imagenes/mapa3.png, id=672, 926.808pt x 417.633pt>
+<Imagenes/mapa3.png, id=663, 926.808pt x 417.633pt>
 File: Imagenes/mapa3.png Graphic file (type png)
 <use Imagenes/mapa3.png>
 Package pdftex.def Info: Imagenes/mapa3.png  used on input line 16.
 (pdftex.def)             Requested size: 472.03123pt x 212.70961pt.
-<Imagenes/depth.png, id=673, 730.73pt x 369.38pt>
+<Imagenes/depth.png, id=664, 730.73pt x 369.38pt>
 File: Imagenes/depth.png Graphic file (type png)
 <use Imagenes/depth.png>
 Package pdftex.def Info: Imagenes/depth.png  used on input line 23.
@@ -1317,12 +1317,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[14 <./Imagenes/mapa3.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-
+[14 <./Imagenes/mapa3.png>]
 Overfull \hbox (12.31061pt too wide) in paragraph at lines 38--56
  [][] 
  []
@@ -1333,7 +1333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
  []
 
 [15 <./Imagenes/depth.png>]
-<Imagenes/mapa_ext.png, id=691, 706.056pt x 566.553pt>
+<Imagenes/mapa_ext.png, id=682, 706.056pt x 566.553pt>
 File: Imagenes/mapa_ext.png Graphic file (type png)
 <use Imagenes/mapa_ext.png>
 Package pdftex.def Info: Imagenes/mapa_ext.png  used on input line 66.
@@ -1359,12 +1359,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
  []
 
 [16 <./Imagenes/mapa_ext.png>]
-<Imagenes/rotacion.png, id=701, 767.814pt x 219.0pt>
+<Imagenes/rotacion.png, id=692, 767.814pt x 219.0pt>
 File: Imagenes/rotacion.png Graphic file (type png)
 <use Imagenes/rotacion.png>
 Package pdftex.def Info: Imagenes/rotacion.png  used on input line 89.
 (pdftex.def)             Requested size: 472.03123pt x 134.63908pt.
-<Imagenes/wind_raw.png, id=703, 772.8875pt x 156.585pt>
+<Imagenes/wind_raw.png, id=694, 772.8875pt x 156.585pt>
 File: Imagenes/wind_raw.png Graphic file (type png)
 <use Imagenes/wind_raw.png>
 Package pdftex.def Info: Imagenes/wind_raw.png  used on input line 102.
@@ -1385,7 +1385,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
  []
 
 ) (5-results.tex
-<Imagenes/windrose.png, id=751, 539.31488pt x 529.37775pt>
+<Imagenes/windrose.png, id=742, 539.31488pt x 529.37775pt>
 File: Imagenes/windrose.png Graphic file (type png)
 <use Imagenes/windrose.png>
 Package pdftex.def Info: Imagenes/windrose.png  used on input line 16.
@@ -1394,7 +1394,7 @@ Package pdftex.def Info: Imagenes/windrose.png  used on input line 16.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/wind_vel.png, id=752, 629.35126pt x 212.795pt>
+<Imagenes/wind_vel.png, id=743, 629.35126pt x 212.795pt>
 File: Imagenes/wind_vel.png Graphic file (type png)
 <use Imagenes/wind_vel.png>
 Package pdftex.def Info: Imagenes/wind_vel.png  used on input line 23.
@@ -1417,7 +1417,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-<Imagenes/saltemp.png, id=776, 875.27pt x 441.65pt>
+<Imagenes/saltemp.png, id=767, 875.27pt x 441.65pt>
 File: Imagenes/saltemp.png Graphic file (type png)
 <use Imagenes/saltemp.png>
 Package pdftex.def Info: Imagenes/saltemp.png  used on input line 40.
@@ -1431,7 +1431,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
  []
 
 [20 <./Imagenes/windrose.png> <./Imagenes/wind_vel.png>]
-<Imagenes/salT_dens.png, id=787, 586.19pt x 297.11pt>
+<Imagenes/salT_dens.png, id=778, 586.19pt x 297.11pt>
 File: Imagenes/salT_dens.png Graphic file (type png)
 <use Imagenes/salT_dens.png>
 Package pdftex.def Info: Imagenes/salT_dens.png  used on input line 49.
@@ -1456,7 +1456,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-<Imagenes/vista_long2.png, id=805, 656.343pt x 247.689pt>
+<Imagenes/vista_long2.png, id=796, 656.343pt x 247.689pt>
 File: Imagenes/vista_long2.png Graphic file (type png)
 <use Imagenes/vista_long2.png>
 Package pdftex.def Info: Imagenes/vista_long2.png  used on input line 64.
@@ -1472,12 +1472,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
  []
 
 [22 <./Imagenes/vista_long2.png>]
-<Imagenes/wave1.png, id=817, 875.27pt x 514.92375pt>
+<Imagenes/wave1.png, id=808, 875.27pt x 514.92375pt>
 File: Imagenes/wave1.png Graphic file (type png)
 <use Imagenes/wave1.png>
 Package pdftex.def Info: Imagenes/wave1.png  used on input line 77.
 (pdftex.def)             Requested size: 472.03123pt x 277.70111pt.
-<Imagenes/Q.png, id=819, 875.27pt x 152.57pt>
+<Imagenes/Q.png, id=810, 875.27pt x 152.57pt>
 File: Imagenes/Q.png Graphic file (type png)
 <use Imagenes/Q.png>
 Package pdftex.def Info: Imagenes/Q.png  used on input line 88.
@@ -1506,7 +1506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-<Imagenes/dens.png, id=832, 875.27pt x 586.19pt>
+<Imagenes/dens.png, id=823, 875.27pt x 586.19pt>
 File: Imagenes/dens.png Graphic file (type png)
 <use Imagenes/dens.png>
 Package pdftex.def Info: Imagenes/dens.png  used on input line 111.
@@ -1539,7 +1539,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-<Imagenes/surf.png, id=851, 875.27pt x 730.73pt>
+<Imagenes/surf.png, id=842, 875.27pt x 730.73pt>
 File: Imagenes/surf.png Graphic file (type png)
 <use Imagenes/surf.png>
 Package pdftex.def Info: Imagenes/surf.png  used on input line 131.
@@ -1557,7 +1557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-<Imagenes/phi.png, id=854, 875.27pt x 297.11pt>
+<Imagenes/phi.png, id=845, 875.27pt x 297.11pt>
 File: Imagenes/phi.png Graphic file (type png)
 <use Imagenes/phi.png>
 Package pdftex.def Info: Imagenes/phi.png  used on input line 144.
@@ -1571,7 +1571,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
  []
 
 [26]
-<Imagenes/wedd.png, id=862, 875.27pt x 441.65pt>
+<Imagenes/wedd.png, id=853, 875.27pt x 441.65pt>
 File: Imagenes/wedd.png Graphic file (type png)
 <use Imagenes/wedd.png>
 Package pdftex.def Info: Imagenes/wedd.png  used on input line 153.
@@ -1585,7 +1585,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-<Imagenes/diff.png, id=868, 762.85pt x 378.41376pt>
+<Imagenes/diff.png, id=859, 762.85pt x 378.41376pt>
 File: Imagenes/diff.png Graphic file (type png)
 <use Imagenes/diff.png>
 Package pdftex.def Info: Imagenes/diff.png  used on input line 162.
@@ -1623,7 +1623,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
  []
 
 [29 <./Imagenes/diff.png>]
-<Imagenes/vels.png, id=893, 874.26625pt x 441.65pt>
+<Imagenes/vels.png, id=884, 874.26625pt x 441.65pt>
 File: Imagenes/vels.png Graphic file (type png)
 <use Imagenes/vels.png>
 Package pdftex.def Info: Imagenes/vels.png  used on input line 247.
@@ -1644,17 +1644,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--257
  []
 
 [31]
-<Imagenes/perf.png, id=906, 609.27625pt x 455.7025pt>
+<Imagenes/perf.png, id=897, 609.27625pt x 455.7025pt>
 File: Imagenes/perf.png Graphic file (type png)
 <use Imagenes/perf.png>
 Package pdftex.def Info: Imagenes/perf.png  used on input line 262.
 (pdftex.def)             Requested size: 401.22942pt x 300.10399pt.
-<Imagenes/vel.png, id=907, 626.34pt x 232.87pt>
+<Imagenes/vel.png, id=898, 626.34pt x 232.87pt>
 File: Imagenes/vel.png Graphic file (type png)
 <use Imagenes/vel.png>
 Package pdftex.def Info: Imagenes/vel.png  used on input line 263.
 (pdftex.def)             Requested size: 401.22942pt x 149.1784pt.
-<Imagenes/n2.png, id=908, 730.73pt x 224.84pt>
+<Imagenes/n2.png, id=899, 730.73pt x 224.84pt>
 File: Imagenes/n2.png Graphic file (type png)
 <use Imagenes/n2.png>
 Package pdftex.def Info: Imagenes/n2.png  used on input line 264.
@@ -1679,7 +1679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-<Imagenes/surf2.png, id=919, 875.27pt x 730.73pt>
+<Imagenes/surf2.png, id=910, 875.27pt x 730.73pt>
 File: Imagenes/surf2.png Graphic file (type png)
 <use Imagenes/surf2.png>
 Package pdftex.def Info: Imagenes/surf2.png  used on input line 281.
@@ -1693,7 +1693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--287
  []
 
 [33]
-<Imagenes/freqs.png, id=927, 730.73pt x 369.38pt>
+<Imagenes/freqs.png, id=918, 730.73pt x 369.38pt>
 File: Imagenes/freqs.png Graphic file (type png)
 <use Imagenes/freqs.png>
 Package pdftex.def Info: Imagenes/freqs.png  used on input line 292.
@@ -1782,7 +1782,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-<Imagenes/vel_wind.png, id=960, 874.26625pt x 513.92pt>
+<Imagenes/vel_wind.png, id=951, 874.26625pt x 513.92pt>
 File: Imagenes/vel_wind.png Graphic file (type png)
 <use Imagenes/vel_wind.png>
 Package pdftex.def Info: Imagenes/vel_wind.png  used on input line 62.
@@ -1796,7 +1796,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
  []
 
 [37]
-<Imagenes/ADCP_range.png, id=969, 398.361pt x 174.105pt>
+<Imagenes/ADCP_range.png, id=960, 398.361pt x 174.105pt>
 File: Imagenes/ADCP_range.png Graphic file (type png)
 <use Imagenes/ADCP_range.png>
 Package pdftex.def Info: Imagenes/ADCP_range.png  used on input line 71.
@@ -1807,13 +1807,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
  []
 
 [38 <./Imagenes/vel_wind.png> <./Imagenes/ADCP_range.png>] [39]
-<Imagenes/wind_event.png, id=981, 516.183pt x 676.929pt>
+<Imagenes/wind_event.png, id=972, 516.183pt x 676.929pt>
 File: Imagenes/wind_event.png Graphic file (type png)
 <use Imagenes/wind_event.png>
 Package pdftex.def Info: Imagenes/wind_event.png  used on input line 81.
 (pdftex.def)             Requested size: 448.42822pt x 588.09715pt.
  [40 <./Imagenes/wind_event.png>]
-<Imagenes/wind_event2.png, id=987, 756.8275pt x 233.87375pt>
+<Imagenes/wind_event2.png, id=978, 756.8275pt x 233.87375pt>
 File: Imagenes/wind_event2.png Graphic file (type png)
 <use Imagenes/wind_event2.png>
 Package pdftex.def Info: Imagenes/wind_event2.png  used on input line 89.
@@ -1843,7 +1843,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<Imagenes/qh.png, id=1006, 520.94624pt x 273.02pt>
+<Imagenes/qh.png, id=997, 520.94624pt x 273.02pt>
 File: Imagenes/qh.png Graphic file (type png)
 <use Imagenes/qh.png>
 Package pdftex.def Info: Imagenes/qh.png  used on input line 108.
@@ -1853,7 +1853,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-<Imagenes/mix_q2.png, id=1008, 875.27pt x 730.73pt>
+<Imagenes/mix_q2.png, id=999, 875.27pt x 730.73pt>
 File: Imagenes/mix_q2.png Graphic file (type png)
 <use Imagenes/mix_q2.png>
 Package pdftex.def Info: Imagenes/mix_q2.png  used on input line 117.
@@ -1872,7 +1872,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
  []
 
 [42 <./Imagenes/qh.png>]
-<Imagenes/WO.png, id=1015, 771.88374pt x 333.245pt>
+<Imagenes/WO.png, id=1006, 771.88374pt x 333.245pt>
 File: Imagenes/WO.png Graphic file (type png)
 <use Imagenes/WO.png>
 Package pdftex.def Info: Imagenes/WO.png  used on input line 130.
@@ -1892,7 +1892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
  []
 
 [43 <./Imagenes/mix_q2.png>]
-<Imagenes/mix_wo.png, id=1023, 875.27pt x 730.73pt>
+<Imagenes/mix_wo.png, id=1014, 875.27pt x 730.73pt>
 File: Imagenes/mix_wo.png Graphic file (type png)
 <use Imagenes/mix_wo.png>
 Package pdftex.def Info: Imagenes/mix_wo.png  used on input line 141.
@@ -1936,8 +1936,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-) (tesis.bbl [46] [47]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 150.
+) (tesis.bbl [46]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 144.
  (C:\Users\Dhannai\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -1945,22 +1945,22 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [48] [49]) [50] (tesis.aux)
+ [47] [48] [49]) [50] (tesis.aux)
 Package rerunfilecheck Info: File `tesis.out' has not changed.
 (rerunfilecheck)             Checksum: 1C3B4F7B824611A8B219BA0A92C4FA99;7228.
  ) 
 Here is how much of TeX's memory you used:
- 42092 strings out of 478337
- 957472 string characters out of 2835723
- 1386570 words of memory out of 3000000
- 59274 multiletter control sequences out of 15000+600000
+ 42088 strings out of 478337
+ 957375 string characters out of 2835723
+ 1386533 words of memory out of 3000000
+ 59271 multiletter control sequences out of 15000+600000
  533798 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,103p,1354b,699s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,10n,103p,1354b,697s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (52 pages, 34060700 bytes).
+Output written on tesis.pdf (52 pages, 34058609 bytes).
 PDF statistics:
- 1171 PDF objects out of 1200 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
+ 1162 PDF objects out of 1200 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
  44551 words of extra memory for PDF output out of 51595 (max. 10000000)
 
