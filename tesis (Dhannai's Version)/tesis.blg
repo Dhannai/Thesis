@@ -11,43 +11,43 @@ Warning--empty journal in largier2015
 Warning--empty journal in sloan2006ecological
 You've used 67 entries,
             1940 wiz_defined-function locations,
-            895 strings with 17763 characters,
-and the built_in function-call counts, 29446 in all, are:
-= -- 2844
+            893 strings with 17757 characters,
+and the built_in function-call counts, 29499 in all, are:
+= -- 2851
 > -- 1391
-< -- 25
+< -- 26
 + -- 496
 - -- 478
-* -- 2822
-:= -- 5109
+* -- 2817
+:= -- 5112
 add.period$ -- 205
 call.type$ -- 67
 change.case$ -- 570
 chr.to.int$ -- 67
 cite$ -- 71
-duplicate$ -- 969
-empty$ -- 1938
+duplicate$ -- 976
+empty$ -- 1940
 format.name$ -- 572
-if$ -- 5591
+if$ -- 5610
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 68
 newline$ -- 339
 num.names$ -- 205
-pop$ -- 458
+pop$ -- 460
 preamble$ -- 1
 purify$ -- 572
 quote$ -- 0
-skip$ -- 721
+skip$ -- 730
 stack$ -- 0
-substring$ -- 2193
-swap$ -- 154
-text.length$ -- 3
+substring$ -- 2192
+swap$ -- 161
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 398
 warning$ -- 4
-while$ -- 243
+while$ -- 244
 width$ -- 0
 write$ -- 871
 (There were 4 warnings)
