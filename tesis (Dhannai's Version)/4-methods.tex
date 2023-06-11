@@ -80,7 +80,9 @@ Additionally, CTD profiles were made on February 16th, between 17:00 and 17:30 w
 
 \subsubsection{Water velocity} \label{Estuary_currents}
 
-Velocity data collected with the ADCP in its raw form had some measured points out of the water and were in the instrument coordinates. First, we removed the data above the surface from the record and then rotated it to earth coordinates (East, North) using the method shown in \cite{teledyne2008}. On the other hand, the ADCP has a blank space of measures at the bottom, so the first measured point was 71 cm above the ground, meaning there is only a window of velocity data in the water column.\\
+Velocity data collected with the ADCP in its raw form is composed of different points measured throughout the water column (bin), which were in instrument coordinates. Some of this bins were measured out of the water.\\
+
+First, we removed the bins above the surface from the record and then rotated them to earth coordinates (East, North) using the method shown in \cite{teledyne2008}. On the other hand, the ADCP has a blank space of measures at the bottom, so the first measured point was 71 cm above the ground, meaning there is only a window of velocity data in the water column (Fig. \ref{fig:north_east}).\\
 
 \begin{figure}[h!]
     \centering
@@ -89,7 +91,7 @@ Velocity data collected with the ADCP in its raw form had some measured points o
     \label{fig:north_east}
 \end{figure}
 
-For a better analysis, velocity data collected with the ADCP were axis-rotated to the principal coordinates ($u,v$), based on its direction of maximum variance as shown in Fig. \ref{fig:rotacion}. This was calculated for the studied period (From February 17th to March 9th), including the mouth breach of the  obtaining an angle of $48.6^o$ from the west axis in a clockwise direction and we established that the velocity was positive in the direction of the flow ($u$), that is, towards the sea.  
+The velocity data obtained from the ADCP, considering all bins that weren't deleted, was processed using an axis-rotation technique to align the measurements with the principal coordinates ($u,v$). This transformation was performed based on the direction of maximum variance, as illustrated in Fig. \ref{fig:rotacion}. The data analysis covered the period from February 17th to March 9th, which encompassed two observed breaches of the estuary mouth, as depicted in Fig. \ref{fig:north_east}. The inclusion of these inlet openings was essential to capture the inflow direction during estuary draining events. The principal direction angle was determined to be 48.6° clockwise from the west axis, and it was established that the positive velocity component ($u$) corresponded to the flow direction towards the sea.
 
 \begin{figure}[h!]
     \centering
@@ -98,7 +100,7 @@ For a better analysis, velocity data collected with the ADCP were axis-rotated t
     \label{fig:rotacion}
 \end{figure}
 
-We averaged ADCP data every 5 minutes to take off high-frequency signals. However, CTD data at the DC location was not at the same depth due to bathymetry so, we estimated the difference between both and adjusted the first cell to 0.91 m above the bottom of the estuary. 
+We averaged ADCP data every 5 minutes to remove high-frequency signals. However, CTD data at the DC location was not at the same depth due to bathymetry so, we estimated the difference between both and adjusted the first cell to 0.91 m above the bottom of the estuary. 
 
 \subsubsection{Wind velocity}
 
@@ -107,6 +109,7 @@ Raw wind data contained the velocity magnitude and direction as shown in Fig. \r
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\textwidth]{Imagenes/wind_raw.png}
+    \includegraphics[width=\textwidth]{Imagenes/wind_rotation.png}
     \caption{Time-series of wind velocity magnitude and direction.}
     \label{fig:wind_raw}
 \end{figure}
