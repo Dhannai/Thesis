@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.2)  2 JUN 2023 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.2)  12 JUN 2023 08:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1038,7 +1038,7 @@ File: Imagenes/mapa3.png Graphic file (type png)
 <use Imagenes/mapa3.png>
 Package pdftex.def Info: Imagenes/mapa3.png  used on input line 16.
 (pdftex.def)             Requested size: 472.03123pt x 212.70961pt.
-<Imagenes/depth.png, id=54, 730.73pt x 369.38pt>
+<Imagenes/depth.png, id=56, 730.73pt x 369.38pt>
 File: Imagenes/depth.png Graphic file (type png)
 <use Imagenes/depth.png>
 Package pdftex.def Info: Imagenes/depth.png  used on input line 23.
@@ -1056,8 +1056,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
+[1
+
+{C:/Users/Dhannai/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Imagenes/mapa3.png>]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 32.
-(C:\Users\Dhannai\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+ (C:\Users\Dhannai\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\Dhannai\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
@@ -1100,9 +1103,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-[1
 
-{C:/Users/Dhannai/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Imagenes/mapa3.png>]
 Overfull \hbox (12.31061pt too wide) in paragraph at lines 38--56
  [][] 
  []
@@ -1116,7 +1117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
  []
 
 [2 <./Imagenes/depth.png>]
-<Imagenes/mapa_ext.png, id=77, 706.056pt x 566.553pt>
+<Imagenes/mapa_ext.png, id=79, 706.056pt x 566.553pt>
 File: Imagenes/mapa_ext.png Graphic file (type png)
 <use Imagenes/mapa_ext.png>
 Package pdftex.def Info: Imagenes/mapa_ext.png  used on input line 66.
@@ -1137,85 +1138,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
  []
 
 
-Package natbib Warning: Citation `teledyne2008' on page 3 undefined on input line 83.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 [3 <./Imagenes/mapa_ext.png>]
-<Imagenes/rotacion.png, id=88, 767.814pt x 219.0pt>
+
+Package natbib Warning: Citation `teledyne2008' on page 4 undefined on input line 85.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+<Imagenes/velocity_estnorth.png, id=90, 474.792pt x 284.043pt>
+File: Imagenes/velocity_estnorth.png Graphic file (type png)
+<use Imagenes/velocity_estnorth.png>
+Package pdftex.def Info: Imagenes/velocity_estnorth.png  used on input line 89.
+(pdftex.def)             Requested size: 472.03123pt x 282.39531pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 94.
+(C:\Users\Dhannai\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<Imagenes/rotacion.png, id=93, 767.814pt x 219.0pt>
 File: Imagenes/rotacion.png Graphic file (type png)
 <use Imagenes/rotacion.png>
-Package pdftex.def Info: Imagenes/rotacion.png  used on input line 89.
+Package pdftex.def Info: Imagenes/rotacion.png  used on input line 98.
 (pdftex.def)             Requested size: 472.03123pt x 134.63908pt.
-<Imagenes/wind_raw.png, id=90, 772.8875pt x 156.585pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./Imagenes/velocity_estnorth.png>]
+<Imagenes/wind_raw.png, id=102, 772.8875pt x 156.585pt>
 File: Imagenes/wind_raw.png Graphic file (type png)
 <use Imagenes/wind_raw.png>
-Package pdftex.def Info: Imagenes/wind_raw.png  used on input line 102.
+Package pdftex.def Info: Imagenes/wind_raw.png  used on input line 111.
 (pdftex.def)             Requested size: 472.03123pt x 95.6314pt.
+<Imagenes/wind_rotation.png, id=103, 631.35875pt x 294.09875pt>
+File: Imagenes/wind_rotation.png Graphic file (type png)
+<use Imagenes/wind_rotation.png>
+Package pdftex.def Info: Imagenes/wind_rotation.png  used on input line 112.
+(pdftex.def)             Requested size: 472.03123pt x 219.88242pt.
 
 
-Package natbib Warning: Citation `kundu2002fluid' on page 4 undefined on input line 111.
+Package natbib Warning: Citation `kundu2002fluid' on page 5 undefined on input line 121.
+
+[5 <./Imagenes/rotacion.png> <./Imagenes/wind_raw.png> <./Imagenes/wind_rotation.png>]
+
+Package natbib Warning: Citation `simpson1990tidal' on page 6 undefined on input line 128.
 
 
-Package natbib Warning: Citation `simpson1990tidal' on page 4 undefined on input line 111.
-
-[4 <./Imagenes/rotacion.png> <./Imagenes/wind_raw.png>]
-
-Package natbib Warning: Citation `read2011derivation' on page 5 undefined on input line 122.
+Package natbib Warning: Citation `read2011derivation' on page 6 undefined on input line 139.
 
 
-Package natbib Warning: Citation `large1981open' on page 5 undefined on input line 129.
+Package natbib Warning: Citation `large1981open' on page 6 undefined on input line 146.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Package natbib Warning: Citation `Shintani2010' on page 6 undefined on input line 155.
+
+
+Package natbib Warning: Citation `stevens1996initial' on page 6 undefined on input line 175.
+
+[6]
+
+Package natbib Warning: Citation `welch1967use' on page 7 undefined on input line 184.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 
-Package natbib Warning: Citation `Shintani2010' on page 5 undefined on input line 138.
+Package natbib Warning: Citation `lee2019pywavelets' on page 7 undefined on input line 186.
 
 
-Package natbib Warning: Citation `stevens1996initial' on page 5 undefined on input line 158.
-
-
-Package natbib Warning: Citation `welch1967use' on page 5 undefined on input line 167.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-[5]
-
-Package natbib Warning: Citation `lee2019pywavelets' on page 6 undefined on input line 169.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 
 Package natbib Warning: There were undefined citations.
 
-[6] (4-methods.aux)
+[7] (4-methods.aux)
 Package rerunfilecheck Info: File `4-methods.out' has not changed.
 (rerunfilecheck)             Checksum: 7F7369519C37FF04837AA398700EDE4C;1593.
  ) 
 Here is how much of TeX's memory you used:
- 41241 strings out of 478337
- 941625 string characters out of 2835723
- 1369256 words of memory out of 3000000
- 58778 multiletter control sequences out of 15000+600000
- 502631 words of font info for 136 fonts, out of 8000000 for 9000
+ 41300 strings out of 478337
+ 942682 string characters out of 2835723
+ 1369483 words of memory out of 3000000
+ 58815 multiletter control sequences out of 15000+600000
+ 503361 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  119i,10n,120p,1110b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Dhannai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on 4-methods.pdf (6 pages, 18252486 bytes).
+Output written on 4-methods.pdf (7 pages, 19599053 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 22142 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 24200 words of extra memory for PDF output out of 24883 (max. 10000000)
 

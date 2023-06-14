@@ -9,45 +9,45 @@ Warning--empty journal in curry1985pescadero
 Warning--empty booktitle in Largier2021
 Warning--empty journal in largier2015
 Warning--empty journal in sloan2006ecological
-You've used 68 entries,
+You've used 69 entries,
             1940 wiz_defined-function locations,
-            900 strings with 18021 characters,
-and the built_in function-call counts, 29906 in all, are:
-= -- 2893
-> -- 1404
+            912 strings with 18454 characters,
+and the built_in function-call counts, 30490 in all, are:
+= -- 2944
+> -- 1442
 < -- 27
-+ -- 500
-- -- 482
-* -- 2856
-:= -- 5180
-add.period$ -- 208
-call.type$ -- 68
-change.case$ -- 577
-chr.to.int$ -- 68
-cite$ -- 72
-duplicate$ -- 990
-empty$ -- 1970
-format.name$ -- 579
-if$ -- 5689
++ -- 514
+- -- 496
+* -- 2921
+:= -- 5281
+add.period$ -- 211
+call.type$ -- 69
+change.case$ -- 589
+chr.to.int$ -- 69
+cite$ -- 73
+duplicate$ -- 1004
+empty$ -- 2005
+format.name$ -- 594
+if$ -- 5798
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 69
-newline$ -- 344
-num.names$ -- 208
-pop$ -- 464
+missing$ -- 70
+newline$ -- 349
+num.names$ -- 211
+pop$ -- 474
 preamble$ -- 1
-purify$ -- 579
+purify$ -- 591
 quote$ -- 0
-skip$ -- 741
+skip$ -- 751
 stack$ -- 0
-substring$ -- 2229
-swap$ -- 163
+substring$ -- 2274
+swap$ -- 165
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 404
+type$ -- 410
 warning$ -- 4
-while$ -- 248
+while$ -- 251
 width$ -- 0
-write$ -- 884
+write$ -- 897
 (There were 4 warnings)

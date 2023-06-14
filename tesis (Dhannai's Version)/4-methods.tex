@@ -109,8 +109,8 @@ Raw wind data contained the velocity magnitude and direction as shown in Fig. \r
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\textwidth]{Imagenes/wind_raw.png}
-    \includegraphics[width=\textwidth]{Imagenes/wind_rotation.png}
-    \caption{Time-series of wind velocity magnitude and direction.}
+    \includegraphics[width=0.8\textwidth]{Imagenes/wind_rotation.png}
+    \caption{Time-series of wind velocity magnitude and direction. Wind velocity in North-East coordinates over the Pescadero map and in (u,v) coordinates.}
     \label{fig:wind_raw}
 \end{figure}
 
@@ -136,33 +136,33 @@ where $h$ is the total depth, and which we discretized according to the number o
 
 \subsubsection{Wind stress}
 
-We calculated the wind shear stress above the surface using the equation from \cite{read2011derivation}: 
+The wind shear stress was calculated following \cite{read2011derivation}: 
 
 \begin{equation}
     \tau=\rho_{air} C_D U_{10}^2
     \label{eq: tau}
 \end{equation}
 
-Where $\rho_{air}$ is the specific weight of air (1.2 $kg/m^3$), $C_D$ is the drag coefficient and was defined by \cite{large1981open} at 0.0012 for wind velocities between 4 and 11 m/s, and considering that the collected speeds are smaller than 11 m/s and the results are not sensitive to $C_D$ it was set as 0.0012. $U_{10}$ is the adjusted wind speed at 10 meters high, and it was obtained by: 
+Where $\rho_{air}$ is the specific weight of air (1.2 $kg/m^3$) and $C_D$, the drag coefficient, as defined by \cite{large1981open}, was set at 0.0012 for wind velocities ranging from 4 to 11 m/s. Since the measured wind speeds in our study were below 11 m/s and the results demonstrated insensitivity to $C_D$, we adopted the value of 0.0012. This choice enables a direct comparison of our observations with other studies that utilized a constant $C_D$ value, ensuring consistency across the literature. $U_{10}$ is the adjusted wind speed at 10 meters high, and it was obtained by: 
 
 \begin{equation}
-    U_{10}^2=U_z*(1-\frac{C_D}{\kappa}*\ln{\frac{10}{z}})^{-1}
+    U_{10}^2=U_z(1-\frac{C_D}{\kappa}\ln{\frac{10}{z}})^{-1}
     \label{eq: adjvel}
 \end{equation}
 
-with $\kappa=0.4$ as the Von Karmann coefficient and z = 3 m.\\
+with $\kappa=0.4$ as the Von Karmann coefficient and z = 3 m, the height of our wind measures.\\
 
-To study the response of the stratified layers to a wind impulse and identify the upwelling we used the Wedderburn number \citep{Shintani2010}:
+To study the response of the stratified layers to a wind impulse and identify the upwelling we used the Wedderburn number \citep{Imberger1982}:
 
 \begin{equation}
-    W=\frac{g'*h_1^2}{L*u_*^2}
+    W=\frac{g'h_1^2}{Lu_*^2}
     \label{eq: wed}
 \end{equation}
 
-where we estimated $h_1$ as the 30\% of the DC's total depth, L as 392 m, and for $u_*$ and g' we used:
+where we estimated $h_1$ as the 30\% of the DC's total depth (Fig. \ref{fig:h1}), L as 392 m, and for $u_*$ and g' we used:
 
 \begin{equation}
-    g'=\frac{\rho_{bottom}-\rho_{surface}}{\rho_{surface}}*g
+    g'=\frac{\rho_{bottom}-\rho_{surface}}{\rho_{surface}}g
     \label{eq: redg}
 \end{equation}
 
@@ -172,7 +172,15 @@ where we estimated $h_1$ as the 30\% of the DC's total depth, L as 392 m, and fo
 \end{equation}
 
 
-To analyze the relationship between wind stress and density we standardized and normalized the signals and applied cross-correlation. Cross-correlation between wind stress and density signals is used to find the time lag (phasing) between both and their level of correlation along the locations (propagation) measured in the estuary. Also, we can compare the results to the response tilt time that can be considered as $1/4$ of the internal wave period $T_1$ \citep{stevens1996initial}: 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{Imagenes/h1.png}
+    \caption{Time-series of 0.3 times the total depth of the estuary at the location DC.}
+    \label{fig:h1}
+\end{figure}
+
+
+To analyze the relationship between wind stress and density, we standardized and normalized the signals and applied cross-correlation. Cross-correlation between wind stress and density signals is used to find the time lag (phasing) between both and their level of correlation along the locations (propagation) measured in the estuary. Also, after commencement of the stress, the event of the condition identified as W takes $1/4$ of the internal wave period $T_1$ \citep{stevens1996initial}: 
 
 \begin{equation}
     T_1=\frac{2L}{\sqrt{(\frac{\epsilon g h_1 h_2}{h_1 + h_2})}}
