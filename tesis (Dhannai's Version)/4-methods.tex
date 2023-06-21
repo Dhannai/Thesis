@@ -25,11 +25,18 @@ Depth data were collected using moored Conductivity, Temperature, Depth sensors 
     \label{fig:depth}
 \end{figure}
 
-Density profiles were made on February 16th with a CTD logger around 5 p.m. at the locations indicated in Fig. \ref{fig:mapPDO}. The moment the profiles were made the wind was calm, so is not causing a disturbance in the water.\\
+Density profiles were made on 16 Feb. with a CTD logger around 5 p.m. at the locations indicated in Fig. \ref{fig:mapPDO}. The moment the profiles were made the wind was calm, so is not causing a disturbance in the water.\\
 
 Velocity measurements were made with an Acoustic Doppler Current Profiler (ADCP 1200 KHz WH) anchored to the bottom of the estuary at location DC. This instrument is designed to be used in deeper water, so data collected from the surface could be affected by the interference caused by reflection. Also, this instrument, despite it is on the location DC, does not have the same depth than the CTD moored at the same location, due to the bathymetry (See diagram of Fig. \ref{fig:mapPDO}).\\
 
-For wind speed data, an anemometer (Model $\#$05106, RM Young) was installed 3 m above the water level in marshy land adjacent to the estuary (Fig. \ref{fig:mapPDO}). All the information of the instruments are summarized in Table \ref{tab:instr}.\\
+For wind speed data, an anemometer (Model $\#$05106, RM Young Fig. \ref{fig:anemometer}) was installed 3 m above the water level in marshy land adjacent to the estuary (Fig. \ref{fig:mapPDO}). All the information of the instruments are summarized in Table \ref{tab:instr}.\\
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{Imagenes/anemometer.png}
+    \caption{Anemometer for wind measurements. Model $\#$05106, RM Young. \citep{Williams2014}}
+    \label{fig:anemometer}
+\end{figure}
 
 
 \begin{table}[h!]
@@ -91,7 +98,7 @@ First, we removed the bins above the surface from the record and then rotated th
     \label{fig:north_east}
 \end{figure}
 
-The velocity data obtained from the ADCP, considering all bins that weren't deleted, was processed using an axis-rotation technique to align the measurements with the principal coordinates ($u,v$). This transformation was performed based on the direction of maximum variance, as illustrated in Fig. \ref{fig:rotacion}. The data analysis covered the period from February 17th to March 9th, which encompassed two observed breaches of the estuary mouth, as depicted in Fig. \ref{fig:north_east}. The inclusion of these inlet openings was essential to capture the inflow direction during estuary draining events. The principal direction angle was determined to be 48.6° clockwise from the west axis, and it was established that the positive velocity component ($u$) corresponded to the flow direction towards the sea.
+The velocity data obtained from the ADCP, considering all bins that weren't deleted, was processed using an axis-rotation technique to align the measurements with the principal coordinates ($u,v$). This transformation was performed based on the direction of maximum variance, as illustrated in Fig. \ref{fig:rotacion}. The data analysis covered the period from 17 February to 9 March, which encompassed two observed breaches of the estuary mouth, as depicted in Fig. \ref{fig:north_east}. The inclusion of these inlet openings was essential to capture the inflow direction during estuary draining events. The principal direction angle was determined to be 48.6° clockwise from the west axis, and it was established that the positive velocity component ($u$) corresponded to the flow direction towards the sea.
 
 \begin{figure}[h!]
     \centering
@@ -104,7 +111,7 @@ We averaged ADCP data every 5 minutes to remove high-frequency signals. However,
 
 \subsubsection{Wind velocity}
 
-Raw wind data contained the velocity magnitude and direction as shown in Fig. \ref{fig:wind_raw}. Directions between 300 and 360 degrees come from the ocean and the wind that blows from 100 to 170 degrees comes from inland. Wind velocity coordinates were transformed first in east-north coordinates. Then, the data were also axis-rotated to the principal coordinates of the estuary currents, with an angle of $48.6^o$.
+Raw wind data contained the velocity magnitude and direction as shown in Fig. \ref{fig:wind_raw}. Wind velocity coordinates were transformed first in east-north coordinates. Then, the data were also axis-rotated to the principal coordinates of the estuary currents, with an angle of $48.6^o$.
 
 \begin{figure}[h!]
     \centering
@@ -189,7 +196,19 @@ To analyze the relationship between wind stress and density, we standardized and
 
 \subsubsection{Surface fluctuations analysis}
 
-To analyze what was happening on the surface, a frequency spectral analysis was carried out in order to identify the most important processes that affect the water level. First, \cite{welch1967use} method was applied to reduce the data noise and there was applied a detrend. Finally, the signal was multiplied by a quadratic window $w[n]=\left( \frac{n-N/2}{N/2} \right)^2$, $0 \leq n \leq N$ to obtain much clearer data and then apply the frequency spectral analysis. \\
+To analyze what was happening on the surface, a frequency spectral analysis was carried out in order to identify the most important processes that affect the water level. First, \cite{welch1967use} method was applied to reduce the data noise and there was applied a detrend. Finally, to obtain much clearer data and then apply the frequency spectral analysis, the signal was multiplied by a quadratic window:
+
+\begin{equation}
+    w[n]=\left( \frac{n-N/2}{N/2} \right)^2; 0 \leq n \leq N
+    \label{eq: wlch}
+\end{equation}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{Imagenes/steps_freq.png}
+    \caption{Step 1: Raw frequency spectral analysis. Step 2: Frequency spectral analysis with a noise reduction. Step 3: Frequency spectral analysis with a noise reduction and a detrend applied. Step 4: The obtained signal from step 3 is multiplied by a quadratic window shown in Eq. \ref{eq: wlch}.}
+    \label{fig:steps_freq}
+\end{figure}
 
 To complement this information, an analysis of the wavelet transform was carried out using the Python package PyWavelets \citep{lee2019pywavelets}. The one-dimensional continuous wavelet transform was applied to the DC surface height data using the first-order Gaussian derivative family for a period range between 10 s and 2.8 min, we limited the frequencies to highlight what is important. This, in order to identify important events and other external phenomena, such as a wave overtopping the sandbar due to high tide. This analysis delivers coefficients that are a function of scale and position and that serve as a scalogram to visualize the wavelet.\\
 

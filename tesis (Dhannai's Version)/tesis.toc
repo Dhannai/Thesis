@@ -16,27 +16,27 @@
 \contentsline {subsubsection}{\numberline {4.3.1}Salinity and temperature}{16}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}Water velocity}{17}{subsubsection.4.3.2}%
 \contentsline {subsubsection}{\numberline {4.3.3}Wind velocity}{18}{subsubsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.4}Analysis techniques}{18}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Stratification}{18}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Wind stress}{19}{subsubsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.3}Surface fluctuations analysis}{20}{subsubsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4}Analysis techniques}{19}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Stratification}{19}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Wind stress}{20}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Surface fluctuations analysis}{21}{subsubsection.4.4.3}%
 \contentsline {section}{\numberline {5}Results}{21}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Conditions observed during the closed state}{21}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Wind in the estuary}{21}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Evolution of density structure}{22}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Tidal and waves conditions}{24}{subsubsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.4}Pescadero creek discharge}{24}{subsubsection.5.1.4}%
-\contentsline {subsubsection}{\numberline {5.1.5}Currents speed and direction}{25}{subsubsection.5.1.5}%
-\contentsline {subsubsection}{\numberline {5.1.6}Surface fluctuations}{26}{subsubsection.5.1.6}%
-\contentsline {subsection}{\numberline {5.2}Hydrodynamic controllers}{26}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Stratification controllers}{26}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Surface fluctuations controllers}{27}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.1}Conditions observed during the closed state}{22}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Wind in the estuary}{22}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Evolution of density structure}{24}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Tidal and waves conditions}{25}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Pescadero creek discharge}{27}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.5}Currents speed and direction}{27}{subsubsection.5.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.6}Surface fluctuations}{27}{subsubsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.2}Hydrodynamic controllers}{27}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Stratification controllers}{28}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Surface fluctuations controllers}{29}{subsubsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.3}Wind-driven effects}{29}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Discussion}{36}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Estuarine structure and morphology}{36}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Analysis methods}{36}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Wind stress mixing}{37}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Wind-driven circulation}{38}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Freshwater input}{42}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Wave overtopping}{43}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Conclusion}{46}{section.7}%
+\contentsline {section}{\numberline {6}Discussion}{38}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Estuarine structure and morphology}{38}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Analysis methods}{39}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Wind stress mixing}{40}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Wind-driven circulation}{41}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Freshwater input}{44}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Wave overtopping}{45}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Conclusion}{48}{section.7}%
