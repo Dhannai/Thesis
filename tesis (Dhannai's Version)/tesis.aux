@@ -2,10 +2,13 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
 \global\let\oldnewlabel\newlabel
 \gdef\newlabel#1#2{\newlabelxx{#1}#2}
 \gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
 \let\newlabel\oldnewlabel
 \fi}
 \fi}
@@ -15,7 +18,6 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \bibstyle{apa}
 \citation{Williams2014}
-\citation{mcsweeney2017intermittently}
 \citation{schernewski2002baltic,martinez2007coasts}
 \citation{grez2020evidence}
 \citation{neumann2015future}
@@ -33,6 +35,7 @@
 \citation{Laval2008}
 \citation{avalos2019natural}
 \citation{dussaillant2009}
+\citation{largier2015}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{7}{section.1}\protected@file@percent }
 \citation{Williams2014}
 \citation{largier2015}
@@ -82,8 +85,8 @@
 \citation{Gale2006}
 \citation{largier2015}
 \citation{Kelly2018}
-\citation{Behrens2016}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}How bar-built estuaries are studied in Chile and around the world}{11}{subsection.3.2}\protected@file@percent }
+\citation{Behrens2016}
 \citation{Cousins2010}
 \citation{human2016}
 \citation{Valerio2012,Imam2013,Coman2012}
@@ -115,11 +118,11 @@
 \citation{Williams2014}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Methods}{14}{section.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Field measurements}{14}{subsection.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}External data}{14}{subsection.4.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Pescadero estuary map and location of the moorings (NM: Near Mouth, ML: Mid-Lagoon, DC: Deep Channel and, PC: Pescadero Creek), meteorological station. Profile locations for CTD measurements in Fig. \ref {fig:mapPDO} are indicated by small "x". Diagram of the elevation view of Pescadero in the along-estuary direction with the locations of the sensors in the water column.\relax }}{15}{figure.caption.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Pescadero estuary map and location of the moorings (NM: Near Mouth, ML: Mid-Lagoon, DC: Deep Channel and, PC: Pescadero Creek), meteorological station. Profile locations for CTD measurements in Fig. \ref  {fig:mapPDO} are indicated by small "x". Diagram of the elevation view of Pescadero in the along-estuary direction with the locations of the sensors in the water column.\relax }}{15}{figure.caption.8}\protected@file@percent }
 \newlabel{fig:mapPDO}{{2}{15}{Pescadero estuary map and location of the moorings (NM: Near Mouth, ML: Mid-Lagoon, DC: Deep Channel and, PC: Pescadero Creek), meteorological station. Profile locations for CTD measurements in Fig. \ref {fig:mapPDO} are indicated by small "x". Diagram of the elevation view of Pescadero in the along-estuary direction with the locations of the sensors in the water column.\relax }{figure.caption.8}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Time-series of instruments depth in all locations. The windowed data is the used in this study.\relax }}{15}{figure.caption.9}\protected@file@percent }
 \newlabel{fig:depth}{{3}{15}{Time-series of instruments depth in all locations. The windowed data is the used in this study.\relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}External data}{15}{subsection.4.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Anemometer for wind measurements. Model $\#$05106, RM Young. \citep  {Williams2014}\relax }}{16}{figure.caption.10}\protected@file@percent }
 \newlabel{fig:anemometer}{{4}{16}{Anemometer for wind measurements. Model $\#$05106, RM Young. \citep {Williams2014}\relax }{figure.caption.10}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Information of the instruments used in the field campaign.\relax }}{16}{table.caption.11}\protected@file@percent }
@@ -161,7 +164,7 @@
 \citation{lee2019pywavelets}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.3}Surface fluctuations analysis}{21}{subsubsection.4.4.3}\protected@file@percent }
 \newlabel{eq: wlch}{{9}{21}{Surface fluctuations analysis}{equation.4.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Step 1: Raw frequency spectral analysis. Step 2: Frequency spectral analysis with a noise reduction. Step 3: Frequency spectral analysis with a noise reduction and a detrend applied. Step 4: The obtained signal from step 3 is multiplied by a quadratic window shown in Eq. \ref {eq: wlch}.\relax }}{21}{figure.caption.17}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Step 1: Raw frequency spectral analysis. Step 2: Frequency spectral analysis with a noise reduction. Step 3: Frequency spectral analysis with a noise reduction and a detrend applied. Step 4: The obtained signal from step 3 is multiplied by a quadratic window shown in Eq. \ref  {eq: wlch}.\relax }}{21}{figure.caption.17}\protected@file@percent }
 \newlabel{fig:steps_freq}{{10}{21}{Step 1: Raw frequency spectral analysis. Step 2: Frequency spectral analysis with a noise reduction. Step 3: Frequency spectral analysis with a noise reduction and a detrend applied. Step 4: The obtained signal from step 3 is multiplied by a quadratic window shown in Eq. \ref {eq: wlch}.\relax }{figure.caption.17}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Results}{21}{section.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Time-series windowing the closed state of colormap of density in DC location in the water column height, where the black line represents the water level; wind speed in $u$ and $v$ direction.\relax }}{22}{figure.caption.18}\protected@file@percent }
@@ -186,7 +189,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Salinity and temperature versus density\relax }}{25}{figure.caption.22}\protected@file@percent }
 \newlabel{fig:saltdens}{{15}{25}{Salinity and temperature versus density\relax }{figure.caption.22}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3}Tidal and waves conditions}{25}{subsubsection.5.1.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Along-estuary density colormap of Pescadero. Distance x is considered from the coast following the curvature of the estuary as the sensors are placed in Fig. \ref {fig:mapPDO}. \relax }}{26}{figure.caption.23}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Along-estuary density colormap of Pescadero. Distance x is considered from the coast following the curvature of the estuary as the sensors are placed in Fig. \ref  {fig:mapPDO}. \relax }}{26}{figure.caption.23}\protected@file@percent }
 \newlabel{fig:perfiles1}{{16}{26}{Along-estuary density colormap of Pescadero. Distance x is considered from the coast following the curvature of the estuary as the sensors are placed in Fig. \ref {fig:mapPDO}. \relax }{figure.caption.23}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Time-series of tidal height in San Francisco (blue) and Pescadero estuary water level (black) in MLLW datum, significant wave height ($H_{SW}$), dominant wave period ($T_{DW}$), average wave period ($T_{AW}$), and the direction from which the waves at the dominant period are coming ($dir_{DW}$).\relax }}{26}{figure.caption.24}\protected@file@percent }
 \newlabel{fig:wave1}{{17}{26}{Time-series of tidal height in San Francisco (blue) and Pescadero estuary water level (black) in MLLW datum, significant wave height ($H_{SW}$), dominant wave period ($T_{DW}$), average wave period ($T_{AW}$), and the direction from which the waves at the dominant period are coming ($dir_{DW}$).\relax }{figure.caption.24}{}}
@@ -198,7 +201,7 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.6}Surface fluctuations}{27}{subsubsection.5.1.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Hydrodynamic controllers}{27}{subsection.5.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Stratification controllers}{28}{subsubsection.5.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Time-series of wind stress ($\tau _w$), NM ($\rho _{NM}$), ML ($\rho _{ML}$), and DC ($\rho _{ML}$) densities in different depths, where sensor 1 is the deepest and sensor 4 is the shallowest (The positions in the water column of the sensors are shown in Fig. \ref {fig:perfiles1}), significant wave height in Halfmoon Bay in blue ($H_{sw}$), Pescadero estuary water level (black) and tidal height in San Francisco (gray) in MLLW datum, and freshwater inflow of Pescadero creek ($Q$).\relax }}{28}{figure.caption.26}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Time-series of wind stress ($\tau _w$), NM ($\rho _{NM}$), ML ($\rho _{ML}$), and DC ($\rho _{ML}$) densities in different depths, where sensor 1 is the deepest and sensor 4 is the shallowest (The positions in the water column of the sensors are shown in Fig. \ref  {fig:perfiles1}), significant wave height in Halfmoon Bay in blue ($H_{sw}$), Pescadero estuary water level (black) and tidal height in San Francisco (gray) in MLLW datum, and freshwater inflow of Pescadero creek ($Q$).\relax }}{28}{figure.caption.26}\protected@file@percent }
 \newlabel{fig:dens}{{19}{28}{Time-series of wind stress ($\tau _w$), NM ($\rho _{NM}$), ML ($\rho _{ML}$), and DC ($\rho _{ML}$) densities in different depths, where sensor 1 is the deepest and sensor 4 is the shallowest (The positions in the water column of the sensors are shown in Fig. \ref {fig:perfiles1}), significant wave height in Halfmoon Bay in blue ($H_{sw}$), Pescadero estuary water level (black) and tidal height in San Francisco (gray) in MLLW datum, and freshwater inflow of Pescadero creek ($Q$).\relax }{figure.caption.26}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Surface fluctuations controllers}{29}{subsubsection.5.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Wind-driven effects}{29}{subsection.5.3}\protected@file@percent }
@@ -207,7 +210,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Time-series of wind stress ($\tau _w$), and potential energy anomaly ($\phi $). Dots are the instant when wind stress is zero. The shadowed window is when the estuary is in an open state.\relax }}{31}{figure.caption.28}\protected@file@percent }
 \newlabel{fig:phi}{{21}{31}{Time-series of wind stress ($\tau _w$), and potential energy anomaly ($\phi $). Dots are the instant when wind stress is zero. The shadowed window is when the estuary is in an open state.\relax }{figure.caption.28}{}}
 \citation{Katopodes2018}
-\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Time-series of wind surface shear stress ($\tau _w$), Wedderburn number ($W$) where the dashed line shows W=1 and black and gray lines show W obtained at the lower and upper part of the selected window respectively, density at the bottom (blue), middle (green), and top (yellow) of the water column in NM location ($\rho _{nm}$) (see Fig. \ref {fig:perfiles1} for sensors positions), and colormap of density in time-space at each sensor of location NM with the black and gray line that limit the lower and upper part of the window of possible values for top layer width. The dark shadowed window is when the estuary is in the open state. Light-shadowed windows are when the upwelling events were observed. Redline is the water level, and the star indicates where the surface layer ends according to Fig. \ref {fig:perfiles1}.\relax }}{32}{figure.caption.29}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Time-series of wind surface shear stress ($\tau _w$), Wedderburn number ($W$) where the dashed line shows W=1 and black and gray lines show W obtained at the lower and upper part of the selected window respectively, density at the bottom (blue), middle (green), and top (yellow) of the water column in NM location ($\rho _{nm}$) (see Fig. \ref  {fig:perfiles1} for sensors positions), and colormap of density in time-space at each sensor of location NM with the black and gray line that limit the lower and upper part of the window of possible values for top layer width. The dark shadowed window is when the estuary is in the open state. Light-shadowed windows are when the upwelling events were observed. Redline is the water level, and the star indicates where the surface layer ends according to Fig. \ref  {fig:perfiles1}.\relax }}{32}{figure.caption.29}\protected@file@percent }
 \newlabel{fig:wedd}{{22}{32}{Time-series of wind surface shear stress ($\tau _w$), Wedderburn number ($W$) where the dashed line shows W=1 and black and gray lines show W obtained at the lower and upper part of the selected window respectively, density at the bottom (blue), middle (green), and top (yellow) of the water column in NM location ($\rho _{nm}$) (see Fig. \ref {fig:perfiles1} for sensors positions), and colormap of density in time-space at each sensor of location NM with the black and gray line that limit the lower and upper part of the window of possible values for top layer width. The dark shadowed window is when the estuary is in the open state. Light-shadowed windows are when the upwelling events were observed. Redline is the water level, and the star indicates where the surface layer ends according to Fig. \ref {fig:perfiles1}.\relax }{figure.caption.29}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Time-series of wind shear stress at the surface ($\tau _w$), surface densities in locations NM, ML, and DC ($\rho _{top}$), density change between locations DC and NM at the surface ($\frac  {\rho _{DC}-\rho _{NM}}{\Delta x}$), and density change between surface and bottom in locations NM, ML, and DC ($\frac  {\Delta \rho }{\Delta z} \tmspace  +\thickmuskip {.2777em} [kg/m^4]$).\relax }}{33}{figure.caption.30}\protected@file@percent }
 \newlabel{fig:diff}{{23}{33}{Time-series of wind shear stress at the surface ($\tau _w$), surface densities in locations NM, ML, and DC ($\rho _{top}$), density change between locations DC and NM at the surface ($\frac {\rho _{DC}-\rho _{NM}}{\Delta x}$), and density change between surface and bottom in locations NM, ML, and DC ($\frac {\Delta \rho }{\Delta z} \; [kg/m^4]$).\relax }{figure.caption.30}{}}
@@ -239,7 +242,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces Movements of the density layers in Pescadero during the first wind event of the first period. The plots were constructed using the information given by the CTD.\relax }}{43}{figure.caption.39}\protected@file@percent }
 \newlabel{fig:wevent}{{31}{43}{Movements of the density layers in Pescadero during the first wind event of the first period. The plots were constructed using the information given by the CTD.\relax }{figure.caption.39}{}}
 \citation{Katopodes2018}
-\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Wind event that was plotted in Fig. \ref {fig:wevent} with the instants of each plot. \relax }}{44}{figure.caption.40}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Wind event that was plotted in Fig. \ref  {fig:wevent} with the instants of each plot. \relax }}{44}{figure.caption.40}\protected@file@percent }
 \newlabel{fig:wevent2}{{32}{44}{Wind event that was plotted in Fig. \ref {fig:wevent} with the instants of each plot. \relax }{figure.caption.40}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Freshwater input}{44}{subsection.6.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces Discharge versus estuary height and discharge versus the height change in a 10-hour-frame for the period between 11 Feb. and 20 Feb..\relax }}{45}{figure.caption.41}\protected@file@percent }
@@ -323,4 +326,3 @@
 \bibcite{winckler2020evidence}{{66}{2020}{{Winckler~Grez et~al.}}{{}}}
 \bibcite{woolway2017atmospheric}{{67}{2017}{{Woolway et~al.}}{{}}}
 \bibcite{xu2017vertical}{{68}{2017}{{Xu et~al.}}{{}}}
-\gdef \@abspage@last{55}
