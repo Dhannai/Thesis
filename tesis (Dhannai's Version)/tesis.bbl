@@ -54,6 +54,12 @@ de~la Fuente, A., Meruane, C., Contreras, M., Ulloa, H., and Ni{\~n}o, Y.
   the {M}aule earthquake, central {C}hile ({M}w 8.8).
 \newblock {\em Geophysical Research Letters}, 37(24).
 
+\bibitem[\protect\astroncite{de~la Fuente et~al.}{2008}]{de2008evolution}
+de~la Fuente, A., Shimizu, K., Imberger, J., and Nino, Y. (2008).
+\newblock The evolution of internal waves in a rotating, stratified, circular
+  basin and the influence of weakly nonlinear and nonhydrostatic accelerations.
+\newblock {\em Limnology and Oceanography}, 53(6):2738--2748.
+
 \bibitem[\protect\astroncite{Dussaillant et~al.}{2009}]{dussaillant2009}
 Dussaillant, A., Galdames, P., and Sun, C.-L. (2009).
 \newblock Water level fluctuations in a coastal lagoon: El yali ramsar wetland,
@@ -213,8 +219,13 @@ Monismith, S.~G. (1985).
   mixed‐layer shear}.
 \newblock {\em Limnology and oceanography}, 30(4):771--783.
 
-\bibitem[\protect\astroncite{Monismith et~al.}{2006}]{monismith2006vertical}
-Monismith, S.~G., Kimmerer, W.~J., and Burau, J.~R. (2006).
+\bibitem[\protect\astroncite{Monismith et~al.}{2006a}]{monismith2006turbulent}
+Monismith, S.~G., Kim, J.~H., and Lacy, J.~R. (2006a).
+\newblock Turbulent processes in lakes and oceans.
+\newblock {\em Annual Review of Fluid Mechanics}, 38(1):97--122.
+
+\bibitem[\protect\astroncite{Monismith et~al.}{2006b}]{monismith2006vertical}
+Monismith, S.~G., Kimmerer, W.~J., and Burau, J.~R. (2006b).
 \newblock Vertical mixing and coastal upwelling in stratified, tidally mixed
   estuaries.
 \newblock {\em Estuaries and Coasts}, 29(2):347--361.
@@ -244,6 +255,13 @@ Omstedt, A., Pettersen, C., Rodhe, J., and Winsor, P. (2004).
 \newblock Baltic {S}ea climate: 200 yr of data on air temperature, sea level
   variation, ice cover, and atmospheric circulation.
 \newblock {\em Climate Research}, 25(3):205--216.
+
+\bibitem[\protect\astroncite{Patterson
+  et~al.}{1984}]{patterson1984classification}
+Patterson, J., Hamblin, P., and Imberger, J. (1984).
+\newblock Classification and dynamic simulation of the vertical density
+  structure of lakes 1.
+\newblock {\em Limnology and oceanography}, 29(4):845--861.
 
 \bibitem[\protect\astroncite{Paugam et~al.}{2021}]{paugam2021wind}
 Paugam, C., Sous, D., Rey, V., Meul{\'e}, S., Faure, V., Boutron, O.,
@@ -290,6 +308,12 @@ Roberts, D.~C., Egan, G.~C., Forrest, A.~L., Largier, J.~L., Bombardelli,
   influenced lake.
 \newblock {\em Limnology and Oceanography}, 66(4):1168--1189.
 
+\bibitem[\protect\astroncite{Roquet et~al.}{2015}]{roquet2015accurate}
+Roquet, F., Madec, G., McDougall, T.~J., and Barker, P.~M. (2015).
+\newblock Accurate polynomial expressions for the density and specific volume
+  of seawater using the teos-10 standard.
+\newblock {\em Ocean Modelling}, 90:29--43.
+
 \bibitem[\protect\astroncite{Schernewski}{2002}]{schernewski2002baltic}
 Schernewski, G. (2002).
 \newblock {\em Baltic Coastal Ecosystems: Structure, Function and Coastal Zone
@@ -308,11 +332,6 @@ Shintani, T., de~la Fuente, A., de~la Fuente, A., Ni{\~{n}}o, Y., and Imberger,
 \newblock {{G}eneralizations of the {W}edderburn number: {P}arameterizing
   upwelling in stratified lakes}.
 \newblock {\em Limnology and Oceanography}, 55(3):1377--1389.
-
-\bibitem[\protect\astroncite{Simpson and Hunter}{1974}]{simpson1974fronts}
-Simpson, J. and Hunter, J. (1974).
-\newblock Fronts in large lakes: An example from lake malawi.
-\newblock {\em Limnology and Oceanography}, 19(2):202--204.
 
 \bibitem[\protect\astroncite{Simpson et~al.}{1985}]{simpson1990tidal}
 Simpson, J.~H., Brown, J., Matthews, J., and Allen, G. (1985).
@@ -416,6 +435,11 @@ Woolway, R.~I., Meinson, P., N{\~o}ges, P., Jones, I.~D., and Laas, A. (2017).
 \newblock Atmospheric stilling leads to prolonged thermal stratification in a
   large shallow polymictic lake.
 \newblock {\em Climatic Change}, 141(4):759--773.
+
+\bibitem[\protect\astroncite{W{\"{u}}est and Lorke}{2003}]{Wuest2003}
+W{\"{u}}est, A. and Lorke, A. (2003).
+\newblock {Small-scale hydrodynamics in lakes}.
+\newblock {\em Annual Review of fluid mechanics}, 35(1):373--412.
 
 \bibitem[\protect\astroncite{Xu et~al.}{2017}]{xu2017vertical}
 Xu, D., Hesser, T., and Mayer, T. (2017).
