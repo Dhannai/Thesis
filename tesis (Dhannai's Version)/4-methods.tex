@@ -90,7 +90,7 @@ First, we removed the bins above the surface from the record and then rotated th
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=\textwidth]{Imagenes/velocity_estnorth.png}
+    \includegraphics[width=\textwidth]{Imagenes/velocity_estnorth.pdf}
     \caption{Timeseries of velocity data plotted in North and East directions in the water column.}
     \label{fig:north_east}
 \end{figure}
@@ -136,25 +136,25 @@ where $\rho$ is the density of the fluid, $g$ is $9.81 m/s^2$ and $z$ is the dep
     \label{eq: phi}
 \end{equation}
 
-where $h$ is the total depth, and which we discretized according to the number of sensors that each location had and considering each layer's limits as the corresponding upper and lower sensors and the density for the whole layer as the upper one. We employed the potential energy anomaly ($\phi$) as a diagnostic tool to assess the stratification of the water column before and after a wind event, thereby characterizing the state of the water column under conditions of zero wind stress and investigating the presence of mixing. Furthermore, we calculated the buoyancy frequency ($N^2$) during wind events to examine its relationship with density and velocity profiles.
+where $\bar{\rho}$ is the average density and $h$ is the total depth. The discretization was made according to the number of sensors that each location had and considering each layer's limits as the corresponding upper and lower sensors and the density for the whole layer as the upper one. We employed the potential energy anomaly ($\phi$) as a diagnostic tool to assess the stratification of the water column before and after a wind event, thereby characterizing the state of the water column under conditions of zero wind stress and investigating the presence of mixing. Furthermore, we calculated the buoyancy frequency ($N^2$) during wind events to examine its relationship with density and velocity profiles.
 
 \subsubsection{Wind stress}
 
 The wind shear stress was calculated following \cite{read2011derivation}: 
 
 \begin{equation}
-    \tau=\rho_{air} C_D U_{10}^2
+    \tau_w=\rho_{air} C_D U_{10}^2
     \label{eq: tau}
 \end{equation}
 
-Where $\rho_{air}$ is the specific weight of air (1.2 $kg/m^3$) and $C_D$, the drag coefficient, as defined by \cite{large1981open}, was set at 0.0012 for wind velocities ranging from 4 to 11 m/s. Since the measured wind speeds in our study were below 11 m/s and the results demonstrated insensitivity to $C_D$, we adopted the value of 0.0012. This choice enables a direct comparison of our observations with other studies that utilized a constant $C_D$ value, ensuring consistency across the literature. $U_{10}$ is the adjusted wind speed at 10 meters high, and it was obtained by: 
+Where $\rho_{air}$ is the density of air (1.2 $kg/m^3$) and $C_D$, the drag coefficient, as defined by \cite{large1981open}, was set at 0.0012 for wind velocities ranging from 4 to 11 m/s. Since the measured wind speeds in our study were below 11 m/s and the results demonstrated insensitivity to $C_D$, we adopted the value of 0.0012. This choice enables a direct comparison of our observations with other studies that utilized a constant $C_D$ value, ensuring consistency across the literature. $U_{10}$ is the adjusted wind speed at 10 meters high, and it was obtained by the log-law fit: 
 
 \begin{equation}
-    U_{10}^2=U_z(1-\frac{C_D}{\kappa}\ln{\frac{10}{z}})^{-1}
+    U_{10}=U_z(1-\frac{\sqrt{C_D}}{\kappa}\ln{\frac{10}{z}})^{-1}
     \label{eq: adjvel}
 \end{equation}
 
-with $\kappa=0.4$ as the Von Karmann coefficient and z = 3 m, the height of our wind measures.\\
+with $\kappa=0.4$ as the Von Karmann coefficient and z = 3 m, the height of our wind measurements.\\
 
 To study the response of the stratified layers to a wind impulse and identify the upwelling we used the Wedderburn number \citep{Imberger1982}:
 
@@ -163,7 +163,7 @@ To study the response of the stratified layers to a wind impulse and identify th
     \label{eq: wed}
 \end{equation}
 
-where we estimated $h_1$ as the 30\% of the DC's total depth (Fig. \ref{fig:h1}), L as 392 m, and for $u_*$ and g' we used:
+where $L$ is the estuary length, $h_1$ is the depth of the surface layer, $u_*$ is the friction velocity and $g'$ is the reduced gravity. $h_1$ was estimated as the 30\% of the DC's total depth (Fig. \ref{fig:h1}), $L$ as 392 m, and for $u_*$ and $g'$ were used Eq. \ref{eq: redg} and Eq. \ref{eq: ustar}, which parameters of $\rho_{bottom}$ and $\rho_{surface}$ are the densities in DC1 and DC4 respectively (see Table \ref{tab:instr}) and $\tau_w$ is from Eq. \ref{eq: tau}.
 
 \begin{equation}
     g'=\frac{\rho_{bottom}-\rho_{surface}}{\rho_{surface}}g
@@ -184,31 +184,35 @@ where we estimated $h_1$ as the 30\% of the DC's total depth (Fig. \ref{fig:h1})
 \end{figure}
 
 
-To analyze the relationship between wind stress and density, we standardized and normalized the signals and applied cross-correlation. Cross-correlation between wind stress and density signals is used to find the time lag (phasing) between both and their level of correlation along the locations (propagation) measured in the estuary. Also, after commencement of the stress, the event of the condition identified as W takes $1/4$ of the internal wave period $T_1$ \citep{stevens1996initial}: 
+To analyze the relationship between wind stress and density, we standardized and normalized the signals and applied cross-correlation. Cross-correlation between wind stress and density signals is used to find the time lag (phasing) between both and their level of correlation along the locations (propagation) measured in the estuary. Also, after commencement of the stress, the tilt of the interface takes $1/4$ of the internal wave period $T_1$ \citep{stevens1996initial}: 
 
 \begin{equation}
-    T_1=\frac{2L}{\sqrt{(\frac{\epsilon g h_1 h_2}{h_1 + h_2})}}
+    T_1=\frac{2L}{\sqrt{(\frac{g' h_1 h_2}{h_1 + h_2})}}
     \label{eq: period}
 \end{equation}
 
+where $h_2$ is the lower layer thickness, for a two layer approximation. The period $T_1$ is a relevant parameter because it describes the relaxation of the system from a wind event.
+
 \subsubsection{Surface fluctuations analysis}
 
-To analyze what was happening on the surface, a frequency spectral analysis was carried out in order to identify the most important processes that affect the water level. First, \cite{welch1967use} method was applied to reduce the data noise and there was applied a detrend. Finally, to obtain much clearer data and then apply the frequency spectral analysis, the signal was multiplied by a quadratic window:
+To analyze what was happening on the surface, a frequency spectral analysis was carried out in order to identify the most important processes that affect the water level. First, \cite{welch1967use} method was applied to reduce the data noise. This is a method for the estimation of power spectra using the fast Fourier transform. Then there was applied a detrend for avoiding the effects of the increase in water level. Finally, in order to detect transient events in the data, and then apply the frequency spectral analysis, the signal was multiplied by a quadratic window:
 
 \begin{equation}
     w[n]=\left( \frac{n-N/2}{N/2} \right)^2; 0 \leq n \leq N
     \label{eq: wlch}
 \end{equation}
 
+where $N$ is a positive integer.
+
 \begin{figure}[h!]
     \centering
     \includegraphics[scale=0.5]{Imagenes/steps_freq.png}
-    \caption{Step 1: Raw frequency spectral analysis. Step 2: Frequency spectral analysis with a noise reduction. Step 3: Frequency spectral analysis with a noise reduction and a detrend applied. Step 4: The obtained signal from step 3 is multiplied by a quadratic window shown in Eq. \ref{eq: wlch}.}
+    \caption{Step 1: Raw frequency spectral analysis. Step 2: Frequency spectral analysis using \cite{welch1967use} method. Step 3: Frequency spectral analysis with a noise reduction and a detrend applied. Step 4: The obtained signal from step 3 is multiplied by a quadratic window shown in Eq. \ref{eq: wlch}. Figure just to show the steps of the method and what is doing to the data.}
     \label{fig:steps_freq}
 \end{figure}
 
 To complement this information, an analysis of the wavelet transform was carried out using the Python package PyWavelets \citep{lee2019pywavelets}. The one-dimensional continuous wavelet transform was applied to the DC surface height data using the first-order Gaussian derivative family for a period range between 10 s and 2.8 min, we limited the frequencies to highlight what is important. This, in order to identify important events and other external phenomena, such as a wave overtopping the sandbar due to high tide. This analysis delivers coefficients that are a function of scale and position and that serve as a scalogram to visualize the wavelet.\\
 
-To carry out a more detailed visual analysis, the standardized heights were obtained at the NM and DC points, first applying a linear detrend and then dividing the data by the standard deviation. This is for comparing results on the same scale. All the mentioned data were plotted according to local time, to analyze visually considering the factors that affect day and night as temperature and wind.
+To carry out a more detailed visual analysis, the standardized heights were obtained at the NM and DC points, first applying a linear detrend in a window of time and then dividing the data by the standard deviation. This is for comparing results on the same scale. All the mentioned data were plotted according to local time, to analyze visually considering the factors that affect day and night as temperature and wind.
 
 \end{document}
