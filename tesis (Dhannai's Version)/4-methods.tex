@@ -195,7 +195,7 @@ where $h_2$ is the lower layer thickness, for a two layer approximation. The per
 
 \subsubsection{Surface fluctuations analysis}
 
-To analyze what was happening on the surface, a frequency spectral analysis was carried out in order to identify the most important processes that affect the water level. First, \cite{welch1967use} method was applied to reduce the data noise. This is a method for the estimation of power spectra using the fast Fourier transform. Then there was applied a detrend for avoiding the effects of the increase in water level. Finally, in order to detect transient events in the data, and then apply the frequency spectral analysis, the signal was multiplied by a quadratic window:
+To analyze what was happening on the surface, a frequency spectral analysis was carried out in order to identify the most important processes that affect the water level. First, \cite{welch1967use} method was applied to reduce the data noise. This is a method for the estimation of power spectra using the fast Fourier transform. Then there was applied a detrend for avoiding the effects of the increase in water level. Finally, in order to detect transient events in the data and to avoid discontinuities at the beginning and the end of the analized data, before applying the frequency spectral analysis, the signal was multiplied by a quadratic window:
 
 \begin{equation}
     w[n]=\left( \frac{n-N/2}{N/2} \right)^2; 0 \leq n \leq N
